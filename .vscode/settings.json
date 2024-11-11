@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "PC-Anatomy.sln"
+    "dotnet.defaultSolution": "pc anatomy testing.sln"
 }
