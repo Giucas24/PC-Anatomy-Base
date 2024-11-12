@@ -91,3 +91,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: MapExterior
+  playerPosition: {x: 0, y: 0}
+  playerStorage: {fileID: 0}

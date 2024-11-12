@@ -1,0 +1,3251 @@
+fileFormatVersion: 2
+guid: 60f2009cab5b69b45ae6cc595d0cbeb2
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 582
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b90ba2b6691e1548a97bde77df27b76
+      internalID: -2104018361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_1
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 582
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ba5846c51f016449a6e3792fa515bd
+      internalID: 1657942532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_2
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 582
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3cf7750805dfeb4ab7428dcb08ba8f6
+      internalID: 1252586742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_3
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 582
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb83a14a11d43e54abbac74c44e1ee3e
+      internalID: -1986696583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_4
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 582
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f90ed444457cdf0409e238219bfef150
+      internalID: -522638410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_5
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 582
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7241f614affc16e44929e3e2bf787e87
+      internalID: -1629407810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_6
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 582
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a705f2a4241f8646a71f0538fcb3d4b
+      internalID: -1821695318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_7
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 582
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1b6f9acc2031324fa3e1f6c2a7af1b0
+      internalID: -2040757810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_8
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 582
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 661d51affaf01c94998c5fc6269e5585
+      internalID: 790319334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_9
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 582
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09bf68c974f70e849bc8850d549febe1
+      internalID: 1209761455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_10
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 582
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02bdeb5e23c72dc4ead2b555ce691522
+      internalID: 978472984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_11
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 582
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71910f38bc026264f83bf2129c338b80
+      internalID: -847979286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_12
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 582
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c50b9bd79897034eaf6f880ee562e53
+      internalID: 436723585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_13
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 582
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d02fa58666c664448db342c60336ec1
+      internalID: -1303187591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_14
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 532
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66cb5815bb9aff046bcf72f5fe962198
+      internalID: -1924193004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_15
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 532
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6fca3e97a2854479c382682ce968e5
+      internalID: -130329880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_16
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 532
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d2a22db3bc43342a999872e955b4b0
+      internalID: 1998443718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_17
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 532
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654f148dd610a3142a8e3dce748d43ba
+      internalID: 2126664694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_18
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 532
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c0ea95ddd6cdf46aa62a4c745b71f9
+      internalID: -782533892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_19
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 532
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4211155e997ed04c9f1bc85102210a7
+      internalID: -1201623904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_20
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 532
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 438743dd585fe3c4385dd1747639834a
+      internalID: -267771471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_21
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 532
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 178e1a705973bf94bb7c27fed6fb1eda
+      internalID: -774715014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_22
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 532
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 713652fccb07cf54b97685a081fd4647
+      internalID: 376679272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_23
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 532
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a0da67da9fa6e41b73b32b0faf042d
+      internalID: -1310739080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_24
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 532
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb097841a5083d438943bb1b0af2383
+      internalID: 36509528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_25
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 532
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac0c8d53a1373e449fbf065c648e568
+      internalID: 1949266472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_26
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 532
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c4e020ab24b1644a8ed5042ffae4bd
+      internalID: -180947132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_27
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 532
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2191188cf0d79114c87cb0ed6e3da3d4
+      internalID: -686212945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_28
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 482
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23de1beefba1d574d880443686fcafe6
+      internalID: -1516151068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_29
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 482
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55d0418fa6408a7439575495ef61c2f2
+      internalID: 1701430658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_30
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 482
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 349473f7e45369c4a88a9f031f633c0d
+      internalID: 23444322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_31
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 482
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b34866d8ad0d8646bdbd4b0b8a2674d
+      internalID: 153150538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_32
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 482
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 898c80aa8618ff1449f79cda90e4e248
+      internalID: -622365891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_33
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 482
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641f18e78d40f454987fed3a1c35abe2
+      internalID: 1960206762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_34
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 482
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d986e7d435f0b34b913fc02b4664b21
+      internalID: -1898597276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_35
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 482
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf77201f50d6def449f1b987ac36d258
+      internalID: -1291909916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_36
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 482
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f387bfbca2bff4a459755ba97bc0d363
+      internalID: -1822302681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_37
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 482
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddd0c1f80ee2376479cf2ea127e7aecf
+      internalID: -1617101032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_38
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 482
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7389eb0bd63d958429938e6aedc14e18
+      internalID: 1455864210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_39
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 482
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cbc1b7bfa4dee14296ac33b0eb56d4a
+      internalID: 1030276435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_40
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 482
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1475d9b98fa2d1e4ca3a3efb09efbda4
+      internalID: -1230963223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_41
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 482
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5273ead57810e548835edffa5946ecf
+      internalID: 1641273929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_42
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 432
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d67a65734839e5e4e80113232f28fc71
+      internalID: -437915767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_43
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 432
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6d2f7f35de55d478bfdfe383591be0
+      internalID: -417949027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_44
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 432
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c3c10ea638cfb4a9ec074069ecc99b
+      internalID: 1768393923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_45
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 432
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 871f5915b21fc004a9713b82678bd0db
+      internalID: 369222879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_46
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 432
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e92daccfd2ec8b4881422f10af5d80a
+      internalID: -2067757217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_47
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 432
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6be072c9ff01d542baf5d571dc65478
+      internalID: -1938283155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_48
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 432
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f7ca2b033996c646bf40e9f56b08c3c
+      internalID: -1906695242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_49
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 432
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db167a4a5fc25744ea22f9f2c519cf3a
+      internalID: -404427402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_50
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 432
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd929403ae18a5842bcfc4c861004245
+      internalID: -1327919657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_51
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 432
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86e44516354ea864fb8fb0c4fab7893b
+      internalID: -543107249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_52
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 432
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3759affd9554a5f468927e4eadf58214
+      internalID: 763286442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_53
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 432
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1afa31ff255b19c42b03ed81bc999a2a
+      internalID: -670555514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_54
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 432
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea8831cdcc3adeb47b5b9a74152b50c0
+      internalID: -1495218064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_55
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 432
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5a5dc54a50ecf2479b577fdca6782e5
+      internalID: -719134215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_56
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 382
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d83e6c786ece4e4c8e2bd2b092fa8b9
+      internalID: -408924262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_57
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 382
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53aeb2ec854208748b02eb35d3d81d23
+      internalID: -1165926860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_58
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 382
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ea1bec9554aa341b04ebf983b7331a
+      internalID: -397852543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_59
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 382
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5788d7c44dd00d24aa722eebcd67f2d0
+      internalID: -96941421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_60
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 382
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b362c68edc95ad46bb52052a1269ed5
+      internalID: 1669376720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_61
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 382
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a356a1abb0d9174ca7098e982df064d
+      internalID: -2057766130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_62
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 382
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6fe8bafce339274fa9b1ef67e05ea08
+      internalID: -295340908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_63
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 382
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abff8fc73a69a4d4e9b14291e8177d0e
+      internalID: -1426513751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_64
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 382
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d71f98834c0b47b428dfa80b5806de47
+      internalID: 1860268346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_65
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 382
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9834fc3a9bf16c246975a0175590f9c9
+      internalID: -1861165801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_66
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 382
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cc6a0877cee2a043bdff57d184bb4a2
+      internalID: 1194735939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_67
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 382
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd597d719e01f44b9a7b14d09dc3e28
+      internalID: -614875052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_68
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 382
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88e66e724cac0fe4782a9d4e5ad9bbf9
+      internalID: 28364890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_69
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 382
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53bfe4fb151354345a8a3492269c762f
+      internalID: -1543299485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_70
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 332
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5120c4fee5ee3bd4b84975286485841d
+      internalID: -235472978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_71
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 332
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0008d1fcec3d79c46946b377fd78a32a
+      internalID: -807976257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_72
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 332
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a15bb70d5ab0d2d40bf12a2124afadfc
+      internalID: 1722361277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_73
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 332
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30097030e4718b648ae73cd4936fd29f
+      internalID: 2091198560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_74
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 332
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca3f576dac09fda40845706f0ee4a555
+      internalID: -1469779834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_75
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 332
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a5076dd03349e4db21da64833160ea
+      internalID: -1702340927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_76
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 332
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b2b80c32be3692499d2182e68946dc2
+      internalID: -604532423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_77
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 332
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aa6f3658c927cc43909a5d6eac7c040
+      internalID: -1844463836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_78
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 332
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6acc604dc7ed2149b48347f11762a2b
+      internalID: 1401577087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_79
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 332
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee602881553685041a081b9ebff19c73
+      internalID: 1554316405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_80
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 332
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64150cef35805e0429e7531803823c9a
+      internalID: -910912609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_81
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 282
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec393ace577cb5341873cb7b75cad137
+      internalID: 747902137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_82
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 282
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5962676ac4b74945890acca4fcf15e9
+      internalID: 1845626164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_83
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 282
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f3ac6d128578948ac0d10f54e1369b
+      internalID: -534628789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_84
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 282
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e351d7ea7795540bdcedc2231eb76c
+      internalID: -1937913807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_85
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 282
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a2b1290d0a0c842937f7dca6b35333
+      internalID: 1887156890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_86
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 282
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 686c390b5cf10214d8a5c1434733b3a5
+      internalID: 1864791534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_87
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 282
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b65ebe85cac09f409f60e88537405f6
+      internalID: 1554769627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_88
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 282
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9867817b1c659f24f845f18fec12089c
+      internalID: -153371167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_89
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 282
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b6359f8ac2f0494c9b361649ca473da
+      internalID: -1332768155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_90
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 282
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b5846ccdcc9b9b4b94ce42ffbc3d676
+      internalID: -1518687299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_91
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 282
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 736d0f366412c5949b87d4695413e6ee
+      internalID: -1944019947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_92
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 232
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c1bf18d32731854ba2e27216fe142b3
+      internalID: 580502346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_93
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 232
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdbbcdc39462e4d4f81599fa048182e0
+      internalID: -166180487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_94
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 232
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef4fd4f656059c4185e01d3eb703107
+      internalID: 867030259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_95
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 232
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca849a42cfc3a54483db2bc968f5330
+      internalID: 460313437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_96
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 232
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe6b7e1712c399e49b8f87ca5d8555fd
+      internalID: 517240722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_97
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 232
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f1b10d10101d1649ae9c2f0c631e29e
+      internalID: 407581701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_98
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 182
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0482f1d364ddac64fa0e9e4ed9fd6ae4
+      internalID: -1091401616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_99
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 182
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a18e9fe7f67d71a4987e42ecba74aac6
+      internalID: -1590068869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_100
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 182
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2459c4329af457148b5735b0010a5e49
+      internalID: 777956659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_101
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 182
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ca253b45dc2604a967ac77e746310f
+      internalID: 1387875464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_102
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 182
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97775f23aeadc124fb76df1d9ea006bb
+      internalID: -1198858011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_103
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 182
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1717406e2c53f8943b979f0c1e66aa82
+      internalID: -1975216095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_104
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 182
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eeaabdba06d36344a64bb196c641c8d
+      internalID: 1763624021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_105
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 182
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6703ddb6dbdd70e4594d40e239e8dc7a
+      internalID: -646646695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_106
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 182
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27d6c25e723f2c4aaf0f9903fafe773
+      internalID: -1358916931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_107
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 182
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 693ee33a915d0c14296ab8c8a5f897c0
+      internalID: -1889708049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_108
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 182
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d59608386117dff43bcf019deb2dc0cc
+      internalID: 781106862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_109
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 132
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b6163923524a24c81692c0cfb8984b
+      internalID: -1992488829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_110
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 132
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da2a873f321f0884082fd114918d362f
+      internalID: -110227613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_111
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 132
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd32916a1d11b3547ac18ff4075c4362
+      internalID: -182199597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_112
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 132
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 829af4f9c47539847807468095fb013e
+      internalID: -412238194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_113
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 132
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 794281f8b7b65be4ab35eb7e7876a6f1
+      internalID: -837981659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_114
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 132
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a97da5a6f919bc468c9ead60d218d39
+      internalID: 55821205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_115
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 132
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08fc608ca6bd48040a76d6a2524e2bc6
+      internalID: 1320065407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_116
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 132
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a74773d5471b6d428e41aef9c8c4dd1
+      internalID: 325554176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_117
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 132
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be8dbcf7341a3c44bb82f1f2631b0c7f
+      internalID: 1040903021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_118
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 132
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8601b982e1a4a5846b3c720a69545dcf
+      internalID: 1927694174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_119
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 132
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e21a8235da3584aa72fbfb2873c549
+      internalID: -1740953035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_120
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 82
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96073bc740a026c4fb414ee2b7fba845
+      internalID: 569326657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_121
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 82
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5705da1d223ff6418f9e46d56cf48c0
+      internalID: -1135891094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_122
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 82
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea1d680b23c249748987d60429e3da60
+      internalID: -434617586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_123
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 82
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 362076886a868af4f80f539629d1871e
+      internalID: -1026447192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_124
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 82
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e81f82a5445c6c245b4ece45936010f8
+      internalID: -584312118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_125
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 82
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77d092982b17b36438d6c2efc19ab00c
+      internalID: 349719730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_126
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 82
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02c6e21b624e8de408a9f22624974094
+      internalID: -976943180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_127
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 82
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd2da6653a66f14db067bb08f74f83c
+      internalID: 1403288163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_128
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 82
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df2a6a59afe4d4249943fc5f4459f3f4
+      internalID: -1658234750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_129
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 82
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 125493222a434b44491c9be219d13c68
+      internalID: -239603846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_130
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 82
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250ebeea091ea854db3e0c833f60d860
+      internalID: 182658288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_131
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 32
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 529d6479874ff4b4a836add93e18bd42
+      internalID: 204638304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_132
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 32
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bbf93af0d23b8e4fbc793872c9f8e66
+      internalID: -460233635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_133
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 32
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c642d05ee451d1b479ef113371fe9607
+      internalID: -2029925650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_134
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 32
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62aaabc5ce832934b87b94041d34f076
+      internalID: -1820802292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_135
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 32
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6073f04d5de40349961b76ee1e730f6
+      internalID: -1715895744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_136
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 32
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5faad38bfeeba546b93e46264b72470
+      internalID: 567306298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_137
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 32
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3db7089a0b9058142a49aee9799f332c
+      internalID: -1792214094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_138
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 32
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7891160c4b3a2694582e46600d430d9a
+      internalID: 516305726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_139
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 32
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 279f26301a19c114a8037f853c85ccf7
+      internalID: 680880482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_140
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 32
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ed304c53518d84ba06c705ea80de24
+      internalID: 2005101324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_141
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 32
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b50abd2a774f624d9a25132849ed296
+      internalID: 1788368347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_0: -2104018361
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_1: 1657942532
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_10: 978472984
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_100: 777956659
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_101: 1387875464
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_102: -1198858011
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_103: -1975216095
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_104: 1763624021
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_105: -646646695
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_106: -1358916931
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_107: -1889708049
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_108: 781106862
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_109: -1992488829
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_11: -847979286
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_110: -110227613
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_111: -182199597
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_112: -412238194
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_113: -837981659
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_114: 55821205
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_115: 1320065407
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_116: 325554176
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_117: 1040903021
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_118: 1927694174
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_119: -1740953035
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_12: 436723585
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_120: 569326657
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_121: -1135891094
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_122: -434617586
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_123: -1026447192
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_124: -584312118
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_125: 349719730
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_126: -976943180
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_127: 1403288163
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_128: -1658234750
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_129: -239603846
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_13: -1303187591
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_130: 182658288
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_131: 204638304
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_132: -460233635
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_133: -2029925650
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_134: -1820802292
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_135: -1715895744
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_136: 567306298
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_137: -1792214094
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_138: 516305726
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_139: 680880482
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_14: -1924193004
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_140: 2005101324
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_141: 1788368347
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_15: -130329880
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_16: 1998443718
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_17: 2126664694
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_18: -782533892
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_19: -1201623904
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_2: 1252586742
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_20: -267771471
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_21: -774715014
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_22: 376679272
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_23: -1310739080
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_24: 36509528
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_25: 1949266472
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_26: -180947132
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_27: -686212945
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_28: -1516151068
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_29: 1701430658
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_3: -1986696583
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_30: 23444322
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_31: 153150538
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_32: -622365891
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_33: 1960206762
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_34: -1898597276
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_35: -1291909916
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_36: -1822302681
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_37: -1617101032
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_38: 1455864210
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_39: 1030276435
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_4: -522638410
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_40: -1230963223
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_41: 1641273929
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_42: -437915767
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_43: -417949027
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_44: 1768393923
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_45: 369222879
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_46: -2067757217
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_47: -1938283155
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_48: -1906695242
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_49: -404427402
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_5: -1629407810
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_50: -1327919657
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_51: -543107249
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_52: 763286442
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_53: -670555514
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_54: -1495218064
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_55: -719134215
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_56: -408924262
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_57: -1165926860
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_58: -397852543
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_59: -96941421
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_6: -1821695318
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_60: 1669376720
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_61: -2057766130
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_62: -295340908
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_63: -1426513751
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_64: 1860268346
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_65: -1861165801
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_66: 1194735939
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_67: -614875052
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_68: 28364890
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_69: -1543299485
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_7: -2040757810
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_70: -235472978
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_71: -807976257
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_72: 1722361277
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_73: 2091198560
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_74: -1469779834
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_75: -1702340927
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_76: -604532423
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_77: -1844463836
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_78: 1401577087
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_79: 1554316405
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_8: 790319334
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_80: -910912609
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_81: 747902137
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_82: 1845626164
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_83: -534628789
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_84: -1937913807
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_85: 1887156890
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_86: 1864791534
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_87: 1554769627
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_88: -153371167
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_89: -1332768155
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_9: 1209761455
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_90: -1518687299
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_91: -1944019947
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_92: 580502346
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_93: -166180487
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_94: 867030259
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_95: 460313437
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_96: 517240722
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_97: 407581701
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_98: -1091401616
+      Cozy Fox Cafe Chair Table Plant Decor Pixel Game Tailside-Photoroom_99: -1590068869
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

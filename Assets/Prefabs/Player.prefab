@@ -173,6 +173,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 8
+  startingPosition: {fileID: 11400000, guid: 3d93962078d91b04b851b3d9cd97c6fc, type: 2}
 --- !u!95 &8343737495307018817
 Animator:
   serializedVersion: 5
