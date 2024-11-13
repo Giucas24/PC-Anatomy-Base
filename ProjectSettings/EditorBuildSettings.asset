@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SchoolInterior.unity
     guid: 01ad57704b2b51142ac3ae5aea7aac9b
+  - enabled: 1
+    path: Assets/Scenes/RightClassInterior.unity
+    guid: 6ee47a6d01bc0c9408a8a1fc81536aa8
+  - enabled: 1
+    path: Assets/Scenes/LeftClassInterior.unity
+    guid: 717ad58261f02cb458788d3987be469e
   m_configObjects: {}

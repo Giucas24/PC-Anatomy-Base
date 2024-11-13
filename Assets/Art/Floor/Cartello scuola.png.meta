@@ -1,0 +1,7233 @@
+fileFormatVersion: 2
+guid: 47594295e7b4dbb4a8b61995d4d9af4b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 54
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cartello scuola_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1369
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b0c3157b3076648b3a230d01d77bbd
+      internalID: 778176490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1369
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 996bea7f32bfae54bbdc0534e6a4f39b
+      internalID: -1894407041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1369
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec8b3c02116515846a74f9e3b4d26205
+      internalID: -794855758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1369
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b9937985e091b046a1fe5351bed3c17
+      internalID: -1501565237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1369
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8989729ac2d80204f80c2d72739af851
+      internalID: 311294264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1369
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e0968a6237d74c4888f2f788e69954a
+      internalID: -154174473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1369
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d01fbfe90003322479953f225be6812e
+      internalID: 1147935407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1369
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1224e4f47156e3941b7f883b5f901a69
+      internalID: 126831634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1337
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a35a0a62a892c4c905bdc786baa20e
+      internalID: -1632483260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1337
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6686950545cdfb948a6a23a1ddb70fdd
+      internalID: 1680316431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1337
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 831ce9f1787cf744f821762a4002bb10
+      internalID: -1088215512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1337
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 317532971faad6b43ad71d45c0fd8960
+      internalID: -419016187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1337
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53160e56c04c88b4f975b00e5b24327e
+      internalID: -1913943557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_13
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1337
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28219e082bca62d4d98f4fd4a6685798
+      internalID: -1730381189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_14
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1337
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e5a696ef7b5644b994cd8479155121
+      internalID: -1707399271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_15
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1337
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0754e668d8bb9fc419f333ac09a0ba15
+      internalID: -965044488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1305
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1249d515ef236341a0d6c08d84ffc4b
+      internalID: 1225736777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_17
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1305
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2422608bb4d608848a83f211b25936de
+      internalID: 826535898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1305
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9d55b7a65873a4d972047251584b42
+      internalID: 1633970121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1305
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd83e0d3bb3bc8f428bfde5a830949b9
+      internalID: -1063746259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1305
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec31ebb8c09d61841b1afbf0200508a6
+      internalID: -751122395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_21
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1305
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b31b983dae6924469ac10f3e6cae2c6
+      internalID: 1000371925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1305
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01d1021bef7cbf74aa43c87c318339eb
+      internalID: 1719327711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_23
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1305
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa65adbfcf736974bbc81974a00f0e68
+      internalID: 1490911746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1273
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44fb1d4e10c9a8c47927ff53020a83d0
+      internalID: 1312382862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_25
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1273
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d6f61d950f3fd42ae8e17028124d70
+      internalID: -636277551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_26
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1273
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce66e97e937227b458f5f7b35d16db12
+      internalID: 305390049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_27
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1273
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6822fa0e66c03814480958ce6b686d13
+      internalID: -1909463766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1273
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f1f0df8fb8383547b87168417db37c0
+      internalID: 1033217232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_29
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1273
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5adf4751e1f324e41b1953bf9c79d7bd
+      internalID: 246808595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_30
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1273
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f0ab91743624d9458c56f6d728ea4b7
+      internalID: -2062758893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_31
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1273
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a43b8d0d802aeb9438809691abb21880
+      internalID: -1626595081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1241
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4579458082a4541448813f07f819ec7d
+      internalID: -1338137833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_33
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1241
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b16e501b8fa3c764794fedb4474119fc
+      internalID: -931234168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1241
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03db18aee9f64d64f8deb038309a0a55
+      internalID: -1699617722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_35
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1241
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b52f69d97ca5741a661a499f571d81
+      internalID: -1875989271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_36
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1241
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0812b0c540c3b1445ad58d9967f0b5ee
+      internalID: 1689488171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_37
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1241
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e920beeed47e87f418eab454984fc924
+      internalID: 1098079743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_38
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1241
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8d835fd60a5c8943a710177b154264b
+      internalID: 1001173921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_39
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1241
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c7dedbc315d80f489c930dc4f49e068
+      internalID: -297553614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1209
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 794a51c3490df9d449c5481e64c4de58
+      internalID: -1804029763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_41
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1209
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e82a23a761aee4d8bb3e79739e1eb6
+      internalID: -1741772358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_42
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1209
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 613cf1b512399a04598a864756978ab3
+      internalID: -381001589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_43
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1209
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62eb2d2713c2e0448a123752d7a69e9e
+      internalID: 620701890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_44
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1209
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f947561f3a023e47966603264018111
+      internalID: -238106769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_45
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1209
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddaf64f04f1e57140b3882bfc07aec7d
+      internalID: 459306121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_46
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1209
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43820cdb312c8fe40a19ba404a97c498
+      internalID: -1441626037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_47
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1209
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd53708a149f87b4397313a443585674
+      internalID: -2020501274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1177
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3464a70c26ed04c4bbde3f7ec7b282df
+      internalID: 893057230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_49
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1177
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b7c655e032c804a83f40b9d39e554b
+      internalID: -1584213334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_50
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1177
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd2fce43a3c4ce749b94699d3e7ab40d
+      internalID: 949340447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_51
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1177
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 386a9a0f27c35554da84280739ae4c39
+      internalID: 146257631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_52
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1177
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a576241f529b4b4586b1e197aa7d362
+      internalID: -911902555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_53
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1177
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d4bf8c6fbd2bf47a091b7380eb30f9
+      internalID: -290725293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_54
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1177
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 930f5a981af00ba4ba21299f5211531b
+      internalID: -2073273738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_55
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1177
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 327a74fb1e6c3b2418a63be408df0793
+      internalID: 1033985315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1145
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4870c0a78a983d0438bf5814122c9b34
+      internalID: 1613588098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_57
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1145
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074d70f40de70554d8d2b3cd4c8d0208
+      internalID: 1080329165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_58
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1145
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3096e3dc599b54d9e8198b399fddf2
+      internalID: -1250992179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_59
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1145
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241f504a549fec143a7ea008ad3295c5
+      internalID: -1182739926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_60
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1145
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a07071b174ce9f469eac032dc5d51b9
+      internalID: 594068041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_61
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1145
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369148e1b8e32d949b89f35dde2ca11d
+      internalID: 603478412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_62
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1145
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 509e04823becaec47a1b316995210de0
+      internalID: 1499384400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_63
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1145
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55680e2dabb5aac4ea7e83413853467b
+      internalID: 274207054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1113
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea12c6a0aa7c52240bf8d3e23c7e6f47
+      internalID: 1544798991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_65
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1113
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd3edf274baab314980f86ea482d9130
+      internalID: 1130985486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_66
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1113
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d86296bd1e66b84babd708abb7d6b2c
+      internalID: -1838981840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_67
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1113
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc9ba9355aa91e74cb106184caeff82c
+      internalID: 1935216204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_68
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1113
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2183e8be2a7ab0c48a6b074f00e84dd6
+      internalID: -377204992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_69
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1113
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7906d9a4e2aa814429658f5afd1b106f
+      internalID: -556446616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_70
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1113
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 114e765caf4e49b4181bc7f06792f7cc
+      internalID: -196212924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_71
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1113
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df938336fcdf4f4ebe2aa972ba0ec76
+      internalID: 863988069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1081
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22cd23497fda831458f2599a26991d36
+      internalID: 447113630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_73
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1081
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e68fe3d3908b6d34dbf63a5d92d0b324
+      internalID: -1693061249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_74
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1081
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea782a7b305566643a1dfe8aed368236
+      internalID: 1871536788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_75
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1081
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b2b80fd2e9dfa489c57334ed4f92dd
+      internalID: 758684678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_76
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1081
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d35a128dd7b3d5244b5b22b269435cd0
+      internalID: 579331382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_77
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1081
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae01aefd10690244a18658e27480f80
+      internalID: 1779488161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_78
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1081
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40c500a719189d54d8d5fb69c2ffebf9
+      internalID: 513149264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_79
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1049
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b9ac71249ad9b45a7a3158c754bf5d
+      internalID: 2144123962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_80
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1049
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00da131ec16f32044a7667e4f1fb6904
+      internalID: 267592759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_81
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1049
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d791451ffa80e4382729c90f06c331
+      internalID: 1365665803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_82
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1049
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1a36d220eda0f41bca053defa65e9b
+      internalID: -1791787698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_83
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1049
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82edff5ba4fe77a4c9c7df7a98b629ca
+      internalID: 97624967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_84
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1049
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54e120971693f4e44b47cb9157db9956
+      internalID: -1310320847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_85
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1049
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d742139aab205a499d505622370ce8c
+      internalID: 1097715831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_86
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1049
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6b1cc74a39c577439c6a0986a84a239
+      internalID: -1083066500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_87
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1017
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf4f3f7a0c30fe4caef9a5ac2f20315
+      internalID: 1679752268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_88
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1017
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1c3814edc99981488c7d3d2b4033422
+      internalID: -168788016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_89
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1017
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97d6eb0bcbeebba4a8aca3184e9cf496
+      internalID: -401416857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_90
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1017
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb6d7433c68bc942936d10e1dd0fdf3
+      internalID: 115740416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_91
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1017
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e439eb75797cd4786d85e27b8b445f
+      internalID: -1518427535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_92
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1017
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2683eb0ff2b436f428ab793fea4c2127
+      internalID: 1217748889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_93
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1017
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 153a043f24c51a14b93cce92e54c91a4
+      internalID: -109289994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_94
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1017
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a0b14e5c3750d4408c93991ac06e5f6
+      internalID: 2106545340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_95
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 985
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb849e65a6c7f2b49b527058c0f4f370
+      internalID: -1650922841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_96
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 985
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d83a9504790598546a4d451eadf40e12
+      internalID: -1254804390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_97
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 985
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb55060d144b9744b430d506553c92f
+      internalID: -1989738272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_98
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 985
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a65f9aed1e690943a66baeb1d3ffb06
+      internalID: 874746872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_99
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 985
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c662a8ae7b009604a9fad5d286ac3b37
+      internalID: 489479609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_100
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 985
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 381537316c5510f4ead22bbad39bb815
+      internalID: 1604839130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_101
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 985
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 202c523a7dc782842914519cc044d2fe
+      internalID: -481121869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_102
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 985
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 898ac3f2f2fc7da43ae433e2aaafbea3
+      internalID: 806309954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_103
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 953
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a64063a7279364148b2bd97149516798
+      internalID: 856193500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_104
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 953
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fad9a04723b4c94ea503d30f8670681
+      internalID: -1307664213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_105
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 953
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 304cbb26eef497e46850424dc936f25b
+      internalID: 277813515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_106
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 953
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa077b772f4ca14f82c5e020fd33165
+      internalID: -1881507501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_107
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 953
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed9bb1a72e71f6b4a9144501643f415b
+      internalID: -1330553040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_108
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 953
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b64a0793ec7db749a54ea0ff5354baf
+      internalID: -1505333188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_109
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 953
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18ceee4c7bc059147ac435a9a89d7225
+      internalID: -2105169957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_110
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 953
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 450f272b9a844e9428946d384d37d1f3
+      internalID: 1064512219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_111
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 921
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4969ff7f050ac140939b7659680fd67
+      internalID: 1150350808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_112
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 921
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8652e430088539e458cb313df2db1ca5
+      internalID: -113947290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_113
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 921
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5313d8cc9341b5e428b5e4c689b19705
+      internalID: 1476460922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_114
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 921
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a23d054e23d41428699df36952e536
+      internalID: 708048035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_115
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 921
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 719515b19ace71a418e26f9956b98cc7
+      internalID: -1141969350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_116
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 921
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df35504d9db545498ced7057ab82876
+      internalID: -87063673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_117
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 921
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9acc00b817a156141a6d08942dddfc87
+      internalID: -815242141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_118
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 921
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d59b340da233d548a62012d25a28348
+      internalID: 1092003467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_119
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 889
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac1c0b8ee2bda440be9ba8b9595ad78
+      internalID: 1051540402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_120
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 889
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46cb41d4b0e05d34b925d2f0bfc9075b
+      internalID: 803954963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_121
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 889
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94692fbafa799864b9855f52885cd76d
+      internalID: 1875153597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_122
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 889
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff8881bf2c999244a58546177754fed
+      internalID: 1610531602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_123
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 889
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15e3d7911a6fa054b8d55f05b975b764
+      internalID: 372408256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_124
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 889
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae310a758aaa8fa48b74e98f8944190b
+      internalID: -1397895254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_125
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 889
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc85af093391374195c05e66bc9a5fc
+      internalID: 593754778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_126
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 889
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac54a250b750b345a912cbb38999a03
+      internalID: -2081518472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_127
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 857
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e6e072ac38a48a40a7159943bec65ae
+      internalID: 2062580965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_128
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 857
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 476228a62a3f3b6489cafe812c94d99b
+      internalID: 539581916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_129
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 857
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd0b660af110d4d43ba055ff7e5a4b4c
+      internalID: 443995376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_130
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 857
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d48afd07fb0c2494da3b05bbe9133fcf
+      internalID: 1531718345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_131
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 857
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9c43f6e67bcf34ead9d0b96ab76bfd
+      internalID: 826870118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_132
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 857
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f605dcbada479942929b70d7a284473
+      internalID: 1154912050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_133
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 857
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b8e493867166a4bbc82640949ef395
+      internalID: 1723653118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_134
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 857
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 487e8b5cbd636dc44982b00b451219f5
+      internalID: -59111009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_135
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 825
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08ceeff2f23600140a13bc415c9ee098
+      internalID: -809353566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_136
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 825
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a916543b7ec54d44e93bf1717e3f85db
+      internalID: 953607812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_137
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 825
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b5a15167386b704f8b44733343b773e
+      internalID: -2052654550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_138
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 825
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf429606fcef5044bb546fe8aa0614b9
+      internalID: 1462584518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_139
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 825
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd252d291a46b44abd4b777c813d5ff
+      internalID: 1638334094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_140
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 825
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d49a795bf0ba04d927085893a30e80
+      internalID: 537050670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_141
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 825
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a333483175586b438662a9bc7746aa4
+      internalID: -862008463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_142
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 825
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b788705bf7ce7a409fa2f71990518fb
+      internalID: 1526536318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_143
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 793
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c3d020f78197c49ab75d787a505787
+      internalID: -2063225207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_144
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 793
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2128f7616cd7a504d9f9c6e93168afb9
+      internalID: 1167808190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_145
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 793
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e974f2eab0da78a4080dc24ad35e2624
+      internalID: -1485194712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_146
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 793
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c834525c19ea042a3e4fe9d3ed2b12
+      internalID: 1306177882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_147
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 793
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6210e56f9231ef54b858c88671e6ebe3
+      internalID: -1295671353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_148
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 793
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccdb815a3d744a34faeab4578a7e7b59
+      internalID: -44852268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_149
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 793
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6ead0f833e4ac4d81697134b5357b3
+      internalID: 417140598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_150
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 793
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07d17e3ea7cba93428ac810c16148cf8
+      internalID: 1084012449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_151
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 761
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 969e7bc2142ba724ca606982483dd474
+      internalID: 1999326604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_152
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 761
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e7b0680cb44bce498bf367f54269c2a
+      internalID: 568110441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_153
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 761
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f78761a86e58a40a95a55bce24662d
+      internalID: -643894954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_154
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 761
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e9b9f6c2adfbb4d8d14bd2e68f456f
+      internalID: 854138157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_155
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 761
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a9e0c82d20f784d9e19afabd4318eb
+      internalID: 1124727730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_156
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 761
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b76897de05e748045adf031760c5df6e
+      internalID: -606565816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_157
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 761
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 382da0f613575484cb1b20627789e991
+      internalID: 613247565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_158
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 761
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa62adcd901480941b56897ae92eadac
+      internalID: 1386708888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_159
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 729
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa82d8d9caebed4b8d57c08de7ab15b
+      internalID: -1734914354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_160
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 729
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 007be8f58f8e48a42a36602d98fcda4b
+      internalID: 127492731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_161
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 729
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b44f0b6afbc0c4c89da5ae316fdd0f
+      internalID: -2120448903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_162
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 729
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dd97bf31bcf9264eaebeb48b3d57595
+      internalID: -1430013084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_163
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 729
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 054df6362bcb1c2488a68439e72159e4
+      internalID: -363835532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_164
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 729
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c9b3efda51ac5f439d1d53e08a28ada
+      internalID: -443148159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_165
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 697
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96cf7e07565aa7c4485a42bf96a4e074
+      internalID: 1837543309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_166
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 697
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 491985abaa852564586000e7ea835190
+      internalID: -956144999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_167
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 697
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f9a4a34d67ae4409ffebff377cdfb1
+      internalID: -1484624085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_168
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 697
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50eed0c0612f2ed40ac4615119d869c6
+      internalID: 839600990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_169
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 697
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c798ea2813aa877408630246cd644af1
+      internalID: -957693223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_170
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 697
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc01bc5a9e55b3468f7c7a7e70d776d
+      internalID: 936634684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_171
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 665
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b7a2ee3eb9c7a4589394bdb0a6ceee
+      internalID: -1359746182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_172
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 665
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b73163d48dd6bc34daeaa6088f181d36
+      internalID: 1580500710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_173
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 665
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a8730f12553ec4ebc6bdf85f8e62de
+      internalID: -1530034187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_174
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 665
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded4936f8de408a40965cad64abc2f48
+      internalID: 677361293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_175
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 665
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75928f268e09bd8419e48e0cc6b6b19b
+      internalID: -705796142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_176
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 665
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8db2f7e7cd6443c4c933fbb0592722cb
+      internalID: 1393377853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_177
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 665
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eef586890e043e49b61bec88c79948e
+      internalID: -78851701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_178
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 665
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76b31083ee1cc0842957cef5d3e2f1b5
+      internalID: 729710810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_179
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 633
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614af39e0bd2ba64e91072e87cac8f94
+      internalID: 1780085359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_180
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 633
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef893b058641f14abaa142eb919bb2b
+      internalID: 1529585056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_181
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 633
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f759f45b18977840b46c0bb50c6e28e
+      internalID: -1664524062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_182
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 633
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a303a7196c81b459a9652ee8409f24
+      internalID: 978632657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_183
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 633
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24b39fc36eb39dc41b34bbfc44895934
+      internalID: 1190598877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_184
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 633
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10ae65261ad9dc548823dbe5fe563784
+      internalID: -1943885109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_185
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 633
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffafd7b992757404dbcf8cd16db8b1b1
+      internalID: 517746229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_186
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 633
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dccee01182b1ef2479bb2f17b8e866d7
+      internalID: 1726453401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_187
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 601
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd547a6f073af9459867fd449830ac3
+      internalID: -586881570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_188
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 601
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a244b0b6ff1a7c9479acf5739d5c6919
+      internalID: -454208881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_189
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 601
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7621d239b42cd42acc265a816864e2
+      internalID: 955918330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_190
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 601
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 421cddd57d889744e96be3d8b16ad0a5
+      internalID: 1356779646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_191
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 601
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d93f7324f1547443a3d2b4e4e86fbd5
+      internalID: 980889058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_192
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 601
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 828e9b1bbab94194bb2a899fa31dd9fe
+      internalID: -1926825354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_193
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 601
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b80a61c60f579244fa5116363f54b451
+      internalID: 816552031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_194
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 601
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e21d0c4b0509c5f41ba33473b4de5576
+      internalID: -565142728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_195
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 569
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 157add18ad7acab428ae62a2d87cac62
+      internalID: 1483529160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_196
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 569
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21276b966fbb1dc48825303d1ae89acf
+      internalID: -575625675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_197
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 569
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 942bc838fe5329d4d902e87b7bb1ce0d
+      internalID: -361218444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_198
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 569
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1147da13e6f464f4595c499204de1e86
+      internalID: -1908452390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_199
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 569
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5539d23c967c0342bf71eea91c20e26
+      internalID: -1007517501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_200
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 569
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f36e1bca707de684d945aa58eb17632b
+      internalID: -1851110309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_201
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 569
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9caf9d769192f04bab98a8f2dda55fe
+      internalID: -1562069779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_202
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 569
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2257c54a72055d41a6967746a81a783
+      internalID: 2136434738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_203
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 537
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6113ee0cc92a914ba836659140a1523
+      internalID: -836469468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_204
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 537
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 376c39072cdf7744cb8315cc301e798d
+      internalID: 2101642570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_205
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 537
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab4b6541c74a5545be2172e182e5d61
+      internalID: 1348467669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_206
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 537
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c90eeaa81babe4585d5aa4a9064fb2
+      internalID: -1056449880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_207
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 537
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e05afc707af3de54c9cc8a23804aa065
+      internalID: 1673885253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_208
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 537
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c74d2354c6073b4f8e215ba29389d7c
+      internalID: -1923186498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_209
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 537
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e856583ecb5541540bc0e8338e6b26cd
+      internalID: 1419643106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_210
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 537
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cdae0a8c11f8ba468665e7a34d811fb
+      internalID: 531551457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_211
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 505
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b09c80720b9dd8a4f94d824eab986a19
+      internalID: -1423170554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_212
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 505
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff4961a6acc08fa458b2d3766837e8be
+      internalID: 2104940902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_213
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 505
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfaaa11d1d4a948419ee50ecfc75c6c4
+      internalID: -327395193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_214
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 505
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e24c7ebeff20484daeaa9392c8d903e
+      internalID: -603294000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_215
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 505
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4475af7b023c6484bb8f677fb81d4d1e
+      internalID: 358649336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_216
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 505
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c84b6bb9b7824e44ab5ddc1093bcccf
+      internalID: -236509930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_217
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 505
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8446650075eb3714fb664c48713725d3
+      internalID: -897063605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_218
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 505
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e99427f6dc8c0e4c88a31a7b960c189
+      internalID: -1618815820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_219
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 473
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aabd4379c51e194891074cf375cfc7f
+      internalID: -1020092254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_220
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 473
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 108f48ea8043bb84c9d48a9a2385bf9a
+      internalID: -1201688437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_221
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 473
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a5fd65a914980a449944e43fd874222
+      internalID: 1160229699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_222
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 473
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 884806925dcabd841a818994ab5976d8
+      internalID: 377527138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_223
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 473
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f303c35d5cba14a8b999657ee9e97b
+      internalID: 2076768266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_224
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 473
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb4e5c3121a579458312adf84f7b30b
+      internalID: 2056384680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_225
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 473
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52907829ff988e49b54333ced8da950
+      internalID: -124737925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_226
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 473
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80feb09a16598f54794fa465055dd01f
+      internalID: -281513046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_227
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 441
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b49ca278c71a9e74386517d274a22db3
+      internalID: -794527549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_228
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 441
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a227ea9e4d8a995439f59b84dda7428f
+      internalID: -673172396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_229
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 441
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 311642ec49ffaff4abcf8286d77319bd
+      internalID: -217196188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_230
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 441
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267e09074423b9b4a8fc264f2ea0031f
+      internalID: -1447267362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_231
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 441
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: defd0575c66b0cd458718ed08fe0972c
+      internalID: 1474592940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_232
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 441
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2798166d0cdcc3c4d96cf0b91eccb9f0
+      internalID: 963592690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_233
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 441
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a0c9134d5978b4592c502d3d7b9b24
+      internalID: -1880172593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_234
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 441
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d0febe5074b43546a48ef66bf3e80c9
+      internalID: -254986399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_235
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 409
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d691568dd80bc42a3a7ebc8f3016f0
+      internalID: 750926079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_236
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 409
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d9534b1231ceeb40a7f7091b63fe451
+      internalID: 1140146694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_237
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 409
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81c92655107c69b42bb298686700fc75
+      internalID: 855000605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_238
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 409
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f2a5f5436177149bd3c605d36473c4
+      internalID: -260216531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_239
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 409
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74fca0cc49786b64ab9c19fa7085d627
+      internalID: 1025801634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_240
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 409
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13cecdce3e356e44a909e92f16c6c8ee
+      internalID: 1449134349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_241
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 409
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3616563d34e93ef41813c02a3bda7a08
+      internalID: -1358938430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_242
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 409
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa33a67b6d376f044adb0fc7d9ed1ab3
+      internalID: 1196145164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_243
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 377
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a3b007c52bc9042ad8834526c52a18
+      internalID: -140184211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_244
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 377
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd336e9542c0db4469064cacc2719ba0
+      internalID: 1439327631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_245
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 377
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 276f87f7f10cc654b9ee0113be9a76ed
+      internalID: 216450729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_246
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 377
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ef9796997b25bb409b4ce3daf6f1b03
+      internalID: 950164356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_247
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 377
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f92a435ea50f04ab2eae0e3b7edf46
+      internalID: -1590897718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_248
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 377
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3bcb0d06da9f9449a54f0e7e95a4da4
+      internalID: -1657871172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_249
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 377
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecc678f307c8ff14dbadcdf76918feb6
+      internalID: -690409663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_250
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 377
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786b5e7c816f3be4ba9c7f40d03b0ca3
+      internalID: -1229601327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_251
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 345
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c05769de964e46549bcb6724b49bc23b
+      internalID: -628832029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_252
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 345
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18fae6de3036e7a4396ae0cb5a608af3
+      internalID: -1470685500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_253
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 345
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655052361f675ce449d217fa7344d281
+      internalID: -715920068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_254
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 345
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d95293284949f46900d5a32dbcf08a
+      internalID: 741506573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_255
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 345
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e791718bbab99e48bd4b8d2a04a4486
+      internalID: 1471469993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_256
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 345
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0acf5bdd1d06d5a4ebbbb7b3a8456c0c
+      internalID: 428448301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_257
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 345
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe50527a3a79534d970f49104ce8716
+      internalID: 721082860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_258
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 313
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 758d3ba205d80f14eadcdd8c3edb4962
+      internalID: 1434456958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_259
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 313
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b1ebf5381ca6784599e2ee277a93576
+      internalID: -1635886893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_260
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 313
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fb888c6a43ade749a033983cf1887ad
+      internalID: -820774749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_261
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 313
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d0ea86d0ad329f46851afd54243821f
+      internalID: -1055246245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_262
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 313
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072f296dfb76ec14cb10968c1eb2359d
+      internalID: 1335726738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_263
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 313
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 246313a479bddc543b7fabdcf1096fc0
+      internalID: -54643059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_264
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 313
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb12d1d97f1b3e64e9fb9b55db5aa524
+      internalID: -1059481405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_265
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 313
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d79670b718bf001499d47f12f11d128e
+      internalID: -1546692110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_266
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 281
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af2b9aa72a8a9347a0df8a9a20bd4e8
+      internalID: 518847334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_267
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 281
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f58d0d1a6d19345adecef30c558cc8
+      internalID: 5070727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_268
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 281
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f366599765c18e4081c3090723c2150
+      internalID: -1396838126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_269
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 281
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4749cfa50a227364ea86db96bf2b71da
+      internalID: 1394085609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_270
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 281
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7369720173821df4c9f7d625941d6439
+      internalID: 2064593881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_271
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 281
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5c11bc8f8566ee4589c182099d38903
+      internalID: -1988407959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_272
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 281
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 156efafde70f65a43912a374c3a241f0
+      internalID: 2100101560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_273
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 281
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f627f813bbc6a9140b91c0e381add695
+      internalID: 1898134128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_274
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 249
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9bdae7e190c31641bee847d716c0124
+      internalID: -2117441358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_275
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 249
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8fc3e786962d5f4e85b9d6ba9193022
+      internalID: -1772091112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_276
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 249
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0529dc13947e79348ac261027f6c61c4
+      internalID: -1482535490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_277
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 249
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fd177d7f27ecf54f875cf3e4884d0e1
+      internalID: -1687174076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_278
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 249
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76166767110a76c4190616c74a10b85a
+      internalID: -1691740237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_279
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 249
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b07ad530ad8ce614b9193023c66934a2
+      internalID: 516622894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_280
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 217
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51c15c4402519d4190d6c352b82895e
+      internalID: -1075178633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_281
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 217
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 231428fe1feb6014ca863170c12c86e6
+      internalID: -882864789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_282
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 217
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f29970723088c44ba8fce399d760756
+      internalID: -1012560596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_283
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 217
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aa08bd4ad7b4be49bc2beeb76b3b7b4
+      internalID: -845649304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_284
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 217
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ec01333499dc148a3569447f57109e
+      internalID: -1740568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_285
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 185
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bcc9c53cbb3ef54895a2ee876892080
+      internalID: -1501715170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_286
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 185
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2409e99d63f32c44daf661478c5280fb
+      internalID: -1488339243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_287
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 185
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b8ed3c8e6706db45978107cae94184d
+      internalID: 986762778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_288
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 185
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a9fb84ec1442d45ad6658138efe4ee
+      internalID: 1059624993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_289
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 185
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8d1a0e7bd22a2418f4958f9a8ea84c
+      internalID: 1796784581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_290
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 185
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2faec2298df08c4c83b94577b3610a3
+      internalID: 660226094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_291
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 185
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d1a1e8644ba5f14cbb4b26f6ed2a3e8
+      internalID: -1837669797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_292
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 185
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beee60769b45458478b5dc3fd50443c3
+      internalID: 1143542872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_293
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 153
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c32a60d4cb95e5c499f8478b05b4a82a
+      internalID: -1154753403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_294
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 153
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c51fc8e914be44792ee9b020bfbed7
+      internalID: -1885819922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_295
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 153
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c1ef8b666376a42854f5fa6db3feba
+      internalID: 1144395954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_296
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 153
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 856cf8bf776e6bb4287f2a8844457c6e
+      internalID: 1225379593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_297
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 153
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1049557e80b66f346acc3ee8037de2ec
+      internalID: -347621109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_298
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 153
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d893277422c617478df51c3c3c53b72
+      internalID: 522336578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_299
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 153
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d5e70ca992a3424981d81ab131c0ad3
+      internalID: -1358996056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_300
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 153
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cedce063b6401fb479ccbb31d32c083e
+      internalID: -116139599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_301
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 121
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 536e1f0bb39c5b649ba0767d8106dd44
+      internalID: 1222488423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_302
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 121
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8416ddb24b1a394e8636fa457c0fc9f
+      internalID: 2031941528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_303
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 121
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3189ac4cbb24604f9b375611f089228
+      internalID: 205200605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_304
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 121
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d5ff155e1dd3b4e813290d08902588
+      internalID: -786869690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_305
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 121
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f7faa9669c9f546be922a6cec3df6b
+      internalID: -1716404999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_306
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 121
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e602bdcfaa024448970a06524514db
+      internalID: -697917271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_307
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 121
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c9ee402fb45e9d4988f4904ec24a422
+      internalID: -503919958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_308
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 121
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23eaaec356615ee4590718ff42d6252d
+      internalID: 498788250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_309
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 89
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e166f1f47e7ba644bb4f836cc50e064
+      internalID: -1604175737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_310
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 89
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44e22e7a24908d4db599a16f2976766
+      internalID: 1639566408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_311
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 89
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 883a5e35184422f478d4e6cd7555e675
+      internalID: 757450877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_312
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 89
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16dfcf999b250eb4a90853835dd63e44
+      internalID: 1219695379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_313
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 89
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7983ca6f6eacb74da84f42f16ead274
+      internalID: 247932901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_314
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 89
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8517d67228d3e8b42a8f4e0fb8f7387c
+      internalID: 540500059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_315
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 57
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbb88746b94e2a649aa164abd2cfcba8
+      internalID: -1556210688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_316
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 57
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d20b4a10e73b442821d01f95a1d123
+      internalID: -806285250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_317
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 57
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b3c647222d7434095cc56947e31691
+      internalID: -2082878955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_318
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 57
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe3904733295f994faf483cd7845b3d8
+      internalID: 902281572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_319
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 57
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bdc0ca37214dbc4595ff95ac2dd129d
+      internalID: 304689212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_320
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 25
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d2735bea8de6b1488779660057e05bd
+      internalID: 154283415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_321
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 25
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 219751e8f9739364ea0f4e2ff55611db
+      internalID: -1319195508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartello scuola_322
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 25
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd570de391b32334e80eaa5c5f7bfdfa
+      internalID: -1302544186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Cartello scuola_0: 778176490
+      Cartello scuola_1: -1894407041
+      Cartello scuola_10: -1088215512
+      Cartello scuola_100: 1604839130
+      Cartello scuola_101: -481121869
+      Cartello scuola_102: 806309954
+      Cartello scuola_103: 856193500
+      Cartello scuola_104: -1307664213
+      Cartello scuola_105: 277813515
+      Cartello scuola_106: -1881507501
+      Cartello scuola_107: -1330553040
+      Cartello scuola_108: -1505333188
+      Cartello scuola_109: -2105169957
+      Cartello scuola_11: -419016187
+      Cartello scuola_110: 1064512219
+      Cartello scuola_111: 1150350808
+      Cartello scuola_112: -113947290
+      Cartello scuola_113: 1476460922
+      Cartello scuola_114: 708048035
+      Cartello scuola_115: -1141969350
+      Cartello scuola_116: -87063673
+      Cartello scuola_117: -815242141
+      Cartello scuola_118: 1092003467
+      Cartello scuola_119: 1051540402
+      Cartello scuola_12: -1913943557
+      Cartello scuola_120: 803954963
+      Cartello scuola_121: 1875153597
+      Cartello scuola_122: 1610531602
+      Cartello scuola_123: 372408256
+      Cartello scuola_124: -1397895254
+      Cartello scuola_125: 593754778
+      Cartello scuola_126: -2081518472
+      Cartello scuola_127: 2062580965
+      Cartello scuola_128: 539581916
+      Cartello scuola_129: 443995376
+      Cartello scuola_13: -1730381189
+      Cartello scuola_130: 1531718345
+      Cartello scuola_131: 826870118
+      Cartello scuola_132: 1154912050
+      Cartello scuola_133: 1723653118
+      Cartello scuola_134: -59111009
+      Cartello scuola_135: -809353566
+      Cartello scuola_136: 953607812
+      Cartello scuola_137: -2052654550
+      Cartello scuola_138: 1462584518
+      Cartello scuola_139: 1638334094
+      Cartello scuola_14: -1707399271
+      Cartello scuola_140: 537050670
+      Cartello scuola_141: -862008463
+      Cartello scuola_142: 1526536318
+      Cartello scuola_143: -2063225207
+      Cartello scuola_144: 1167808190
+      Cartello scuola_145: -1485194712
+      Cartello scuola_146: 1306177882
+      Cartello scuola_147: -1295671353
+      Cartello scuola_148: -44852268
+      Cartello scuola_149: 417140598
+      Cartello scuola_15: -965044488
+      Cartello scuola_150: 1084012449
+      Cartello scuola_151: 1999326604
+      Cartello scuola_152: 568110441
+      Cartello scuola_153: -643894954
+      Cartello scuola_154: 854138157
+      Cartello scuola_155: 1124727730
+      Cartello scuola_156: -606565816
+      Cartello scuola_157: 613247565
+      Cartello scuola_158: 1386708888
+      Cartello scuola_159: -1734914354
+      Cartello scuola_16: 1225736777
+      Cartello scuola_160: 127492731
+      Cartello scuola_161: -2120448903
+      Cartello scuola_162: -1430013084
+      Cartello scuola_163: -363835532
+      Cartello scuola_164: -443148159
+      Cartello scuola_165: 1837543309
+      Cartello scuola_166: -956144999
+      Cartello scuola_167: -1484624085
+      Cartello scuola_168: 839600990
+      Cartello scuola_169: -957693223
+      Cartello scuola_17: 826535898
+      Cartello scuola_170: 936634684
+      Cartello scuola_171: -1359746182
+      Cartello scuola_172: 1580500710
+      Cartello scuola_173: -1530034187
+      Cartello scuola_174: 677361293
+      Cartello scuola_175: -705796142
+      Cartello scuola_176: 1393377853
+      Cartello scuola_177: -78851701
+      Cartello scuola_178: 729710810
+      Cartello scuola_179: 1780085359
+      Cartello scuola_18: 1633970121
+      Cartello scuola_180: 1529585056
+      Cartello scuola_181: -1664524062
+      Cartello scuola_182: 978632657
+      Cartello scuola_183: 1190598877
+      Cartello scuola_184: -1943885109
+      Cartello scuola_185: 517746229
+      Cartello scuola_186: 1726453401
+      Cartello scuola_187: -586881570
+      Cartello scuola_188: -454208881
+      Cartello scuola_189: 955918330
+      Cartello scuola_19: -1063746259
+      Cartello scuola_190: 1356779646
+      Cartello scuola_191: 980889058
+      Cartello scuola_192: -1926825354
+      Cartello scuola_193: 816552031
+      Cartello scuola_194: -565142728
+      Cartello scuola_195: 1483529160
+      Cartello scuola_196: -575625675
+      Cartello scuola_197: -361218444
+      Cartello scuola_198: -1908452390
+      Cartello scuola_199: -1007517501
+      Cartello scuola_2: -794855758
+      Cartello scuola_20: -751122395
+      Cartello scuola_200: -1851110309
+      Cartello scuola_201: -1562069779
+      Cartello scuola_202: 2136434738
+      Cartello scuola_203: -836469468
+      Cartello scuola_204: 2101642570
+      Cartello scuola_205: 1348467669
+      Cartello scuola_206: -1056449880
+      Cartello scuola_207: 1673885253
+      Cartello scuola_208: -1923186498
+      Cartello scuola_209: 1419643106
+      Cartello scuola_21: 1000371925
+      Cartello scuola_210: 531551457
+      Cartello scuola_211: -1423170554
+      Cartello scuola_212: 2104940902
+      Cartello scuola_213: -327395193
+      Cartello scuola_214: -603294000
+      Cartello scuola_215: 358649336
+      Cartello scuola_216: -236509930
+      Cartello scuola_217: -897063605
+      Cartello scuola_218: -1618815820
+      Cartello scuola_219: -1020092254
+      Cartello scuola_22: 1719327711
+      Cartello scuola_220: -1201688437
+      Cartello scuola_221: 1160229699
+      Cartello scuola_222: 377527138
+      Cartello scuola_223: 2076768266
+      Cartello scuola_224: 2056384680
+      Cartello scuola_225: -124737925
+      Cartello scuola_226: -281513046
+      Cartello scuola_227: -794527549
+      Cartello scuola_228: -673172396
+      Cartello scuola_229: -217196188
+      Cartello scuola_23: 1490911746
+      Cartello scuola_230: -1447267362
+      Cartello scuola_231: 1474592940
+      Cartello scuola_232: 963592690
+      Cartello scuola_233: -1880172593
+      Cartello scuola_234: -254986399
+      Cartello scuola_235: 750926079
+      Cartello scuola_236: 1140146694
+      Cartello scuola_237: 855000605
+      Cartello scuola_238: -260216531
+      Cartello scuola_239: 1025801634
+      Cartello scuola_24: 1312382862
+      Cartello scuola_240: 1449134349
+      Cartello scuola_241: -1358938430
+      Cartello scuola_242: 1196145164
+      Cartello scuola_243: -140184211
+      Cartello scuola_244: 1439327631
+      Cartello scuola_245: 216450729
+      Cartello scuola_246: 950164356
+      Cartello scuola_247: -1590897718
+      Cartello scuola_248: -1657871172
+      Cartello scuola_249: -690409663
+      Cartello scuola_25: -636277551
+      Cartello scuola_250: -1229601327
+      Cartello scuola_251: -628832029
+      Cartello scuola_252: -1470685500
+      Cartello scuola_253: -715920068
+      Cartello scuola_254: 741506573
+      Cartello scuola_255: 1471469993
+      Cartello scuola_256: 428448301
+      Cartello scuola_257: 721082860
+      Cartello scuola_258: 1434456958
+      Cartello scuola_259: -1635886893
+      Cartello scuola_26: 305390049
+      Cartello scuola_260: -820774749
+      Cartello scuola_261: -1055246245
+      Cartello scuola_262: 1335726738
+      Cartello scuola_263: -54643059
+      Cartello scuola_264: -1059481405
+      Cartello scuola_265: -1546692110
+      Cartello scuola_266: 518847334
+      Cartello scuola_267: 5070727
+      Cartello scuola_268: -1396838126
+      Cartello scuola_269: 1394085609
+      Cartello scuola_27: -1909463766
+      Cartello scuola_270: 2064593881
+      Cartello scuola_271: -1988407959
+      Cartello scuola_272: 2100101560
+      Cartello scuola_273: 1898134128
+      Cartello scuola_274: -2117441358
+      Cartello scuola_275: -1772091112
+      Cartello scuola_276: -1482535490
+      Cartello scuola_277: -1687174076
+      Cartello scuola_278: -1691740237
+      Cartello scuola_279: 516622894
+      Cartello scuola_28: 1033217232
+      Cartello scuola_280: -1075178633
+      Cartello scuola_281: -882864789
+      Cartello scuola_282: -1012560596
+      Cartello scuola_283: -845649304
+      Cartello scuola_284: -1740568
+      Cartello scuola_285: -1501715170
+      Cartello scuola_286: -1488339243
+      Cartello scuola_287: 986762778
+      Cartello scuola_288: 1059624993
+      Cartello scuola_289: 1796784581
+      Cartello scuola_29: 246808595
+      Cartello scuola_290: 660226094
+      Cartello scuola_291: -1837669797
+      Cartello scuola_292: 1143542872
+      Cartello scuola_293: -1154753403
+      Cartello scuola_294: -1885819922
+      Cartello scuola_295: 1144395954
+      Cartello scuola_296: 1225379593
+      Cartello scuola_297: -347621109
+      Cartello scuola_298: 522336578
+      Cartello scuola_299: -1358996056
+      Cartello scuola_3: -1501565237
+      Cartello scuola_30: -2062758893
+      Cartello scuola_300: -116139599
+      Cartello scuola_301: 1222488423
+      Cartello scuola_302: 2031941528
+      Cartello scuola_303: 205200605
+      Cartello scuola_304: -786869690
+      Cartello scuola_305: -1716404999
+      Cartello scuola_306: -697917271
+      Cartello scuola_307: -503919958
+      Cartello scuola_308: 498788250
+      Cartello scuola_309: -1604175737
+      Cartello scuola_31: -1626595081
+      Cartello scuola_310: 1639566408
+      Cartello scuola_311: 757450877
+      Cartello scuola_312: 1219695379
+      Cartello scuola_313: 247932901
+      Cartello scuola_314: 540500059
+      Cartello scuola_315: -1556210688
+      Cartello scuola_316: -806285250
+      Cartello scuola_317: -2082878955
+      Cartello scuola_318: 902281572
+      Cartello scuola_319: 304689212
+      Cartello scuola_32: -1338137833
+      Cartello scuola_320: 154283415
+      Cartello scuola_321: -1319195508
+      Cartello scuola_322: -1302544186
+      Cartello scuola_33: -931234168
+      Cartello scuola_34: -1699617722
+      Cartello scuola_35: -1875989271
+      Cartello scuola_36: 1689488171
+      Cartello scuola_37: 1098079743
+      Cartello scuola_38: 1001173921
+      Cartello scuola_39: -297553614
+      Cartello scuola_4: 311294264
+      Cartello scuola_40: -1804029763
+      Cartello scuola_41: -1741772358
+      Cartello scuola_42: -381001589
+      Cartello scuola_43: 620701890
+      Cartello scuola_44: -238106769
+      Cartello scuola_45: 459306121
+      Cartello scuola_46: -1441626037
+      Cartello scuola_47: -2020501274
+      Cartello scuola_48: 893057230
+      Cartello scuola_49: -1584213334
+      Cartello scuola_5: -154174473
+      Cartello scuola_50: 949340447
+      Cartello scuola_51: 146257631
+      Cartello scuola_52: -911902555
+      Cartello scuola_53: -290725293
+      Cartello scuola_54: -2073273738
+      Cartello scuola_55: 1033985315
+      Cartello scuola_56: 1613588098
+      Cartello scuola_57: 1080329165
+      Cartello scuola_58: -1250992179
+      Cartello scuola_59: -1182739926
+      Cartello scuola_6: 1147935407
+      Cartello scuola_60: 594068041
+      Cartello scuola_61: 603478412
+      Cartello scuola_62: 1499384400
+      Cartello scuola_63: 274207054
+      Cartello scuola_64: 1544798991
+      Cartello scuola_65: 1130985486
+      Cartello scuola_66: -1838981840
+      Cartello scuola_67: 1935216204
+      Cartello scuola_68: -377204992
+      Cartello scuola_69: -556446616
+      Cartello scuola_7: 126831634
+      Cartello scuola_70: -196212924
+      Cartello scuola_71: 863988069
+      Cartello scuola_72: 447113630
+      Cartello scuola_73: -1693061249
+      Cartello scuola_74: 1871536788
+      Cartello scuola_75: 758684678
+      Cartello scuola_76: 579331382
+      Cartello scuola_77: 1779488161
+      Cartello scuola_78: 513149264
+      Cartello scuola_79: 2144123962
+      Cartello scuola_8: -1632483260
+      Cartello scuola_80: 267592759
+      Cartello scuola_81: 1365665803
+      Cartello scuola_82: -1791787698
+      Cartello scuola_83: 97624967
+      Cartello scuola_84: -1310320847
+      Cartello scuola_85: 1097715831
+      Cartello scuola_86: -1083066500
+      Cartello scuola_87: 1679752268
+      Cartello scuola_88: -168788016
+      Cartello scuola_89: -401416857
+      Cartello scuola_9: 1680316431
+      Cartello scuola_90: 115740416
+      Cartello scuola_91: -1518427535
+      Cartello scuola_92: 1217748889
+      Cartello scuola_93: -109289994
+      Cartello scuola_94: 2106545340
+      Cartello scuola_95: -1650922841
+      Cartello scuola_96: -1254804390
+      Cartello scuola_97: -1989738272
+      Cartello scuola_98: 874746872
+      Cartello scuola_99: 489479609
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
