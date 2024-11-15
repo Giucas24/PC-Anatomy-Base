@@ -173,6 +173,7 @@ MonoBehaviour:
   dialogText: {fileID: 1408580316}
   dialog: "Labit. Per accedere alle esercitazioni \xE8 necessario prenotarsi."
   playerInRange: 0
+  signUI: {fileID: 0}
 --- !u!61 &145331187
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6396,11 +6397,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 674933250439902273, guid: b3ad4ae618616fe40a6b422ca3aca6bd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.34
+      value: 8.43
       objectReference: {fileID: 0}
     - target: {fileID: 674933250439902273, guid: b3ad4ae618616fe40a6b422ca3aca6bd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 9.96
       objectReference: {fileID: 0}
     - target: {fileID: 674933250439902273, guid: b3ad4ae618616fe40a6b422ca3aca6bd, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6440,23 +6441,27 @@ PrefabInstance:
       objectReference: {fileID: 1969991380}
     - target: {fileID: 4225902330006341814, guid: b3ad4ae618616fe40a6b422ca3aca6bd, type: 3}
       propertyPath: maxPosition.x
-      value: 9
+      value: 8.4
       objectReference: {fileID: 0}
     - target: {fileID: 4225902330006341814, guid: b3ad4ae618616fe40a6b422ca3aca6bd, type: 3}
       propertyPath: maxPosition.y
-      value: 10
+      value: 9.95
       objectReference: {fileID: 0}
     - target: {fileID: 4225902330006341814, guid: b3ad4ae618616fe40a6b422ca3aca6bd, type: 3}
       propertyPath: minPosition.x
-      value: -9
+      value: -8.4
       objectReference: {fileID: 0}
     - target: {fileID: 4225902330006341814, guid: b3ad4ae618616fe40a6b422ca3aca6bd, type: 3}
       propertyPath: minPosition.y
-      value: 0.05
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7564837311920748107, guid: b3ad4ae618616fe40a6b422ca3aca6bd, type: 3}
       propertyPath: orthographic size
       value: 5.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7564837311920748107, guid: b3ad4ae618616fe40a6b422ca3aca6bd, type: 3}
+      propertyPath: m_NormalizedViewPortRect.width
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8814012445918794731, guid: b3ad4ae618616fe40a6b422ca3aca6bd, type: 3}
       propertyPath: m_Name
@@ -6692,6 +6697,10 @@ PrefabInstance:
     - target: {fileID: 5494532355573914130, guid: 8e6dd11a37ea80b4599a84b8f638f130, type: 3}
       propertyPath: m_Name
       value: Canvas Sign and NPCTalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 5494532355573914130, guid: 8e6dd11a37ea80b4599a84b8f638f130, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7962,6 +7971,11 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!1 &1486748083 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5494532355573914130, guid: 8e6dd11a37ea80b4599a84b8f638f130, type: 3}
+  m_PrefabInstance: {fileID: 1408580315}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1533052713
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11753,6 +11767,7 @@ MonoBehaviour:
   dialog: Ciao! Le lezioni si tengono nell'aula alla tua destra. Se invece vuoi esercitarti
     un po' puoi recarti nell'aula alla tua sinistra.
   playerInRange: 0
+  signUI: {fileID: 1486748083}
 --- !u!61 &1986871729
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11949,6 +11964,7 @@ MonoBehaviour:
     alle 17:00. Si prega di non sostare in aula in orari al di fuori delle lezioni.
     Grazie."
   playerInRange: 0
+  signUI: {fileID: 0}
 --- !u!61 &2053535755
 BoxCollider2D:
   m_ObjectHideFlags: 0

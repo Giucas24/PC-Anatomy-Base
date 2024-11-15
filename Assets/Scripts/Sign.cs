@@ -10,6 +10,9 @@ public class Sign : MonoBehaviour
     public string dialog;
     public bool playerInRange;
 
+    public GameObject signUI;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,12 +27,28 @@ public class Sign : MonoBehaviour
             if (dialogBox.activeInHierarchy)
             {
                 dialogBox.SetActive(false);
+                ToggleSignUI();
             }
             else
             {
+                ToggleSignUI();
                 dialogBox.SetActive(true);
                 dialogText.text = dialog;
             }
+        }
+    }
+
+    private void ToggleSignUI()
+    {
+        if (signUI != null)
+        {
+            // Attiva o disattiva il Canvas
+            bool isActive = signUI.activeSelf;
+            signUI.SetActive(!isActive);
+        }
+        else
+        {
+            Debug.LogError("Il riferimento al Canvas del sign non è impostato!");
         }
     }
 

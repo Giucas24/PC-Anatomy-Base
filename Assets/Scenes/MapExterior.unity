@@ -40901,6 +40901,11 @@ TilemapCollider2D:
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
   m_UseDelaunayMesh: 0
+--- !u!1 &1619028818 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5494532355573914130, guid: 8e6dd11a37ea80b4599a84b8f638f130, type: 3}
+  m_PrefabInstance: {fileID: 2647697913186608016}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1699601613
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41224,6 +41229,7 @@ MonoBehaviour:
     classici: 2 \u20AC, Panzerotti piccanti 2,50 \u20AC, Assistenza informatica...
     ASPETTA COSA?!?! "
   playerInRange: 0
+  signUI: {fileID: 1619028818}
 --- !u!61 &2024796554
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -41526,9 +41532,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4867868322504371644, guid: 8e6dd11a37ea80b4599a84b8f638f130, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5494532355573914130, guid: 8e6dd11a37ea80b4599a84b8f638f130, type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 5494532355573914130, guid: 8e6dd11a37ea80b4599a84b8f638f130, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -41545,11 +41559,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 674933250439902273, guid: b3ad4ae618616fe40a6b422ca3aca6bd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -18.01
       objectReference: {fileID: 0}
     - target: {fileID: 674933250439902273, guid: b3ad4ae618616fe40a6b422ca3aca6bd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2
+      value: -30.98
       objectReference: {fileID: 0}
     - target: {fileID: 674933250439902273, guid: b3ad4ae618616fe40a6b422ca3aca6bd, type: 3}
       propertyPath: m_LocalPosition.z
@@ -41589,19 +41603,23 @@ PrefabInstance:
       objectReference: {fileID: 655222507}
     - target: {fileID: 4225902330006341814, guid: b3ad4ae618616fe40a6b422ca3aca6bd, type: 3}
       propertyPath: maxPosition.x
-      value: 20
+      value: 21.07
       objectReference: {fileID: 0}
     - target: {fileID: 4225902330006341814, guid: b3ad4ae618616fe40a6b422ca3aca6bd, type: 3}
       propertyPath: maxPosition.y
-      value: 13
+      value: 13.95
       objectReference: {fileID: 0}
     - target: {fileID: 4225902330006341814, guid: b3ad4ae618616fe40a6b422ca3aca6bd, type: 3}
       propertyPath: minPosition.x
-      value: -17
+      value: -18.01
       objectReference: {fileID: 0}
     - target: {fileID: 4225902330006341814, guid: b3ad4ae618616fe40a6b422ca3aca6bd, type: 3}
       propertyPath: minPosition.y
-      value: -30
+      value: -30.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 7564837311920748107, guid: b3ad4ae618616fe40a6b422ca3aca6bd, type: 3}
+      propertyPath: m_NormalizedViewPortRect.width
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8814012445918794731, guid: b3ad4ae618616fe40a6b422ca3aca6bd, type: 3}
       propertyPath: m_Name

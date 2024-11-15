@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 888007694986182585}
   - component: {fileID: 5794000756577251196}
   - component: {fileID: 7411744376928763496}
+  - component: {fileID: 2193563176030051370}
   - component: {fileID: 8343737495307018817}
   m_Layer: 0
   m_Name: Player
@@ -29,8 +30,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7780645400881510716}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.406416, y: 0.12477718, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -174,6 +175,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 8
   startingPosition: {fileID: 11400000, guid: 3d93962078d91b04b851b3d9cd97c6fc, type: 2}
+  isQuizActive: 0
+--- !u!114 &2193563176030051370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7780645400881510716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59d82b67110dc0b489099661d76c394d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skins:
+  - {fileID: -172408703, guid: 74a57d18037c49e499f8e8ef47ae7ea1, type: 3}
+  - {fileID: 1357997808, guid: 628636329f839434c98e30516cdfa56e, type: 3}
+  - {fileID: 380455600, guid: b80cfd5d375843b4d9cb19ce23f058ac, type: 3}
+  - {fileID: -1989382074, guid: c10df1a6fe150714c904fc41f5858829, type: 3}
+  animators:
+  - {fileID: 9100000, guid: c39671dd6b3598348b3cabc2b715d585, type: 2}
+  - {fileID: 9100000, guid: c9f1c495cf234874fb1ded9cb0a78b04, type: 2}
+  - {fileID: 9100000, guid: 207ca5047ac6c474787d6234f7b9a784, type: 2}
+  - {fileID: 9100000, guid: 81a820d738d6cfa42a866d252a7e3e22, type: 2}
+  playerSpriteRenderer: {fileID: 4479932089978104864}
+  playerAnimator: {fileID: 8343737495307018817}
+  skinOffsets:
+  - {x: -0.001586676, y: -0.4822091}
+  - {x: -0.02331376, y: -1.00249}
+  - {x: -0.02331376, y: -1.00249}
+  - {x: -0.02331376, y: -1.00249}
+  skinSizes:
+  - {x: 0.5065651, y: 0.2860013}
+  - {x: 1.051908, y: 0.5287452}
+  - {x: 1.051908, y: 0.5287452}
+  - {x: 1.051908, y: 0.5287452}
+  skinScales:
+  - {x: 1, y: 1, z: 1}
+  - {x: 0.6, y: 0.6, z: 0.6}
+  - {x: 0.6, y: 0.6, z: 0.6}
+  - {x: 0.6, y: 0.6, z: 0.6}
 --- !u!95 &8343737495307018817
 Animator:
   serializedVersion: 5
