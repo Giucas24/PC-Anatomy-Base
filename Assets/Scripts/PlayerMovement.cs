@@ -10,6 +10,8 @@ public class PlayerMovement : MonoBehaviour
     private Animator animator;
     public VectorValue startingPosition;
 
+    // Aggiungiamo una variabile per controllare se il quiz è attivo
+    public bool isQuizActive = false;
 
     // Start is called before the first frame update
     void Start()
@@ -22,11 +24,20 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        // Controlla se il quiz è attivo; se lo è, blocca il movimento
+        if (isQuizActive)
+        {
+            // Ferma il movimento e blocca l'animazione
+            change = Vector3.zero;
+            animator.SetBool("moving", false);
+            return;
+        }
+
+        // Se il quiz non è attivo, consenti il movimento
         change = Vector3.zero;
         change.x = Input.GetAxisRaw("Horizontal");
         change.y = Input.GetAxisRaw("Vertical");
         UpdateAnimationAndMove();
-
     }
 
     void UpdateAnimationAndMove()
@@ -52,5 +63,4 @@ public class PlayerMovement : MonoBehaviour
              transform.position + change.normalized * speed * Time.deltaTime
         );
     }
-
 }
