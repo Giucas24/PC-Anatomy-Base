@@ -5150,7 +5150,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.78431374}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -7990,7 +7990,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.75087}
+  m_AnchoredPosition: {x: 0, y: 0.750885}
   m_SizeDelta: {x: 0.000061035, y: -1.5018}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1637182020
@@ -8041,11 +8041,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 674933250439902273, guid: b3ad4ae618616fe40a6b422ca3aca6bd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.08
+      value: -1.99
       objectReference: {fileID: 0}
     - target: {fileID: 674933250439902273, guid: b3ad4ae618616fe40a6b422ca3aca6bd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.07
+      value: 1.94
       objectReference: {fileID: 0}
     - target: {fileID: 674933250439902273, guid: b3ad4ae618616fe40a6b422ca3aca6bd, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8085,23 +8085,27 @@ PrefabInstance:
       objectReference: {fileID: 1893497388}
     - target: {fileID: 4225902330006341814, guid: b3ad4ae618616fe40a6b422ca3aca6bd, type: 3}
       propertyPath: maxPosition.x
-      value: -2.93
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 4225902330006341814, guid: b3ad4ae618616fe40a6b422ca3aca6bd, type: 3}
       propertyPath: maxPosition.y
-      value: 1.02
+      value: 1.94
       objectReference: {fileID: 0}
     - target: {fileID: 4225902330006341814, guid: b3ad4ae618616fe40a6b422ca3aca6bd, type: 3}
       propertyPath: minPosition.x
-      value: -3.08
+      value: -4.02
       objectReference: {fileID: 0}
     - target: {fileID: 4225902330006341814, guid: b3ad4ae618616fe40a6b422ca3aca6bd, type: 3}
       propertyPath: minPosition.y
-      value: -1.07
+      value: -2.04
       objectReference: {fileID: 0}
     - target: {fileID: 7564837311920748107, guid: b3ad4ae618616fe40a6b422ca3aca6bd, type: 3}
       propertyPath: orthographic size
-      value: 5.9
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7564837311920748107, guid: b3ad4ae618616fe40a6b422ca3aca6bd, type: 3}
+      propertyPath: m_NormalizedViewPortRect.width
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8814012445918794731, guid: b3ad4ae618616fe40a6b422ca3aca6bd, type: 3}
       propertyPath: m_Name
@@ -8278,6 +8282,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11fadaf166642434fa65def6467563a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerMovement: {fileID: 1893497390}
   questions:
   - questionText: "Qual \xE8 il componente responsabile dell'elaborazione principale
       dei dati in un computer?"

@@ -20,6 +20,8 @@ public class QuizManager : MonoBehaviour
         public string correctAnswer;
     }
 
+    // Riferimento al PlayerMovement per controllare il movimento del giocatore
+    public PlayerMovement playerMovement;
     private List<AnswerSummary> answerSummaries = new List<AnswerSummary>();
 
     public List<Question> questions; // Lista delle domande
@@ -146,11 +148,13 @@ public class QuizManager : MonoBehaviour
 
         // Aggiungi il conteggio delle risposte corrette e sbagliate alla fine
         resultMessage += "<color=green>Risposte corrette: " + correctAnswersCount + "</color>\n";
-        resultMessage += "<color=red>Risposte errate: " + incorrectAnswersCount + "</color>";
+        resultMessage += "<color=red>Risposte errate: " + incorrectAnswersCount + "</color>\n\n";
+
+        // Aggiungi un'istruzione per chiudere il pannello dei risultati
+        resultMessage += "<i>Premi Invio per chiudere questo pannello e continuare il gioco.</i>";
 
         resultsText.text = resultMessage; // Assegna il testo formattato al componente Text
     }
-
 
     public void RestartQuiz()
     {
@@ -165,5 +169,28 @@ public class QuizManager : MonoBehaviour
 
         // Avvia una nuova partita
         LoadQuestion();
+    }
+
+    void Update()
+    {
+        // Controlla se il pannello dei risultati è attivo e l'utente preme Invio
+        if (resultsPanel.activeSelf && Input.GetKeyDown(KeyCode.Return))
+        {
+            // Chiudi il pannello dei risultati
+            resultsPanel.SetActive(false);
+
+            // Non riattivare il pannello delle domande né i bottoni delle risposte
+            questionPanel.SetActive(false);
+            foreach (Button btn in answerButtons)
+            {
+                btn.gameObject.SetActive(false);
+            }
+
+            // Permetti al giocatore di muoversi di nuovo
+            if (playerMovement != null)
+            {
+                playerMovement.isQuizActive = false;
+            }
+        }
     }
 }

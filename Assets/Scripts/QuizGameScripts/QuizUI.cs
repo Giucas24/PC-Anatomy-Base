@@ -30,3 +30,8 @@ public class QuizUI : MonoBehaviour
         ShowQuiz(); // Show the quiz UI again
     }
 }
+
+
+
+
+
