@@ -6,10 +6,11 @@ public class BookInteraction : MonoBehaviour
     public GameObject canvasLessonComponent;  // Riferimento al Canvas Lesson Component
     public LessonManager lessonManager;  // Riferimento al LessonManager per caricare le lezioni
 
-    private bool isBookOpened = false;  // Per tenere traccia dello stato del libro
+    public int bookIndex;  // Indice del libro per identificare la lezione
+    public string playerTag = "Player";  // Tag usato per identificare il giocatore
 
-    // Indice che rappresenta il libro attuale
-    public int bookIndex;  // Ad esempio 0 per il primo libro, 1 per il secondo, ecc.
+    private bool isPlayerNearby = false;  // Per verificare se il giocatore è vicino al libro
+    private bool isBookOpened = false;  // Per tenere traccia dello stato del libro
 
     void Start()
     {
@@ -18,8 +19,8 @@ public class BookInteraction : MonoBehaviour
 
     void Update()
     {
-        // Quando l'utente preme "spazio", alterna l'apertura e la chiusura del libro
-        if (Input.GetKeyDown(KeyCode.Space))
+        // Controlla se il giocatore è vicino e preme "spazio" per aprire o chiudere il libro
+        if (isPlayerNearby && Input.GetKeyDown(KeyCode.Space))
         {
             if (isBookOpened)
             {
@@ -74,5 +75,25 @@ public class BookInteraction : MonoBehaviour
     void ShowCanvasLessonComponent()
     {
         canvasLessonComponent.SetActive(true);  // Mostra il Canvas Lesson Component dopo l'animazione di apertura
+    }
+
+    // Metodo chiamato quando un oggetto entra nel trigger
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        // Controlla se l'oggetto che è entrato è il giocatore
+        if (collision.CompareTag(playerTag))
+        {
+            isPlayerNearby = true;  // Il giocatore è vicino
+        }
+    }
+
+    // Metodo chiamato quando un oggetto esce dal trigger
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        // Controlla se l'oggetto che è uscito è il giocatore
+        if (collision.CompareTag(playerTag))
+        {
+            isPlayerNearby = false;  // Il giocatore non è più vicino
+        }
     }
 }
