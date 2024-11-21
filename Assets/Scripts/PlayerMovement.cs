@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-
 public class PlayerMovement : MonoBehaviour
 {
     public float speed;
@@ -13,10 +12,11 @@ public class PlayerMovement : MonoBehaviour
     public VectorValue startingPositionDefault; // Posizione iniziale della scena
     public VectorValue startingPositionDynamic; // Posizione aggiornata dopo il cambio scena
 
-
-
     // Aggiungiamo una variabile per controllare se il quiz è attivo
     public bool isQuizActive = false;
+
+    // Aggiungiamo una variabile per verificare se il tutorial è attivo
+    public bool isTutorialActive = false;
 
     // Gestire una sola istanza del player tra le scene
     private static PlayerMovement instance;
@@ -47,21 +47,14 @@ public class PlayerMovement : MonoBehaviour
         animator = GetComponent<Animator>();
         myRigidBody = GetComponent<Rigidbody2D>();
         // Se la posizione dinamica è definita, usa quella; altrimenti usa la posizione predefinita
-        if (startingPositionDynamic.initialValue != Vector2.zero)
-        {
-            transform.position = startingPositionDynamic.initialValue;
-        }
-        else
-        {
-            transform.position = startingPositionDefault.initialValue;
-        }
+        transform.position = startingPositionDefault.initialValue;
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        // Controlla se il quiz è attivo; se lo è, blocca il movimento
-        if (isQuizActive)
+        // Controlla se il quiz è attivo o se il tutorial è attivo; se uno dei due lo è, blocca il movimento
+        if (isQuizActive || isTutorialActive)
         {
             // Ferma il movimento e blocca l'animazione
             change = Vector3.zero;
@@ -69,7 +62,7 @@ public class PlayerMovement : MonoBehaviour
             return;
         }
 
-        // Se il quiz non è attivo, consenti il movimento
+        // Se il quiz e il tutorial non sono attivi, consenti il movimento
         change = Vector3.zero;
         change.x = Input.GetAxisRaw("Horizontal");
         change.y = Input.GetAxisRaw("Vertical");
