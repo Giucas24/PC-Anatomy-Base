@@ -1,25 +1,26 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement; // Importa per gestire gli eventi di cambio scena
 
 public class CameraMovement : MonoBehaviour
 {
-
     public Transform target;
     public float smoothing;
     public Vector2 maxPosition;
     public Vector2 minPosition;
 
-    // Start is called before the first frame update
     void Start()
     {
+        if (target == null)
+        {
+            FindPlayer(); // Trova il player se non è stato assegnato
+        }
+
         transform.position = new Vector3(target.position.x, target.position.y, transform.position.z);
     }
 
-    // Update is called once per frame
     void LateUpdate()
     {
-        if (transform.position != target.position)
+        if (target != null)
         {
             Vector3 targetPosition = new Vector3(target.position.x, target.position.y, transform.position.z);
 
@@ -27,8 +28,40 @@ public class CameraMovement : MonoBehaviour
             targetPosition.y = Mathf.Clamp(targetPosition.y, minPosition.y, maxPosition.y);
 
             transform.position = Vector3.Lerp(transform.position, targetPosition, smoothing);
-
-
         }
     }
+
+    void OnEnable()
+    {
+        // Registra l'evento per il cambio di scena
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    void OnDisable()
+    {
+        // Deli­ga la registrazione quando l'oggetto viene distrutto
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        FindPlayer();  // Riassegna il target quando la scena è cambiata
+    }
+
+    private void FindPlayer()
+    {
+        // Cerca un oggetto con il tag "Player"
+        GameObject player = GameObject.FindWithTag("Player");
+
+        if (player != null)
+        {
+            target = player.transform;
+            Debug.Log("Player assegnato come target della camera.");
+        }
+        else
+        {
+            Debug.LogError("Player non trovato! Assicurati che il Player abbia il tag 'Player'.");
+        }
+    }
+
 }

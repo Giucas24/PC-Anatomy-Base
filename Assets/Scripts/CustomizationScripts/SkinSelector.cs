@@ -1,179 +1,180 @@
 using UnityEngine;
-using UnityEngine.UI;  // Per usare i Text di Unity
+using UnityEngine.UI;
 
 public class SkinSelector : MonoBehaviour
 {
-    public Sprite[] skins; // Array di sprite delle skin
-    public RuntimeAnimatorController[] animators; // Array di Animator Controllers per ciascuna skin
-    public SpriteRenderer playerSpriteRenderer; // Riferimento al componente SpriteRenderer del giocatore
-    public Animator playerAnimator; // Riferimento all'Animator del giocatore
-    private BoxCollider2D boxCollider; // Riferimento al BoxCollider2D del giocatore
-    public Vector2[] skinOffsets; // Array di offset per il Box Collider
-    public Vector2[] skinSizes; // Array di dimensioni per il Box Collider
-    public Vector3[] skinScales; // Array di scale personalizzate per ciascuna skin
-    public string[] skinNames; // Array di nomi delle skin
-    public Text[] skinNameTexts; // Array di Text per i nomi sotto i bottoni (se usi TextMeshPro, usa TMP_Text invece di Text)
-    public Button[] skinButtons; // Array di bottoni per ciascuna skin (bottoni UI)
-    public bool[] unlockedSkins; // Array che tiene traccia delle skin sbloccate (true se sbloccata)
-
-    private const string SelectedSkinKey = "SelectedSkin"; // Chiave per salvare la skin
-    private const string SelectedScaleKey = "SelectedScale"; // Chiave per salvare la scala
+    public Button[] skinButtons; // Bottoni per ciascuna skin
+    public Text[] skinNameTexts; // Testi per visualizzare i nomi delle skin
+    public SkinManager skinManager; // Riferimento a SkinManager
+    public Text selectedSkinNameText; // Riferimento al testo del nome della skin selezionata
+    public Image selectedSkinImage; // Riferimento all'immagine che mostra la skin selezionata
 
     void Start()
     {
-        // Ottieni il riferimento al BoxCollider2D del personaggio
-        boxCollider = GetComponent<BoxCollider2D>();
+        // Se il skinManager non è assegnato nell'Inspector, cerchiamolo dinamicamente
+        if (skinManager == null)
+        {
+            skinManager = FindObjectOfType<SkinManager>();
+            if (skinManager == null)
+            {
+                Debug.LogError("SkinManager non trovato nella scena!");
+                return;
+            }
+        }
 
-        // Carica la skin salvata
-        int savedSkinIndex = PlayerPrefs.GetInt(SelectedSkinKey, 0); // Carica l'indice salvato (0 se non esiste)
-        ChangeSkin(savedSkinIndex);
+        // Inizializza l'immagine e il nome della skin attualmente selezionata
+        InitializeSelectedSkin();
 
-        // Carica la scala salvata
-        Vector3 savedScale = LoadScale(savedSkinIndex);
-        transform.localScale = savedScale;
+        // Aggiungi listeners per ogni bottone per cambiare la skin
+        for (int i = 0; i < skinButtons.Length; i++)
+        {
+            int index = i; // Necessario per evitare errori di riferimento
+            skinButtons[i].onClick.AddListener(() => OnSkinSelected(index));
+        }
 
-        // Aggiorna i nomi sotto i bottoni
+        // Aggiorna i bottoni e i nomi
         UpdateSkinButtonNames();
 
-        // Gestisci l'abilitazione/disabilitazione dei bottoni in base alle skin sbloccate
-        UpdateSkinButtons();
+        // Aggiorna lo stato di interazione dei bottoni in base alle skin sbloccate
+        UpdateSkinButtonInteractableStatus();
     }
 
-    public void ChangeSkin(int skinIndex)
+    // Gestisce la selezione della skin
+    void OnSkinSelected(int skinIndex)
     {
-        // Verifica che l'indice sia valido
-        if (skinIndex >= 0 && skinIndex < skins.Length)
+        if (skinManager != null)
         {
-            // Cambia lo sprite della skin
-            if (playerSpriteRenderer != null)
+            skinManager.ChangeSkin(skinIndex); // Chiede a SkinManager di cambiare la skin
+            UpdateSelectedSkinImageFromButton(skinIndex); // Aggiorna l'immagine e il nome selezionato
+        }
+        else
+        {
+            Debug.LogError("SkinManager non assegnato correttamente!");
+        }
+    }
+
+    // Inizializza l'immagine e il nome della skin attualmente selezionata
+    void InitializeSelectedSkin()
+    {
+        // Ottieni l'indice della skin attualmente selezionata
+        int selectedSkinIndex = PlayerPrefs.GetInt("SelectedSkin", 0); // Default a 0
+
+        // Assicurati che l'indice sia valido
+        if (selectedSkinIndex >= 0 && selectedSkinIndex < skinManager.GetSkinCount())
+        {
+            // Imposta l'immagine della skin corrente
+            selectedSkinImage.sprite = skinManager.skins[selectedSkinIndex];
+
+            // Imposta il nome della skin corrente
+            selectedSkinNameText.text = skinManager.skinNames[selectedSkinIndex];
+
+            // Aggiorna anche la posizione, la dimensione e la scala
+            UpdateSelectedSkinImageFromButton(selectedSkinIndex);
+        }
+        else
+        {
+            Debug.LogError("Indice della skin selezionata non valido!");
+        }
+    }
+
+    // Aggiorna i nomi sotto i bottoni
+    void UpdateSkinButtonNames()
+    {
+        // Chiedi a SkinManager di restituire i nomi delle skin
+        for (int i = 0; i < skinNameTexts.Length; i++)
+        {
+            // Verifica che l'indice della skin sia valido
+            if (skinManager != null && i < skinManager.GetSkinCount())
             {
-                playerSpriteRenderer.sprite = skins[skinIndex];
+                skinNameTexts[i].text = skinManager.GetSkinName(i); // Ottieni il nome della skin dal SkinManager
+            }
+        }
+    }
+
+    // Aggiorna lo stato dei bottoni in base alle skin sbloccate
+    void UpdateSkinButtonInteractableStatus()
+    {
+        for (int i = 0; i < skinButtons.Length; i++)
+        {
+            if (skinManager != null && i < skinManager.unlockedSkins.Length)
+            {
+                // Abilita o disabilita il pulsante in base allo stato di sblocco
+                skinButtons[i].interactable = skinManager.unlockedSkins[i];
             }
             else
             {
-                Debug.LogError("playerSpriteRenderer non è stato assegnato!");
+                Debug.LogWarning($"Indice {i} fuori dai limiti di unlockedSkins o SkinManager non configurato.");
             }
+        }
+    }
 
-            // Cambia l'Animator Controller per la skin selezionata
-            if (playerAnimator != null)
-            {
-                playerAnimator.runtimeAnimatorController = animators[skinIndex];
-            }
-            else
-            {
-                Debug.LogError("playerAnimator non è stato assegnato!");
-            }
+    // Metodo per aggiornare l'immagine e il nome della skin selezionata (già esistente, rimane invariato)
+    void UpdateSelectedSkinImageFromButton(int buttonIndex)
+    {
+        Debug.Log($"UpdateSelectedSkinImageFromButton chiamato con buttonIndex: {buttonIndex}");
 
-            // Ridimensiona il personaggio per adattarlo alla nuova skin
-            if (skinIndex < skinScales.Length)
-            {
-                Vector3 targetScale = skinScales[skinIndex];
-                transform.localScale = targetScale;
+        if (skinButtons == null || skinButtons.Length == 0)
+        {
+            Debug.LogError("La lista dei bottoni è vuota o non inizializzata!");
+            return;
+        }
 
-                // Salva la scala selezionata
-                SaveScale(skinIndex, targetScale);
-            }
-            else
-            {
-                Debug.LogWarning("Nessuna scala specificata per questa skin. Scala predefinita utilizzata.");
-                transform.localScale = Vector3.one;
-            }
+        if (buttonIndex < 0 || buttonIndex >= skinButtons.Length)
+        {
+            Debug.LogError($"Indice del bottone non valido: {buttonIndex}. Deve essere tra 0 e {skinButtons.Length - 1}.");
+            return;
+        }
 
-            // Aggiorna le dimensioni e la posizione del Box Collider
-            if (boxCollider != null)
+        if (selectedSkinImage == null || selectedSkinNameText == null)
+        {
+            Debug.LogError("SelectedSkinImage o SelectedSkinName non sono configurati correttamente nell'Inspector!");
+            return;
+        }
+
+        // Ottieni il RectTransform del bottone selezionato
+        RectTransform buttonRect = skinButtons[buttonIndex].GetComponent<RectTransform>();
+        if (buttonRect != null)
+        {
+            RectTransform selectedSkinRect = selectedSkinImage.GetComponent<RectTransform>();
+            if (selectedSkinRect != null)
             {
-                if (skinIndex < skinSizes.Length)
+                // Aggiorna scala e dimensioni dell'immagine
+                selectedSkinRect.localScale = buttonRect.localScale;
+                selectedSkinRect.sizeDelta = buttonRect.sizeDelta;
+
+                // Aggiorna lo sprite dell'immagine
+                selectedSkinImage.sprite = skinManager.skins[buttonIndex];
+
+                // Aggiorna il nome della skin
+                selectedSkinNameText.text = skinManager.skinNames[buttonIndex];
+
+                // Ottieni il RectTransform del nome della skin del bottone
+                RectTransform skinNameRect = skinNameTexts[buttonIndex].GetComponent<RectTransform>();
+                if (skinNameRect != null)
                 {
-                    boxCollider.size = skinSizes[skinIndex];
-                }
-                else
-                {
-                    Debug.LogWarning("Nessuna dimensione specificata per questa skin. Dimensioni predefinite utilizzate.");
-                    boxCollider.size = new Vector2(1f, 1f); // Dimensione fissa desiderata
+                    // Copia la posizione, le dimensioni e la scala del Text del bottone
+                    selectedSkinNameText.rectTransform.localPosition = skinNameRect.localPosition;
+                    selectedSkinNameText.rectTransform.sizeDelta = skinNameRect.sizeDelta;
+                    selectedSkinNameText.rectTransform.localScale = skinNameRect.localScale;
+
+                    // Assicurati che la scala sia corretta (mantieni la scala originale)
+                    selectedSkinNameText.rectTransform.localScale = skinNameRect.localScale;
                 }
 
-                if (skinIndex < skinOffsets.Length)
-                {
-                    boxCollider.offset = skinOffsets[skinIndex];
-                }
-                else
-                {
-                    Debug.LogWarning("Nessun offset specificato per questa skin. Offset predefinito utilizzato.");
-                    boxCollider.offset = Vector2.zero; // Usa un offset predefinito
-                }
-            }
+                // Forza il ridisegno della UI
+                Canvas.ForceUpdateCanvases();
+                selectedSkinImage.SetAllDirty();
 
-            // Salva la skin selezionata
-            PlayerPrefs.SetInt(SelectedSkinKey, skinIndex);
-            PlayerPrefs.Save();
-
-            // Stampa o utilizza il nome della skin
-            if (skinIndex < skinNames.Length)
-            {
-                Debug.Log("Skin cambiata in: " + skinNames[skinIndex]);
+                Debug.Log($"SelectedSkin aggiornata: scala {selectedSkinRect.localScale}, dimensioni {selectedSkinRect.sizeDelta}, sprite {selectedSkinImage.sprite.name}, nome {selectedSkinNameText.text}");
             }
             else
             {
-                Debug.LogWarning("Nome non specificato per questa skin.");
-            }
-
-            // Aggiorna il nome della skin sotto il bottone
-            if (skinIndex < skinNameTexts.Length && skinNameTexts[skinIndex] != null)
-            {
-                skinNameTexts[skinIndex].text = skinNames[skinIndex]; // Aggiorna il testo sotto il bottone
-            }
-            else
-            {
-                Debug.LogError("skinNameTexts o il suo indice non è valido");
+                Debug.LogError("SelectedSkinImage non ha un componente RectTransform!");
             }
         }
         else
         {
-            Debug.LogError("Indice della skin non valido");
-        }
-    }
-
-
-    private void SaveScale(int skinIndex, Vector3 scale)
-    {
-        // Salva la scala per ciascun asse (x, y, z)
-        PlayerPrefs.SetFloat($"{SelectedScaleKey}_X_{skinIndex}", scale.x);
-        PlayerPrefs.SetFloat($"{SelectedScaleKey}_Y_{skinIndex}", scale.y);
-        PlayerPrefs.SetFloat($"{SelectedScaleKey}_Z_{skinIndex}", scale.z);
-        PlayerPrefs.Save();
-    }
-
-    private Vector3 LoadScale(int skinIndex)
-    {
-        // Carica la scala per ciascun asse (x, y, z)
-        float x = PlayerPrefs.GetFloat($"{SelectedScaleKey}_X_{skinIndex}", 1f); // Default 1
-        float y = PlayerPrefs.GetFloat($"{SelectedScaleKey}_Y_{skinIndex}", 1f); // Default 1
-        float z = PlayerPrefs.GetFloat($"{SelectedScaleKey}_Z_{skinIndex}", 1f); // Default 1
-        return new Vector3(x, y, z);
-    }
-
-    private void UpdateSkinButtonNames()
-    {
-        // Assicurati che i nomi delle skin siano aggiornati sotto ogni bottone
-        for (int i = 0; i < skinNameTexts.Length; i++)
-        {
-            if (i < skinNames.Length)
-            {
-                skinNameTexts[i].text = skinNames[i]; // Assegna il nome della skin al testo sotto il bottone
-            }
-        }
-    }
-
-    private void UpdateSkinButtons()
-    {
-        // Gestisci l'abilitazione dei bottoni in base alle skin sbloccate
-        for (int i = 0; i < skinButtons.Length; i++)
-        {
-            if (i < unlockedSkins.Length)
-            {
-                // Disabilita i bottoni per le skin non sbloccate
-                skinButtons[i].interactable = unlockedSkins[i];
-            }
+            Debug.LogError($"Il bottone all'indice {buttonIndex} non ha un RectTransform!");
         }
     }
 }

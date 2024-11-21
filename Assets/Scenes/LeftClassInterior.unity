@@ -4751,87 +4751,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!1001 &775497222
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 888007694986182585, guid: a7e86f93a0ccfa44d824a8175fecd3bc, type: 3}
-      propertyPath: m_Simulated
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 888007694986182585, guid: a7e86f93a0ccfa44d824a8175fecd3bc, type: 3}
-      propertyPath: m_CollisionDetection
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2329681396376234457, guid: a7e86f93a0ccfa44d824a8175fecd3bc, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -2.73
-      objectReference: {fileID: 0}
-    - target: {fileID: 2329681396376234457, guid: a7e86f93a0ccfa44d824a8175fecd3bc, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.22
-      objectReference: {fileID: 0}
-    - target: {fileID: 2329681396376234457, guid: a7e86f93a0ccfa44d824a8175fecd3bc, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2329681396376234457, guid: a7e86f93a0ccfa44d824a8175fecd3bc, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2329681396376234457, guid: a7e86f93a0ccfa44d824a8175fecd3bc, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2329681396376234457, guid: a7e86f93a0ccfa44d824a8175fecd3bc, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2329681396376234457, guid: a7e86f93a0ccfa44d824a8175fecd3bc, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2329681396376234457, guid: a7e86f93a0ccfa44d824a8175fecd3bc, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2329681396376234457, guid: a7e86f93a0ccfa44d824a8175fecd3bc, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2329681396376234457, guid: a7e86f93a0ccfa44d824a8175fecd3bc, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4479932089978104864, guid: a7e86f93a0ccfa44d824a8175fecd3bc, type: 3}
-      propertyPath: m_SortingLayer
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4479932089978104864, guid: a7e86f93a0ccfa44d824a8175fecd3bc, type: 3}
-      propertyPath: m_SortingOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4479932089978104864, guid: a7e86f93a0ccfa44d824a8175fecd3bc, type: 3}
-      propertyPath: m_SortingLayerID
-      value: 113142381
-      objectReference: {fileID: 0}
-    - target: {fileID: 5794000756577251196, guid: a7e86f93a0ccfa44d824a8175fecd3bc, type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7780645400881510716, guid: a7e86f93a0ccfa44d824a8175fecd3bc, type: 3}
-      propertyPath: m_Name
-      value: Player
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: a7e86f93a0ccfa44d824a8175fecd3bc, type: 3}
 --- !u!1 &879613597
 GameObject:
   m_ObjectHideFlags: 0
@@ -5301,6 +5220,71 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1008199479}
   m_CullTransparentMesh: 1
+--- !u!1001 &1151619902
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2329681396376234457, guid: a7e86f93a0ccfa44d824a8175fecd3bc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 2329681396376234457, guid: a7e86f93a0ccfa44d824a8175fecd3bc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 2329681396376234457, guid: a7e86f93a0ccfa44d824a8175fecd3bc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2329681396376234457, guid: a7e86f93a0ccfa44d824a8175fecd3bc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2329681396376234457, guid: a7e86f93a0ccfa44d824a8175fecd3bc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2329681396376234457, guid: a7e86f93a0ccfa44d824a8175fecd3bc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2329681396376234457, guid: a7e86f93a0ccfa44d824a8175fecd3bc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2329681396376234457, guid: a7e86f93a0ccfa44d824a8175fecd3bc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2329681396376234457, guid: a7e86f93a0ccfa44d824a8175fecd3bc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2329681396376234457, guid: a7e86f93a0ccfa44d824a8175fecd3bc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7411744376928763496, guid: a7e86f93a0ccfa44d824a8175fecd3bc, type: 3}
+      propertyPath: startingPositionDefault
+      value: 
+      objectReference: {fileID: 11400000, guid: c5b1d88582a25bc469696ef3da92ea78, type: 2}
+    - target: {fileID: 7411744376928763496, guid: a7e86f93a0ccfa44d824a8175fecd3bc, type: 3}
+      propertyPath: startingPositionDynamic
+      value: 
+      objectReference: {fileID: 11400000, guid: 85ce031d27c29bc49b42461d44f33dd8, type: 2}
+    - target: {fileID: 7780645400881510716, guid: a7e86f93a0ccfa44d824a8175fecd3bc, type: 3}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a7e86f93a0ccfa44d824a8175fecd3bc, type: 3}
 --- !u!1 &1246317089
 GameObject:
   m_ObjectHideFlags: 0
@@ -5432,6 +5416,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1271796451}
   - component: {fileID: 1271796452}
+  - component: {fileID: 1271796453}
   m_Layer: 5
   m_Name: QuizUI
   m_TagString: Untagged
@@ -5472,7 +5457,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   quizCanvas: {fileID: 1483211934}
   quizManager: {fileID: 1915665301}
-  playerMovement: {fileID: 1893497390}
+  playerMovement: {fileID: 1271796453}
+--- !u!114 &1271796453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1271796450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04ad53a040ba2b145a821ca64d3c1649, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 8
+  startingPositionDefault: {fileID: 11400000, guid: c5b1d88582a25bc469696ef3da92ea78, type: 2}
+  startingPositionDynamic: {fileID: 11400000, guid: 85ce031d27c29bc49b42461d44f33dd8, type: 2}
+  isQuizActive: 0
 --- !u!1 &1307525914
 GameObject:
   m_ObjectHideFlags: 0
@@ -5960,6 +5961,63 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1001 &1508870741
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 378433819000429766, guid: 84d77e294ab3d1d478c14f11f3a7e256, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.8711303
+      objectReference: {fileID: 0}
+    - target: {fileID: 378433819000429766, guid: 84d77e294ab3d1d478c14f11f3a7e256, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.36728418
+      objectReference: {fileID: 0}
+    - target: {fileID: 378433819000429766, guid: 84d77e294ab3d1d478c14f11f3a7e256, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -9.946989
+      objectReference: {fileID: 0}
+    - target: {fileID: 378433819000429766, guid: 84d77e294ab3d1d478c14f11f3a7e256, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 378433819000429766, guid: 84d77e294ab3d1d478c14f11f3a7e256, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 378433819000429766, guid: 84d77e294ab3d1d478c14f11f3a7e256, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 378433819000429766, guid: 84d77e294ab3d1d478c14f11f3a7e256, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 378433819000429766, guid: 84d77e294ab3d1d478c14f11f3a7e256, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 378433819000429766, guid: 84d77e294ab3d1d478c14f11f3a7e256, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 378433819000429766, guid: 84d77e294ab3d1d478c14f11f3a7e256, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1802563100057305268, guid: 84d77e294ab3d1d478c14f11f3a7e256, type: 3}
+      propertyPath: m_Name
+      value: SkinManager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 84d77e294ab3d1d478c14f11f3a7e256, type: 3}
 --- !u!1001 &1539871094
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5984,6 +6042,10 @@ PrefabInstance:
       propertyPath: playerPosition.y
       value: 3.5
       objectReference: {fileID: 0}
+    - target: {fileID: 721512460776254794, guid: 757714196991d3e4ca412ab52bafb81e, type: 3}
+      propertyPath: startingPositionDynamic
+      value: 
+      objectReference: {fileID: 11400000, guid: 85ce031d27c29bc49b42461d44f33dd8, type: 2}
     - target: {fileID: 1277151522775595580, guid: 757714196991d3e4ca412ab52bafb81e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.93
@@ -8031,6 +8093,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1637182018}
   m_CullTransparentMesh: 1
+--- !u!114 &1650094271 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7411744376928763496, guid: a7e86f93a0ccfa44d824a8175fecd3bc, type: 3}
+  m_PrefabInstance: {fileID: 1151619902}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04ad53a040ba2b145a821ca64d3c1649, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1650094276 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2329681396376234457, guid: a7e86f93a0ccfa44d824a8175fecd3bc, type: 3}
+  m_PrefabInstance: {fileID: 1151619902}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1752976860
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8082,7 +8160,7 @@ PrefabInstance:
     - target: {fileID: 4225902330006341814, guid: b3ad4ae618616fe40a6b422ca3aca6bd, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 1893497388}
+      objectReference: {fileID: 1650094276}
     - target: {fileID: 4225902330006341814, guid: b3ad4ae618616fe40a6b422ca3aca6bd, type: 3}
       propertyPath: maxPosition.x
       value: -2
@@ -8237,22 +8315,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1834272825}
   m_CullTransparentMesh: 1
---- !u!4 &1893497388 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2329681396376234457, guid: a7e86f93a0ccfa44d824a8175fecd3bc, type: 3}
-  m_PrefabInstance: {fileID: 775497222}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1893497390 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7411744376928763496, guid: a7e86f93a0ccfa44d824a8175fecd3bc, type: 3}
-  m_PrefabInstance: {fileID: 775497222}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 04ad53a040ba2b145a821ca64d3c1649, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1915665300
 GameObject:
   m_ObjectHideFlags: 0
@@ -8282,32 +8344,64 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11fadaf166642434fa65def6467563a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerMovement: {fileID: 1893497390}
+  playerMovement: {fileID: 1650094271}
   questions:
-  - questionText: "Qual \xE8 il componente responsabile dell'elaborazione principale
-      dei dati in un computer?"
+  - questionText: Quale componente fornisce alimentazione elettrica a tutti gli altri
+      componenti di un computer?
     answers:
-    - RAM
     - CPU
-    - Hard Disk
-    - Scheda Grafica
-    correctAnswerIndex: 1
-  - questionText: Quale componente memorizza temporaneamente i dati durante l'esecuzione
-      di programmi?
-    answers:
-    - SSD
-    - ROM
-    - RAM
     - PSU
-    correctAnswerIndex: 2
-  - questionText: "Quale dispositivo \xE8 responsabile della memorizzazione permanente
-      dei dati anche quando il computer \xE8 spento?"
+    - Scheda Madre
+    - GPU
+    correctAnswerIndex: 1
+  - questionText: Quale componente fornisce alimentazione elettrica a tutti gli altri
+      componenti di un computer?
     answers:
-    - RAM
-    - Scheda madre
-    - SSD
     - CPU
-    correctAnswerIndex: 2
+    - PSU
+    - Scheda Madre
+    - GPU
+    correctAnswerIndex: 1
+  - questionText: Quale componente fornisce alimentazione elettrica a tutti gli altri
+      componenti di un computer?
+    answers:
+    - CPU
+    - PSU
+    - Scheda Madre
+    - GPU
+    correctAnswerIndex: 1
+  - questionText: Quale componente fornisce alimentazione elettrica a tutti gli altri
+      componenti di un computer?
+    answers:
+    - CPU
+    - PSU
+    - Scheda Madre
+    - GPU
+    correctAnswerIndex: 1
+  - questionText: Quale componente fornisce alimentazione elettrica a tutti gli altri
+      componenti di un computer?
+    answers:
+    - CPU
+    - PSU
+    - Scheda Madre
+    - GPU
+    correctAnswerIndex: 1
+  - questionText: Quale componente fornisce alimentazione elettrica a tutti gli altri
+      componenti di un computer?
+    answers:
+    - CPU
+    - PSU
+    - Scheda Madre
+    - GPU
+    correctAnswerIndex: 1
+  - questionText: Quale componente fornisce alimentazione elettrica a tutti gli altri
+      componenti di un computer?
+    answers:
+    - CPU
+    - PSU
+    - Scheda Madre
+    - GPU
+    correctAnswerIndex: 1
   - questionText: Quale componente fornisce alimentazione elettrica a tutti gli altri
       componenti di un computer?
     answers:
@@ -8444,5 +8538,6 @@ SceneRoots:
   - {fileID: 1539871094}
   - {fileID: 1483211938}
   - {fileID: 1915665302}
-  - {fileID: 775497222}
   - {fileID: 1307525917}
+  - {fileID: 1151619902}
+  - {fileID: 1508870741}

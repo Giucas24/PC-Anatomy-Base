@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1802563100057305268
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 378433819000429766}
+  - component: {fileID: 3344603378377260884}
+  m_Layer: 0
+  m_Name: SkinManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &378433819000429766
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802563100057305268}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.8711303, y: -0.36728418, z: -9.946989}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3344603378377260884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802563100057305268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24b3f6417fee5e64b85bd18c8b74ebf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skins:
+  - {fileID: -172408703, guid: 74a57d18037c49e499f8e8ef47ae7ea1, type: 3}
+  - {fileID: 1357997808, guid: 628636329f839434c98e30516cdfa56e, type: 3}
+  - {fileID: 380455600, guid: b80cfd5d375843b4d9cb19ce23f058ac, type: 3}
+  - {fileID: -1989382074, guid: c10df1a6fe150714c904fc41f5858829, type: 3}
+  - {fileID: 1487892502, guid: 1a5eed8515fac8349b9fffedea420b50, type: 3}
+  - {fileID: 1895888798, guid: 97ba8ba69a12da14680d9a80f3ea440b, type: 3}
+  - {fileID: 1096046192, guid: 75395460cddaf734d8bd35041f45dc53, type: 3}
+  - {fileID: -1303913001, guid: a833d0478e2789c4382304569ed6a44b, type: 3}
+  animators:
+  - {fileID: 9100000, guid: c39671dd6b3598348b3cabc2b715d585, type: 2}
+  - {fileID: 9100000, guid: c9f1c495cf234874fb1ded9cb0a78b04, type: 2}
+  - {fileID: 9100000, guid: 207ca5047ac6c474787d6234f7b9a784, type: 2}
+  - {fileID: 9100000, guid: 81a820d738d6cfa42a866d252a7e3e22, type: 2}
+  - {fileID: 9100000, guid: a92128357e6432a40890436d9ef11500, type: 2}
+  - {fileID: 9100000, guid: 34710764857e822488211f47f13fdc98, type: 2}
+  - {fileID: 9100000, guid: e41fc5764f3bb6247896b8f339d8c337, type: 2}
+  - {fileID: 9100000, guid: 59f091895534a9b419baa92eda4c7fd8, type: 2}
+  skinOffsets:
+  - {x: -0.001586676, y: -0.4822091}
+  - {x: -0.02331376, y: -1.00249}
+  - {x: -0.02331376, y: -1.00249}
+  - {x: -0.02331376, y: -1.00249}
+  - {x: -0.02331376, y: -1.00249}
+  - {x: -0.02331376, y: -1.00249}
+  - {x: -0.02331376, y: -1.00249}
+  - {x: -0.02331376, y: -1.00249}
+  skinSizes:
+  - {x: 0.5065651, y: 0.2860013}
+  - {x: 1.051908, y: 0.5287452}
+  - {x: 1.051908, y: 0.5287452}
+  - {x: 1.051908, y: 0.5287452}
+  - {x: 1.051908, y: 0.5287452}
+  - {x: 1.051908, y: 0.5287452}
+  - {x: 1.051908, y: 0.5287452}
+  - {x: 1.051908, y: 0.5287452}
+  skinScales:
+  - {x: 1, y: 1, z: 1}
+  - {x: 0.6, y: 0.6, z: 0.6}
+  - {x: 0.6, y: 0.6, z: 0.6}
+  - {x: 0.6, y: 0.6, z: 0.6}
+  - {x: 0.6, y: 0.6, z: 0.6}
+  - {x: 0.6, y: 0.6, z: 0.6}
+  - {x: 0.6, y: 0.6, z: 0.6}
+  - {x: 0.6, y: 0.6, z: 0.6}
+  skinNames:
+  - Base guy
+  - Orange
+  - Elsa
+  - Merchant
+  - Shady guy
+  - 'Waiter '
+  - Cool girl
+  - Green guy
+  unlockedSkins: 0101010000000000

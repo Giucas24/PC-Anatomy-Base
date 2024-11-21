@@ -37,8 +37,14 @@ public class QuizManager : MonoBehaviour
     // Aggiungi questi nuovi riferimenti
     public GameObject questionPanel; // Il pannello che contiene le domande e le risposte
 
+    // Riferimento al SkinManager (è un oggetto che persiste tra le scene)
+    private SkinManager skinManager;
+
     void Start()
     {
+        // Recupera il riferimento a SkinManager tramite il suo singleton (che persiste tra le scene)
+        skinManager = FindObjectOfType<SkinManager>();
+
         resultsPanel.SetActive(false); // Nascondi i risultati all'inizio
         questionPanel.SetActive(false); // Nascondi il pannello delle domande
     }
@@ -150,11 +156,25 @@ public class QuizManager : MonoBehaviour
         resultMessage += "<color=green>Risposte corrette: " + correctAnswersCount + "</color>\n";
         resultMessage += "<color=red>Risposte errate: " + incorrectAnswersCount + "</color>\n\n";
 
+        // Modifica il messaggio a seconda se il giocatore ha sbloccato una skin
+        if (correctAnswersCount >= 8)
+        {
+            // Sblocca una skin. Ad esempio, sblocca la prima skin
+            if (SkinManager.Instance != null)
+            {
+                SkinManager.Instance.UnlockSkin(7); // Indice 0 per sbloccare la prima skin
+                // Hai sbloccato una nuova skin!
+                resultMessage += "<color=Green><b>Congratulazioni! Hai sbloccato una nuova skin!</b></color>\n\n";
+            }
+
+        }
+
         // Aggiungi un'istruzione per chiudere il pannello dei risultati
         resultMessage += "<i>Premi Invio per chiudere questo pannello e continuare il gioco.</i>";
 
         resultsText.text = resultMessage; // Assegna il testo formattato al componente Text
     }
+
 
     public void RestartQuiz()
     {

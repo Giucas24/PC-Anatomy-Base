@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -8,17 +10,51 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D myRigidBody;
     private Vector3 change;
     private Animator animator;
-    public VectorValue startingPosition;
+    public VectorValue startingPositionDefault; // Posizione iniziale della scena
+    public VectorValue startingPositionDynamic; // Posizione aggiornata dopo il cambio scena
+
+
 
     // Aggiungiamo una variabile per controllare se il quiz è attivo
     public bool isQuizActive = false;
 
+    // Gestire una sola istanza del player tra le scene
+    private static PlayerMovement instance;
+
+    // Variabile per controllare se il salvataggio è temporaneamente disabilitato
+    private bool preventPositionUpdate = false;
+
+    // Metodo per disabilitare temporaneamente il salvataggio della posizione
+    public void PreventPositionUpdate()
+    {
+        preventPositionUpdate = true;
+    }
+
     // Start is called before the first frame update
     void Start()
     {
+        // Se esiste già un'istanza del player, distruggiamo quella nuova
+        if (instance != null)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
+        // Altrimenti, impostiamo l'istanza e non distruggiamo questo oggetto al cambio di scena
+        instance = this;
+        DontDestroyOnLoad(gameObject);  // Mantenere il player tra le scene
+
         animator = GetComponent<Animator>();
         myRigidBody = GetComponent<Rigidbody2D>();
-        transform.position = startingPosition.initialValue;
+        // Se la posizione dinamica è definita, usa quella; altrimenti usa la posizione predefinita
+        if (startingPositionDynamic.initialValue != Vector2.zero)
+        {
+            transform.position = startingPositionDynamic.initialValue;
+        }
+        else
+        {
+            transform.position = startingPositionDefault.initialValue;
+        }
     }
 
     // Update is called once per frame
@@ -38,6 +74,23 @@ public class PlayerMovement : MonoBehaviour
         change.x = Input.GetAxisRaw("Horizontal");
         change.y = Input.GetAxisRaw("Vertical");
         UpdateAnimationAndMove();
+    }
+
+    void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        // Applica la posizione dinamica solo dopo il caricamento
+        Debug.Log("Posizionamento Player nella scena: " + scene.name + " a " + startingPositionDynamic.initialValue);
+        transform.position = startingPositionDynamic.initialValue;
     }
 
     void UpdateAnimationAndMove()

@@ -9,19 +9,48 @@ public class QuizUI : MonoBehaviour
     private void Start()
     {
         quizCanvas.SetActive(false); // Hide the quiz canvas at the start
+
+        // Trova automaticamente PlayerMovement se non è già assegnato
+        if (playerMovement == null)
+        {
+            playerMovement = FindObjectOfType<PlayerMovement>();
+            if (playerMovement == null)
+            {
+                Debug.LogError("PlayerMovement non trovato nella scena. Verifica che esista un oggetto con PlayerMovement.");
+            }
+            else
+            {
+                Debug.Log("PlayerMovement trovato nella scena.");
+            }
+        }
+        else
+        {
+            Debug.Log("PlayerMovement già assegnato.");
+        }
     }
 
     public void ShowQuiz()
     {
-        quizCanvas.SetActive(true);
-        playerMovement.isQuizActive = true; // Blocca il movimento del player
-        quizManager.StartQuiz(); // Start the quiz when showing the UI
+        // Verifica se playerMovement è stato trovato
+        if (playerMovement != null)
+        {
+            quizCanvas.SetActive(true);
+            playerMovement.isQuizActive = true; // Blocca il movimento del player
+            quizManager.StartQuiz(); // Start the quiz when showing the UI
+        }
+        else
+        {
+            Debug.LogError("PlayerMovement non è stato trovato, non posso avviare il quiz.");
+        }
     }
 
     public void HideQuiz()
     {
+        if (playerMovement != null)
+        {
+            playerMovement.isQuizActive = false; // Sblocca il movimento del player
+        }
         quizCanvas.SetActive(false);
-        playerMovement.isQuizActive = false; // Sblocca il movimento del player
     }
 
     public void RestartQuiz()
@@ -30,8 +59,3 @@ public class QuizUI : MonoBehaviour
         ShowQuiz(); // Show the quiz UI again
     }
 }
-
-
-
-
-
