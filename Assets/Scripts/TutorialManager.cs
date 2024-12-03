@@ -1,18 +1,17 @@
 using UnityEngine;
-using UnityEngine.UI;
+using TMPro; // Aggiungi la libreria TextMeshPro
 using UnityEngine.SceneManagement;
 
 public class TutorialManager : MonoBehaviour
 {
     public GameObject tutorialBox; // Riferimento al TutorialBox
-    public Text tutorialText; // Riferimento al testo del tutorial
+    public TextMeshProUGUI tutorialText; // Modificato da Text a TextMeshProUGUI
     private bool isVisible = false; // Stato iniziale del TutorialBox
     public PlayerMovement playerMovement; // Riferimento allo script PlayerMovement
     private static TutorialManager instance; // Singleton
 
     void Awake()
     {
-        // Implementazione del pattern Singleton
         if (instance == null)
         {
             instance = this;
@@ -26,7 +25,6 @@ public class TutorialManager : MonoBehaviour
 
     void Start()
     {
-        // Assicurati che il TutorialBox sia nascosto all'inizio
         if (tutorialBox != null)
         {
             tutorialBox.SetActive(isVisible);
@@ -36,16 +34,12 @@ public class TutorialManager : MonoBehaviour
             Debug.LogWarning("TutorialBox non assegnato nel pannello Inspector!");
         }
 
-        // Mostra il tutorial iniziale
         ShowInitialTutorial();
-
-        // Imposta la camera corretta al primo avvio (se è in modalità WorldSpace)
         SetCanvasCamera();
     }
 
     void Update()
     {
-        // Controlla se il tasto T viene premuto
         if (Input.GetKeyDown(KeyCode.T))
         {
             ToggleTutorialBox();
@@ -54,33 +48,28 @@ public class TutorialManager : MonoBehaviour
 
     void OnEnable()
     {
-        // Rileva quando una scena è stata caricata
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
 
     void OnDisable()
     {
-        // Rimuovi il listener per evitare problemi di memoria
         SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 
-    // Funzione chiamata ogni volta che una scena viene caricata
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        // Imposta la camera ogni volta che una scena viene caricata
         SetCanvasCamera();
     }
 
-    // Funzione per impostare correttamente la camera nel Canvas se in World Space
     void SetCanvasCamera()
     {
         Canvas canvas = GetComponent<Canvas>();
         if (canvas != null && canvas.renderMode == RenderMode.WorldSpace)
         {
-            Camera mainCamera = Camera.main; // Ottieni la Camera principale
+            Camera mainCamera = Camera.main;
             if (mainCamera != null)
             {
-                canvas.worldCamera = mainCamera; // Imposta la camera del Canvas
+                canvas.worldCamera = mainCamera;
             }
             else
             {
@@ -89,7 +78,6 @@ public class TutorialManager : MonoBehaviour
         }
     }
 
-    // Funzione per mostrare/nascondere il TutorialBox
     void ToggleTutorialBox()
     {
         if (tutorialBox != null)
@@ -97,29 +85,22 @@ public class TutorialManager : MonoBehaviour
             isVisible = !isVisible;
             tutorialBox.SetActive(isVisible);
 
-            // Se il TutorialBox è visibile, centriamo il box sulla camera
             if (isVisible)
             {
                 CenterTutorialBoxOnCamera();
             }
 
-            // Abilita o disabilita il movimento del giocatore
-            playerMovement.isTutorialActive = isVisible; // Disabilita il movimento se il tutorial è attivo
+            playerMovement.isTutorialActive = isVisible;
         }
     }
 
-    // Funzione per centrare il TutorialBox sulla camera
     void CenterTutorialBoxOnCamera()
     {
         Camera mainCamera = Camera.main;
 
         if (mainCamera != null)
         {
-            // Ottieni la posizione della camera nel mondo
             Vector3 cameraPosition = mainCamera.transform.position;
-
-            // Imposta la posizione del TutorialBox al centro della camera
-            // La z è mantenuta costante (di solito 0) per non alterare la profondità
             tutorialBox.transform.position = new Vector3(cameraPosition.x, cameraPosition.y, tutorialBox.transform.position.z);
         }
         else
@@ -128,16 +109,14 @@ public class TutorialManager : MonoBehaviour
         }
     }
 
-    // Funzione per mostrare il tutorial
     public void ShowTutorial(string message)
     {
         if (tutorialText != null)
         {
-            tutorialText.text = message;
+            tutorialText.text = message; // Il comportamento rimane lo stesso
         }
     }
 
-    // Funzione per mostrare il tutorial iniziale con i tasti del gioco
     void ShowInitialTutorial()
     {
         string tutorialMessage = "Benvenuto nel gioco! Ecco come puoi interagire:\n\n" +

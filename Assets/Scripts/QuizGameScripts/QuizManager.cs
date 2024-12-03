@@ -164,7 +164,7 @@ public class QuizManager : MonoBehaviour
             {
                 SkinManager.Instance.UnlockSkin(7); // Indice 0 per sbloccare la prima skin
                 // Hai sbloccato una nuova skin!
-                resultMessage += "<color=Green><b>Congratulazioni! Hai sbloccato una nuova skin!</b></color>\n\n";
+                resultMessage += "<color=Green><b>Congratulazioni! Hai sbloccato un nuovo aspetto!</b></color>\n\n";
             }
 
         }

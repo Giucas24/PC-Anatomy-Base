@@ -18,10 +18,10 @@ public class SkinManager : MonoBehaviour
     // Variabile per garantire che ci sia solo un'istanza del SkinManager
     public static SkinManager Instance;
 
-    private void Start()
+    private void Awake()
     {
         // Se esiste già un'istanza di SkinManager, distruggiamo questa nuova istanza
-        if (Instance != null)
+        if (Instance != null && Instance != this)
         {
             Destroy(gameObject);
             return;
@@ -29,8 +29,11 @@ public class SkinManager : MonoBehaviour
 
         // Altrimenti, impostiamo l'istanza e non distruggiamo questo oggetto al cambio di scena
         Instance = this;
-        DontDestroyOnLoad(gameObject);  // Mantenere il SkinManager tra le scene
+        DontDestroyOnLoad(gameObject);  // Mantieni il SkinManager tra le scene
+    }
 
+    private void Start()
+    {
         // Trova il player alla partenza
         playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
 
@@ -44,6 +47,7 @@ public class SkinManager : MonoBehaviour
 
         Debug.Log($"Scala caricata e applicata per la skin {savedSkinIndex}: {savedScale}");
     }
+
 
     public void UnlockSkin(int skinIndex)
     {

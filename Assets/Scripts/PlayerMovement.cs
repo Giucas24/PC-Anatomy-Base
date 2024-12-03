@@ -11,6 +11,8 @@ public class PlayerMovement : MonoBehaviour
     private Animator animator;
     public VectorValue startingPositionDefault; // Posizione iniziale della scena
     public VectorValue startingPositionDynamic; // Posizione aggiornata dopo il cambio scena
+    public VectorValue startingPositionPreviousScene;  // Nuova variabile per memorizzare la posizione della scena precedente
+
 
     // Aggiungiamo una variabile per controllare se il quiz è attivo
     public bool isQuizActive = false;
@@ -84,6 +86,7 @@ public class PlayerMovement : MonoBehaviour
         // Applica la posizione dinamica solo dopo il caricamento
         Debug.Log("Posizionamento Player nella scena: " + scene.name + " a " + startingPositionDynamic.initialValue);
         transform.position = startingPositionDynamic.initialValue;
+
     }
 
     void UpdateAnimationAndMove()

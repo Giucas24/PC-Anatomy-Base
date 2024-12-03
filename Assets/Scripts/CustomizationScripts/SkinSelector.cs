@@ -5,47 +5,47 @@ public class SkinSelector : MonoBehaviour
 {
     public Button[] skinButtons; // Bottoni per ciascuna skin
     public Text[] skinNameTexts; // Testi per visualizzare i nomi delle skin
-    public SkinManager skinManager; // Riferimento a SkinManager
     public Text selectedSkinNameText; // Riferimento al testo del nome della skin selezionata
     public Image selectedSkinImage; // Riferimento all'immagine che mostra la skin selezionata
 
-    void Start()
+    private SkinManager skinManager; // Riferimento locale a SkinManager
+
+    private void Start()
     {
-        // Se il skinManager non è assegnato nell'Inspector, cerchiamolo dinamicamente
+        // Ottieni il riferimento a SkinManager tramite il GameManager
+        if (GameManager.Instance != null)
+        {
+            skinManager = GameManager.Instance.skinManager;
+        }
+
         if (skinManager == null)
         {
-            skinManager = FindObjectOfType<SkinManager>();
-            if (skinManager == null)
-            {
-                Debug.LogError("SkinManager non trovato nella scena!");
-                return;
-            }
+            Debug.LogError("SkinManager non trovato tramite GameManager!");
+            return;
         }
 
-        // Inizializza l'immagine e il nome della skin attualmente selezionata
+        // Inizializza il sistema dopo aver collegato il SkinManager
         InitializeSelectedSkin();
-
-        // Aggiungi listeners per ogni bottone per cambiare la skin
-        for (int i = 0; i < skinButtons.Length; i++)
-        {
-            int index = i; // Necessario per evitare errori di riferimento
-            skinButtons[i].onClick.AddListener(() => OnSkinSelected(index));
-        }
-
-        // Aggiorna i bottoni e i nomi
+        AddButtonListeners();
         UpdateSkinButtonNames();
-
-        // Aggiorna lo stato di interazione dei bottoni in base alle skin sbloccate
         UpdateSkinButtonInteractableStatus();
     }
 
-    // Gestisce la selezione della skin
-    void OnSkinSelected(int skinIndex)
+    private void AddButtonListeners()
+    {
+        for (int i = 0; i < skinButtons.Length; i++)
+        {
+            int index = i;
+            skinButtons[i].onClick.AddListener(() => OnSkinSelected(index));
+        }
+    }
+
+    private void OnSkinSelected(int skinIndex)
     {
         if (skinManager != null)
         {
-            skinManager.ChangeSkin(skinIndex); // Chiede a SkinManager di cambiare la skin
-            UpdateSelectedSkinImageFromButton(skinIndex); // Aggiorna l'immagine e il nome selezionato
+            skinManager.ChangeSkin(skinIndex);
+            UpdateSelectedSkinImageFromButton(skinIndex);
         }
         else
         {
@@ -54,7 +54,7 @@ public class SkinSelector : MonoBehaviour
     }
 
     // Inizializza l'immagine e il nome della skin attualmente selezionata
-    void InitializeSelectedSkin()
+    public void InitializeSelectedSkin()
     {
         // Ottieni l'indice della skin attualmente selezionata
         int selectedSkinIndex = PlayerPrefs.GetInt("SelectedSkin", 0); // Default a 0
