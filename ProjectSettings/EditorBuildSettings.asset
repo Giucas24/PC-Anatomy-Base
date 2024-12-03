@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BrokenPCGame.unity
     guid: 96730c28f8e2a0642923be608b824aa1
+  - enabled: 1
+    path: Assets/Scenes/GuessTheComponentGame.unity
+    guid: d3e8c010fad65d941a5382faf3e8ed82
   m_configObjects: {}
