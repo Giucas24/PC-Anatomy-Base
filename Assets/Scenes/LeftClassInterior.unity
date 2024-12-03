@@ -347,6 +347,7 @@ GameObject:
   - component: {fileID: 43756949}
   - component: {fileID: 43756951}
   - component: {fileID: 43756952}
+  - component: {fileID: 43756953}
   m_Layer: 0
   m_Name: BrokenPCGame
   m_TagString: Untagged
@@ -503,6 +504,19 @@ MonoBehaviour:
   canvasBubble: {fileID: 1856980198}
   hoverBubble: {fileID: 688472033}
   componentName: BrokenPC Game
+--- !u!114 &43756953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 43756946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc6f7a65b6b6a2844890c4bc5ee51b68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: BrokenPCGame
 --- !u!1 &124450985
 GameObject:
   m_ObjectHideFlags: 0

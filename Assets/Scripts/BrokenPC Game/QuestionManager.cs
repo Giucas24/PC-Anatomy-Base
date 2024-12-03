@@ -2,6 +2,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 [System.Serializable]
 public class Question
@@ -21,22 +22,23 @@ public class QuestionManager : MonoBehaviour
     [Header("Questions")]
     public Question[] questions; // Domande configurabili dall'Inspector
 
-    private int currentQuestionIndex; // Indice della domanda corrente
+    private int currentQuestionIndex = 0;  // Indice della domanda corrente
     private bool isShowingFeedback = false; // Indica se stiamo mostrando un feedback
-
+    private int correctAnswersCount = 0; // Conteggio delle risposte corrette
 
     public void StartGame()
     {
-        currentQuestionIndex = 0; // Inizia dalla prima domanda
-        LoadQuestion();
+        LoadQuestion(); // Carica la prima domanda
     }
 
     void LoadQuestion()
     {
+        // Log di debug per monitorare l'indice
+        Debug.Log("SIAMO DENTRO LOADQUESTION, MOSTRO currentQuestionindex: " + currentQuestionIndex);
+
         // Controlla che l'indice sia valido
         if (currentQuestionIndex >= 0 && currentQuestionIndex < questions.Length)
         {
-            Debug.Log("SIAMO DENTRO LOADQUESTION, MOSTRO currentQuestionindex: " + currentQuestionIndex);
             // Ottieni la nuova domanda
             Question currentQuestion = questions[currentQuestionIndex];
             questionText.text = currentQuestion.questionText;
@@ -64,6 +66,7 @@ public class QuestionManager : MonoBehaviour
         {
             Debug.Log("Risposta corretta!");
             questionText.text = currentQuestion.positiveFeedback;
+            correctAnswersCount++; // Incrementa il conteggio delle risposte corrette
         }
         else
         {
@@ -77,7 +80,6 @@ public class QuestionManager : MonoBehaviour
         // Disabilita temporaneamente i bottoni durante il feedback
         ToggleAnswerButtons(false);
     }
-
 
     void Update()
     {
@@ -104,10 +106,56 @@ public class QuestionManager : MonoBehaviour
         {
             Debug.Log("Fine del quiz!");
             // Logica per la fine del gioco (es. mostra punteggio o messaggio finale)
-            questionText.text = "Quiz completato!"; // Messaggio finale
+            ShowFinalScore(); // Mostra il punteggio finale
             ToggleAnswerButtons(false); // Disabilita i bottoni
+
+            // Chiama il metodo per segnare il completamento del quiz
+            FindObjectOfType<IntroSequence>().CompleteQuiz();
         }
     }
+
+    void ShowFinalScore()
+    {
+        // Determina il messaggio da mostrare in base al punteggio
+        string message;
+
+        if (correctAnswersCount >= 8) // Se il giocatore ha risposto correttamente ad almeno 8 domande
+        {
+            message = $"Complimenti! Hai totalizzato {correctAnswersCount}/{questions.Length} domande corrette! Hai sbloccato un nuovo aspetto!";
+
+            // Sblocca il nuovo aspetto (skin)
+            if (SkinManager.Instance != null)
+            {
+                Debug.Log("Chiamata a SkinManager.Instance.UnlockSkin()");
+                SkinManager.Instance.UnlockSkin(4); // Indice 5 per sbloccare una skin
+            }
+            else
+            {
+                Debug.LogWarning("SkinManager.Instance è null!");
+            }
+        }
+        else if (correctAnswersCount >= questions.Length / 2) // Test superato
+        {
+            message = $"Complimenti! Hai totalizzato {correctAnswersCount}/{questions.Length} domande corrette!";
+        }
+        else // Test non superato
+        {
+            message = $"Purtroppo non hai superato il test. Hai risposto correttamente a {correctAnswersCount}/{questions.Length} domande. Ritenta una prossima volta!";
+        }
+
+        // Mostra il messaggio finale
+        questionText.text = message;
+
+        // Controlla se il giocatore preme Spazio per avanzare
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            // Carica la scena della classe
+            SceneManager.LoadScene("LeftClassInterior");
+        }
+    }
+
+
+
 
     void ToggleAnswerButtons(bool state)
     {

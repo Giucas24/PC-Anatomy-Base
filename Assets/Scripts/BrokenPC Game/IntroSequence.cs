@@ -17,6 +17,9 @@ public class IntroSequence : MonoBehaviour
 
     public QuestionManager questionManager;
 
+    // Aggiunta della variabile per segnare se il quiz è completato
+    private bool quizCompleted = false;
+
     void Start()
     {
         // Assicuriamoci che i bottoni siano inizialmente nascosti
@@ -30,6 +33,10 @@ public class IntroSequence : MonoBehaviour
 
     void Update()
     {
+        // Se il quiz è stato completato, non permettiamo più di avanzare nei testi introduttivi
+        if (quizCompleted)
+            return;
+
         // Controlliamo se il giocatore preme la barra spaziatrice
         if (Input.GetKeyDown(KeyCode.Space))
         {
@@ -88,5 +95,11 @@ public class IntroSequence : MonoBehaviour
     {
         dialogText.text = "Pronto per iniziare il quiz!"; // Messaggio opzionale
         questionManager.StartGame(); // Avvia il gioco
+    }
+
+    // Metodo per segnare il completamento del quiz
+    public void CompleteQuiz()
+    {
+        quizCompleted = true; // Imposta il flag per segnare che il quiz è completato
     }
 }
