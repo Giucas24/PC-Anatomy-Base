@@ -4,6 +4,7 @@ using TMPro;
 using System.Collections.Generic;
 using UnityEngine.EventSystems;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class GuessTheComponentManager : MonoBehaviour
 {
@@ -36,6 +37,20 @@ public class GuessTheComponentManager : MonoBehaviour
 
     private List<int> revealedIndices = new List<int>(); // Indici delle lettere già rivelate
 
+    private int correctAnswers = 0;  // Numero di risposte corrette
+    private int totalQuestions = 0; // Contatore delle domande affrontate
+    private const int maxQuestions = 10; // Numero massimo di domande
+
+    public TextMeshProUGUI dialogText; // Testo del dialogBox, da usare per il riepilogo
+    private bool isGameSummaryActive = false; // Indica se il riepilogo è attivo
+
+    public VectorValue startingPositionDynamic;
+    public VectorValue startingPositionPreviousScene;
+
+    private List<int> randomizedIndices; // Lista degli indici randomizzati
+
+
+
 
 
 
@@ -53,32 +68,50 @@ public class GuessTheComponentManager : MonoBehaviour
             component.SetActive(false);
         }
 
+        // Mescola gli indici all'inizio del gioco
+        randomizedIndices = new List<int>();
+        for (int i = 0; i < componentObjects.Length; i++)
+        {
+            randomizedIndices.Add(i);
+        }
+        ShuffleList(randomizedIndices); // Mescola la lista
+
         submitButton.onClick.AddListener(SubmitAnswer);
 
         isGameActive = true; // Il gioco è ora attivo
         StartRound();
     }
 
+    void ShuffleList(List<int> list)
+    {
+        for (int i = list.Count - 1; i > 0; i--)
+        {
+            int randomIndex = Random.Range(0, i + 1);
+            int temp = list[i];
+            list[i] = list[randomIndex];
+            list[randomIndex] = temp;
+        }
+    }
+
 
     void StartRound()
     {
+        if (totalQuestions >= maxQuestions || totalQuestions >= randomizedIndices.Count)
+        {
+            EndGame(); // Termina il gioco e mostra il riepilogo
+            return;
+        }
+
+        totalQuestions++; // Incrementa il contatore delle domande
+
         isGameActive = true; // Il gioco è attivo
         foreach (var component in componentObjects)
         {
             component.SetActive(false);
         }
 
-        if (usedIndices.Count == componentObjects.Length)
-        {
-            usedIndices.Clear();
-        }
-
-        do
-        {
-            currentComponentIndex = Random.Range(0, componentObjects.Length);
-        } while (usedIndices.Contains(currentComponentIndex));
-
-        usedIndices.Add(currentComponentIndex);
+        // Usa il prossimo indice nella lista randomizzata
+        currentComponentIndex = randomizedIndices[totalQuestions - 1];
         componentObjects[currentComponentIndex].SetActive(true);
 
         currentWordToGuess = componentObjects[currentComponentIndex].name;
@@ -91,7 +124,6 @@ public class GuessTheComponentManager : MonoBehaviour
         timer = 20f;
         currentLetterIndex = 0;
 
-        // Resetta la lista degli indici rivelati
         revealedIndices.Clear();
 
         answerInput.Select();
@@ -105,11 +137,16 @@ public class GuessTheComponentManager : MonoBehaviour
 
     void Update()
     {
-        // Esegui solo se il dialogo è terminato
+        // Esegui solo se il dialogo iniziale è terminato
         if (IntroDialogManager.isDialogActive) return;
 
-        // Se il round è completo, non fare nulla
-        if (isRoundComplete) return;
+        if (isGameSummaryActive && Input.GetKeyDown(KeyCode.Return))
+        {
+            // Torna alla scena "LeftClassInterior"
+            SceneManager.LoadScene("LeftClassInterior");
+        }
+
+        if (!isGameActive || isRoundComplete) return;
 
         // Timer del round
         if (timer > 0f)
@@ -124,7 +161,6 @@ public class GuessTheComponentManager : MonoBehaviour
             StartCoroutine(WaitForNextRound());
         }
 
-        // Timer per rivelare lettere
         if (revealLetterTimer > 0f)
         {
             revealLetterTimer -= Time.deltaTime;
@@ -135,16 +171,9 @@ public class GuessTheComponentManager : MonoBehaviour
             revealLetterTimer = 5f;
         }
 
-        // Rilevamento del tasto "Invio" per confermare la risposta
         if (Input.GetKeyDown(KeyCode.Return))
         {
             SubmitAnswer();
-        }
-
-        // Blocca il tasto "Spazio" durante il gioco
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            Debug.Log("Spazio premuto, ma il gioco è attivo e non succede nulla.");
         }
     }
 
@@ -155,18 +184,16 @@ public class GuessTheComponentManager : MonoBehaviour
 
     void SubmitAnswer()
     {
-        // Rimuove eventuali spazi iniziali e finali dalla risposta dell'utente
         string trimmedAnswer = answerInput.text.Trim();
 
-        // Verifica se la risposta è corretta
         if (trimmedAnswer.ToLower() == currentWordToGuess.ToLower())
         {
+            correctAnswers++; // Incrementa il punteggio se corretto
             feedbackText.text = "Corretto!";
-            RevealFullWord(); // Mostra la parola completa se la risposta è corretta
-            isAnswerCorrect = true;  // La risposta è corretta
-            isRoundComplete = true;  // Completa il round
+            RevealFullWord();
+            isAnswerCorrect = true;
+            isRoundComplete = true;
 
-            // Avvia la transizione al prossimo round
             StartCoroutine(WaitForNextRound());
         }
         else
@@ -174,12 +201,9 @@ public class GuessTheComponentManager : MonoBehaviour
             feedbackText.text = "Sbagliato, riprova!";
         }
 
-        // Resetta il campo di input per una nuova risposta
-        answerInput.text = ""; // Azzera il testo corrente
-
-        // Mantieni il focus sull'input field
+        answerInput.text = "";
         answerInput.Select();
-        answerInput.ActivateInputField(); // Riattiva l'input field (assicurati che il cursore sia visibile)
+        answerInput.ActivateInputField();
     }
 
 
@@ -267,4 +291,69 @@ public class GuessTheComponentManager : MonoBehaviour
             dashText.text = currentWordToGuess[index].ToString();
         }
     }
+
+    void EndGame()
+    {
+        isGameActive = false;
+        isGameSummaryActive = true; // Attiva la fase di riepilogo
+
+        // Controlla se il giocatore ha risposto correttamente ad almeno 8 domande
+        if (correctAnswers >= 8)
+        {
+            if (SkinManager.Instance != null)
+            {
+                Debug.Log("Chiamata a SkinManager.Instance.UnlockSkin()");
+                SkinManager.Instance.UnlockSkin(4); // Sblocca la skin con indice 5
+            }
+            else
+            {
+                Debug.LogWarning("SkinManager.Instance è null!");
+            }
+        }
+
+        // Aggiorna la posizione del giocatore
+        startingPositionDynamic.initialValue = startingPositionPreviousScene.initialValue;
+
+        // Ottieni il giocatore e disabilita temporaneamente il movimento
+        GameObject player = GameObject.FindWithTag("Player");
+        if (player != null)
+        {
+            PlayerMovement playerMovementScript = player.GetComponent<PlayerMovement>();
+
+            if (playerMovementScript != null)
+            {
+                playerMovementScript.PreventPositionUpdate(); // Disabilita la gestione della posizione
+            }
+
+            // Ripristina la posizione del giocatore
+            player.transform.position = startingPositionPreviousScene.initialValue;
+            Debug.Log("Posizione del giocatore ripristinata: " + startingPositionPreviousScene.initialValue);
+        }
+
+        // Mostra il dialogBox con il riepilogo
+        dialogBox.SetActive(true);
+
+        if (correctAnswers >= maxQuestions / 2) // Almeno metà delle risposte corrette
+        {
+            dialogText.text = $"Congratulazioni! Hai risposto correttamente a {correctAnswers} su {maxQuestions} domande. Premi <b>Invio</b> per tornare alla classe.";
+        }
+        else // Meno della metà delle risposte corrette
+        {
+            dialogText.text = $"Peccato! Hai risposto correttamente a {correctAnswers} su {maxQuestions} domande. Premi <b>Invio</b> per tornare alla classe.";
+        }
+
+        // Disattiva gli elementi di gioco
+        foreach (var element in gameUIElements)
+        {
+            element.SetActive(false);
+        }
+
+        // Disattiva tutte le componentObjects
+        foreach (var component in componentObjects)
+        {
+            component.SetActive(false);
+        }
+    }
+
+
 }
