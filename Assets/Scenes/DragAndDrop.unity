@@ -3515,6 +3515,8 @@ MonoBehaviour:
   fadeDuration: 1
   gameCanvas: {fileID: 570391200}
   taskText: {fileID: 1657655885}
+  startingPositionDynamic: {fileID: 11400000, guid: 85ce031d27c29bc49b42461d44f33dd8, type: 2}
+  startingPositionPreviousScene: {fileID: 11400000, guid: cbc25deff9f199b4fa073af34c95dff2, type: 2}
   source: {fileID: 1873805282}
   correct: {fileID: 8300000, guid: 8cc38f446233d2240843cb7688f72528, type: 3}
   incorrect: {fileID: 8300000, guid: 107ee18286a501249874f08a00b3165d, type: 3}

@@ -3,10 +3,13 @@ using UnityEngine.SceneManagement; // Necessario per caricare scene
 
 public class SceneLoader : MonoBehaviour
 {
-    // Nome della scena da caricare
-    [SerializeField] private string sceneName;
+
+    public string sceneToLoad; // Nome della scena da caricare
+
 
     private bool playerInside = false;
+
+    public VectorValue startingPositionPreviousScene;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -31,17 +34,29 @@ public class SceneLoader : MonoBehaviour
         // Se il player è all'interno del Box Collider e preme spazio, carica la scena
         if (playerInside && Input.GetKeyDown(KeyCode.Space))
         {
-            LoadScene();
+            GameObject player = GameObject.FindWithTag("Player");
+            if (player != null)
+            {
+                startingPositionPreviousScene.initialValue = player.transform.position;
+                Debug.Log("Posizione salvata per la scena precedente: " + startingPositionPreviousScene.initialValue);
+
+                // Carica la nuova scena
+                SceneManager.LoadScene(sceneToLoad);
+            }
+            else
+            {
+                Debug.LogWarning("Player non trovato!");
+            }
         }
     }
 
-    private void LoadScene()
+    /* private void LoadScene()
     {
         // Salva la scena corrente nei PlayerPrefs prima di caricare la nuova
         string currentScene = SceneManager.GetActiveScene().name;
         PlayerPrefs.SetString("PreviousScene", currentScene);
 
         // Carica la scena specificata
-        SceneManager.LoadScene(sceneName);
-    }
+        SceneManager.LoadScene(sceneToLoad);
+    } */
 }

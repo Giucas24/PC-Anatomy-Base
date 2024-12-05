@@ -26,6 +26,11 @@ public class QuestionManager : MonoBehaviour
     private bool isShowingFeedback = false; // Indica se stiamo mostrando un feedback
     private int correctAnswersCount = 0; // Conteggio delle risposte corrette
 
+    public VectorValue startingPositionDynamic;
+    public VectorValue startingPositionPreviousScene;
+    private PlayerMovement playerMovementScript;
+    private bool isShowingFinalScore = false; // Nuova variabile per gestire il messaggio finale
+
     public void StartGame()
     {
         LoadQuestion(); // Carica la prima domanda
@@ -84,9 +89,17 @@ public class QuestionManager : MonoBehaviour
     void Update()
     {
         // Controlla se il giocatore preme Spazio per avanzare
-        if (Input.GetKeyDown(KeyCode.Space) && isShowingFeedback)
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            AdvanceToNextQuestion(); // Passa alla domanda successiva
+            if (isShowingFeedback)
+            {
+                AdvanceToNextQuestion(); // Passa alla domanda successiva
+            }
+            else if (isShowingFinalScore)
+            {
+                // Avanza alla scena successiva quando il messaggio finale è mostrato
+                LoadNextScene();
+            }
         }
     }
 
@@ -116,6 +129,9 @@ public class QuestionManager : MonoBehaviour
 
     void ShowFinalScore()
     {
+        isShowingFeedback = false; // Assicurati che il feedback sia concluso
+        isShowingFinalScore = true; // Indica che stiamo mostrando il messaggio finale
+
         // Determina il messaggio da mostrare in base al punteggio
         string message;
 
@@ -145,13 +161,32 @@ public class QuestionManager : MonoBehaviour
 
         // Mostra il messaggio finale
         questionText.text = message;
+    }
 
-        // Controlla se il giocatore preme Spazio per avanzare
-        if (Input.GetKeyDown(KeyCode.Space))
+    void LoadNextScene()
+    {
+        // Ripristina la posizione del giocatore
+        startingPositionDynamic.initialValue = startingPositionPreviousScene.initialValue;
+
+        // Ottieni lo script PlayerMovement per disabilitare temporaneamente il movimento
+        GameObject player = GameObject.FindWithTag("Player");
+        if (player != null)
         {
-            // Carica la scena della classe
-            SceneManager.LoadScene("LeftClassInterior");
+            playerMovementScript = player.GetComponent<PlayerMovement>();
+
+            // Disabilita temporaneamente il movimento del player
+            if (playerMovementScript != null)
+            {
+                playerMovementScript.PreventPositionUpdate(); // Disabilita la gestione della posizione
+            }
+
+            // Ripristina la posizione del giocatore dalla variabile startingPositionPreviousScene
+            player.transform.position = startingPositionPreviousScene.initialValue;
+            Debug.Log("Posizione del giocatore ripristinata: " + startingPositionPreviousScene.initialValue);
         }
+
+        // Carica la scena della classe
+        SceneManager.LoadScene("LeftClassInterior");
     }
 
 

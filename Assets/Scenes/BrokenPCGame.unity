@@ -1992,6 +1992,8 @@ MonoBehaviour:
     negativeFeedback: "Non \xE8 corretto. La risposta giusta \xE8 Motherboard. Quando
       ci sono problemi con molti componenti contemporaneamente, la causa \xE8 spesso
       la scheda madre."
+  startingPositionDynamic: {fileID: 11400000, guid: 85ce031d27c29bc49b42461d44f33dd8, type: 2}
+  startingPositionPreviousScene: {fileID: 11400000, guid: cbc25deff9f199b4fa073af34c95dff2, type: 2}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

@@ -282,7 +282,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc6f7a65b6b6a2844890c4bc5ee51b68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: GuessTheComponentGame
+  sceneToLoad: 
+  startingPositionPreviousScene: {fileID: 0}
 --- !u!1001 &37610457
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -530,7 +531,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc6f7a65b6b6a2844890c4bc5ee51b68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: BrokenPCGame
+  sceneToLoad: BrokenPCGame
+  startingPositionPreviousScene: {fileID: 11400000, guid: cbc25deff9f199b4fa073af34c95dff2, type: 2}
 --- !u!1 &129088763
 GameObject:
   m_ObjectHideFlags: 0
@@ -927,7 +929,7 @@ GameObject:
   - component: {fileID: 231505268}
   - component: {fileID: 231505271}
   m_Layer: 0
-  m_Name: motherboard 1
+  m_Name: Drag & Drop Game
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -961,7 +963,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc6f7a65b6b6a2844890c4bc5ee51b68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: DragAndDrop
+  sceneToLoad: DragAndDrop
+  startingPositionPreviousScene: {fileID: 11400000, guid: cbc25deff9f199b4fa073af34c95dff2, type: 2}
 --- !u!61 &231505269
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5787,7 +5790,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &947920482
 RectTransform:
   m_ObjectHideFlags: 0

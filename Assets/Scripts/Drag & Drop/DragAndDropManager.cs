@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class DragAndDropManager : MonoBehaviour
@@ -32,6 +33,10 @@ public class DragAndDropManager : MonoBehaviour
     // Aggiungiamo una variabile per tracciare lo stato di completamento
     private bool gameCompleted = false;
 
+    public VectorValue startingPositionDynamic;
+
+    public VectorValue startingPositionPreviousScene;
+    private PlayerMovement playerMovementScript;
 
 
 
@@ -321,15 +326,27 @@ public class DragAndDropManager : MonoBehaviour
         // Gestione del ritorno alla scena precedente con il tasto Invio
         if (gameCompleted && Input.GetKeyDown(KeyCode.Return))
         {
-            string previousScene = PlayerPrefs.GetString("PreviousScene", "");
-            if (!string.IsNullOrEmpty(previousScene))
+            startingPositionDynamic.initialValue = startingPositionPreviousScene.initialValue;
+
+            // Ottieni lo script PlayerMovement per disabilitare temporaneamente il movimento
+            GameObject player = GameObject.FindWithTag("Player");
+            if (player != null)
             {
-                UnityEngine.SceneManagement.SceneManager.LoadScene(previousScene);
+                playerMovementScript = player.GetComponent<PlayerMovement>();
+
+                // Disabilita temporaneamente il movimento del player
+                if (playerMovementScript != null)
+                {
+                    playerMovementScript.PreventPositionUpdate(); // Disabilita la gestione della posizione
+                }
+
+                // Ripristina la posizione del giocatore dalla variabile startingPositionPreviousScene
+                player.transform.position = startingPositionPreviousScene.initialValue;
+                Debug.Log("Posizione del giocatore ripristinata: " + startingPositionPreviousScene.initialValue);
             }
-            else
-            {
-                Debug.LogWarning("Nessuna scena precedente salvata nei PlayerPrefs!");
-            }
+
+            // Carica la scena della classe
+            SceneManager.LoadScene("LeftClassInterior");
         }
     }
 
