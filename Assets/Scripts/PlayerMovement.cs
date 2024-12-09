@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
+
+
     public float speed;
     private Rigidbody2D myRigidBody;
     private Vector3 change;
@@ -21,7 +23,7 @@ public class PlayerMovement : MonoBehaviour
     public bool isTutorialActive = false;
 
     // Gestire una sola istanza del player tra le scene
-    private static PlayerMovement instance;
+    public static PlayerMovement Instance { get; private set; }
 
     // Variabile per controllare se il salvataggio è temporaneamente disabilitato
     private bool preventPositionUpdate = false;
@@ -36,14 +38,14 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         // Se esiste già un'istanza del player, distruggiamo quella nuova
-        if (instance != null)
+        if (Instance != null)
         {
             Destroy(gameObject);
             return;
         }
 
         // Altrimenti, impostiamo l'istanza e non distruggiamo questo oggetto al cambio di scena
-        instance = this;
+        Instance = this;
         DontDestroyOnLoad(gameObject);  // Mantenere il player tra le scene
 
         animator = GetComponent<Animator>();

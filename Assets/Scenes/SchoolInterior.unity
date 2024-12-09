@@ -171,7 +171,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogBox: {fileID: 1408580317}
   dialogText: {fileID: 1408580316}
-  dialog: "Labit. Per accedere alle esercitazioni \xE8 necessario prenotarsi."
+  dialog: 'Labit: per accedere alle esercitazioni, assicurati di prenotarti in anticipo.
+    Buon lavoro!'
   playerInRange: 0
   signUI: {fileID: 1486748083}
 --- !u!61 &145331187
@@ -6534,11 +6535,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 674933250439902273, guid: b3ad4ae618616fe40a6b422ca3aca6bd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.43
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 674933250439902273, guid: b3ad4ae618616fe40a6b422ca3aca6bd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9.96
+      value: 10.94
       objectReference: {fileID: 0}
     - target: {fileID: 674933250439902273, guid: b3ad4ae618616fe40a6b422ca3aca6bd, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6578,23 +6579,23 @@ PrefabInstance:
       objectReference: {fileID: 1969991380}
     - target: {fileID: 4225902330006341814, guid: b3ad4ae618616fe40a6b422ca3aca6bd, type: 3}
       propertyPath: maxPosition.x
-      value: 8.4
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4225902330006341814, guid: b3ad4ae618616fe40a6b422ca3aca6bd, type: 3}
       propertyPath: maxPosition.y
-      value: 9.95
+      value: 10.94
       objectReference: {fileID: 0}
     - target: {fileID: 4225902330006341814, guid: b3ad4ae618616fe40a6b422ca3aca6bd, type: 3}
       propertyPath: minPosition.x
-      value: -8.4
+      value: -10.03
       objectReference: {fileID: 0}
     - target: {fileID: 4225902330006341814, guid: b3ad4ae618616fe40a6b422ca3aca6bd, type: 3}
       propertyPath: minPosition.y
-      value: 0
+      value: -1.01
       objectReference: {fileID: 0}
     - target: {fileID: 7564837311920748107, guid: b3ad4ae618616fe40a6b422ca3aca6bd, type: 3}
       propertyPath: orthographic size
-      value: 5.9
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7564837311920748107, guid: b3ad4ae618616fe40a6b422ca3aca6bd, type: 3}
       propertyPath: m_NormalizedViewPortRect.width
@@ -12045,8 +12046,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogBox: {fileID: 1408580317}
   dialogText: {fileID: 1408580316}
-  dialog: Ciao! Le lezioni si tengono nell'aula alla tua destra. Se invece vuoi esercitarti
-    un po' puoi recarti nell'aula alla tua sinistra.
+  dialog: "Salve! Le lezioni sui componenti del PC si trovano nell\u2019aula a destra,
+    dove potrai imparare tutto quello che serve. Quando ti senti pronto, passa nell\u2019aula
+    a sinistra per metterti alla prova con i quiz. Buona fortuna!"
   playerInRange: 0
   signUI: {fileID: 1486748083}
 --- !u!61 &1986871729

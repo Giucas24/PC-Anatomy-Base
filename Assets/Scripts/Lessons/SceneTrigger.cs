@@ -1,16 +1,16 @@
 using UnityEngine;
-using UnityEngine.UI; // Per usare il componente Text
-using System.Collections.Generic; // Per usare i dizionari
+using UnityEngine.UI;
+using System.Collections.Generic;
 
 public class SceneTrigger : MonoBehaviour
 {
-    public GameObject player;  // Riferimento al player
-    private PlayerMovement playerMovement; // Riferimento al movimento del giocatore
+    public GameObject player;
+    private PlayerMovement playerMovement;
 
-    public GameObject dialogCanvas;  // Riferimento al Canvas che contiene il dialogo
-    public Text sceneTriggerText;    // Riferimento al Text che contiene il dialogo
+    public GameObject dialogCanvas;
+    public Text sceneTriggerText;
 
-    public string dialogMessage;     // Messaggio che apparirà nel dialogo
+    public string dialogMessage;
 
     private bool hasTriggered = false;  // Flag per verificare se il trigger è stato attivato
 
@@ -19,25 +19,23 @@ public class SceneTrigger : MonoBehaviour
 
     void Start()
     {
-        // Assicurati che il Canvas sia disabilitato all'inizio
-        dialogCanvas.SetActive(false);
-
-        // Assicurati che il player sia correttamente referenziato
-        if (player != null)
+        if (PlayerMovement.Instance != null)
         {
-            playerMovement = player.GetComponent<PlayerMovement>();
+            playerMovement = PlayerMovement.Instance;
         }
         else
         {
-            Debug.LogError("Player non assegnato nel componente SceneTrigger.");
+            Debug.LogError("PlayerMovement non trovato. Assicurati che esista un'istanza del Player nella scena.");
         }
 
-        // Controlla se il trigger è già stato attivato in questa sessione
+        dialogCanvas.SetActive(false);
+
         if (triggeredInstances.TryGetValue(gameObject.name, out bool alreadyTriggered) && alreadyTriggered)
         {
-            hasTriggered = true; // Imposta il flag per evitare di mostrare il dialogo di nuovo
+            hasTriggered = true;
         }
     }
+
 
     // Quando il player entra nel trigger
     void OnTriggerEnter2D(Collider2D other)

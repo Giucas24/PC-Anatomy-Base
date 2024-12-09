@@ -11976,6 +11976,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas Bubble
       objectReference: {fileID: 0}
+    - target: {fileID: 200990287724467444, guid: 778afc0101a7e3f468e2494112ed96da, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2424914099085200077, guid: 778afc0101a7e3f468e2494112ed96da, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -12055,6 +12059,30 @@ PrefabInstance:
     - target: {fileID: 2424914099085200077, guid: 778afc0101a7e3f468e2494112ed96da, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7454446390926664766, guid: 778afc0101a7e3f468e2494112ed96da, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7454446390926664766, guid: 778afc0101a7e3f468e2494112ed96da, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7454446390926664766, guid: 778afc0101a7e3f468e2494112ed96da, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7454446390926664766, guid: 778afc0101a7e3f468e2494112ed96da, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7454446390926664766, guid: 778afc0101a7e3f468e2494112ed96da, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 350
+      objectReference: {fileID: 0}
+    - target: {fileID: 7454446390926664766, guid: 778afc0101a7e3f468e2494112ed96da, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
