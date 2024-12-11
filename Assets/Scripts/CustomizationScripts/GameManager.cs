@@ -5,8 +5,8 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance { get; private set; }
 
     [Header("Core Systems")]
-    public SkinManager skinManager; // Riferimento al SkinManager
-    public SkinSelector skinSelector; // Riferimento opzionale al SkinSelector
+    public SkinManager skinManager;
+    public SkinSelector skinSelector;
 
     private void Awake()
     {

@@ -2,12 +2,11 @@ using UnityEngine;
 
 public class WardrobeInteraction : MonoBehaviour
 {
-    public GameObject wardrobeUI; // Il Canvas che mostra le opzioni di skin
-    private bool isPlayerNearby = false; // Indica se il giocatore è vicino all'armadio
+    public GameObject wardrobeUI;
+    private bool isPlayerNearby = false;
 
     void Update()
     {
-        // Controlla se il giocatore preme il tasto "Spazio" ed è vicino all'armadio
         if (isPlayerNearby && Input.GetKeyDown(KeyCode.Space))
         {
             ToggleWardrobeUI();
@@ -18,26 +17,24 @@ public class WardrobeInteraction : MonoBehaviour
     {
         if (wardrobeUI != null)
         {
-            // Attiva o disattiva il Canvas
-            bool isActive = wardrobeUI.activeSelf;
+            bool isActive = wardrobeUI.activeSelf;  // Check if wardrobeUI is currently active
             wardrobeUI.SetActive(!isActive);
         }
         else
         {
-            Debug.LogError("Il riferimento al Canvas dell'armadio non è impostato!");
+            Debug.LogError("wardrobeUI not linked in the inspector");
         }
     }
 
-    // Quando il giocatore entra nel trigger
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player")) // Assicurati che il Player abbia il tag "Player"
+        if (other.CompareTag("Player"))
         {
             isPlayerNearby = true;
         }
     }
 
-    // Quando il giocatore esce dal trigger
+
     private void OnTriggerExit2D(Collider2D other)
     {
         if (other.CompareTag("Player"))

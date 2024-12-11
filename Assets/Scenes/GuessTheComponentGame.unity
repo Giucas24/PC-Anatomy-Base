@@ -225,6 +225,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 759345c53d4adda4d8d5099253b6bd39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  orangeKidFont: {fileID: 11400000, guid: 1a984257a96ca324c86dc32dce754b40, type: 2}
   componentObjects:
   - {fileID: 704461962}
   - {fileID: 911535791}

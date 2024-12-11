@@ -8,6 +8,7 @@ using UnityEngine.SceneManagement;
 
 public class GuessTheComponentManager : MonoBehaviour
 {
+    public TMP_FontAsset orangeKidFont;
     public GameObject[] componentObjects; // Gli oggetti che contengono le immagini delle componenti
     private List<int> usedIndices = new List<int>(); // Lista degli indici già usati
     private int currentComponentIndex;
@@ -240,6 +241,7 @@ public class GuessTheComponentManager : MonoBehaviour
             TextMeshProUGUI dashText = dash.AddComponent<TextMeshProUGUI>();
             dashText.text = "-";  // Ogni trattino rappresenta una lettera
             dashText.fontSize = 32; // Imposta la dimensione del font
+            dashText.font = orangeKidFont;
 
             // Puoi anche aggiungere altre proprietà di styling, come il colore
             dashText.color = Color.black;

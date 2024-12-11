@@ -1,5 +1,5 @@
-[System.Serializable]  // Rende la classe serializzabile in Unity
+[System.Serializable]
 public class LessonCollection
 {
-    public Lesson[] lessons;  // Un array di oggetti `Lesson` che conterrà tutte le lezioni
+    public Lesson[] lessons;
 }

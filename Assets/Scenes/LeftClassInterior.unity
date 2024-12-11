@@ -6849,8 +6849,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -3, y: 3.01, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1.1, y: 1.1, z: 1.1}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1364223405}
   m_Father: {fileID: 1629672080}
@@ -9375,6 +9375,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Main Camera
       objectReference: {fileID: 0}
+    - target: {fileID: 8814012445918794731, guid: b3ad4ae618616fe40a6b422ca3aca6bd, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9739,86 +9743,80 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerMovement: {fileID: 1650094271}
   questions:
-  - questionText: Quale componente fornisce alimentazione elettrica a tutti gli altri
-      componenti di un computer?
+  - questionText: "Qual \xE8 la funzione principale del processore (CPU)?"
     answers:
-    - CPU
-    - PSU
-    - Scheda Madre
-    - GPU
-    correctAnswerIndex: 1
-  - questionText: Quale componente fornisce alimentazione elettrica a tutti gli altri
-      componenti di un computer?
+    - Eseguire calcoli
+    - Archiviare dati
+    - Fornire energia
+    - Mostrare grafica
+    correctAnswerIndex: 0
+  - questionText: "Quale componente determina la qualit\xE0 della grafica in un computer
+      da gioco?"
     answers:
-    - CPU
-    - PSU
-    - Scheda Madre
-    - GPU
-    correctAnswerIndex: 1
-  - questionText: Quale componente fornisce alimentazione elettrica a tutti gli altri
-      componenti di un computer?
+    - Alimentatore
+    - Hard disk
+    - Scheda video
+    - Scheda di rete
+    correctAnswerIndex: 2
+  - questionText: "Qual \xE8 la funzione principale della scheda madre?"
     answers:
-    - CPU
-    - PSU
-    - Scheda Madre
-    - GPU
+    - Raffreddare il PC
+    - Collegare componenti
+    - "Aumentare velocit\xE0"
+    - Salvare file
     correctAnswerIndex: 1
-  - questionText: Quale componente fornisce alimentazione elettrica a tutti gli altri
-      componenti di un computer?
+  - questionText: "Qual \xE8 il tipo di memoria principale utilizzata dalla RAM?"
     answers:
-    - CPU
-    - PSU
-    - Scheda Madre
-    - GPU
-    correctAnswerIndex: 1
-  - questionText: Quale componente fornisce alimentazione elettrica a tutti gli altri
-      componenti di un computer?
+    - Permanente
+    - Ottica
+    - Volatile
+    - Magnetica
+    correctAnswerIndex: 2
+  - questionText: "Quale porta di input/output \xE8 utilizzata per collegare un monitor
+      alla scheda video moderna?"
     answers:
-    - CPU
-    - PSU
-    - Scheda Madre
-    - GPU
-    correctAnswerIndex: 1
-  - questionText: Quale componente fornisce alimentazione elettrica a tutti gli altri
-      componenti di un computer?
+    - RJ45
+    - SATA
+    - USB-C
+    - HDMI
+    correctAnswerIndex: 3
+  - questionText: Quale componente trasforma la corrente alternata (AC) in corrente
+      continua (DC) per il PC?
     answers:
+    - Scheda madre
     - CPU
-    - PSU
-    - Scheda Madre
-    - GPU
-    correctAnswerIndex: 1
-  - questionText: Quale componente fornisce alimentazione elettrica a tutti gli altri
-      componenti di un computer?
+    - RAM
+    - Alimentatore
+    correctAnswerIndex: 3
+  - questionText: Cosa rende un SSD migliore di un HDD
     answers:
-    - CPU
-    - PSU
-    - Scheda Madre
-    - GPU
-    correctAnswerIndex: 1
-  - questionText: Quale componente fornisce alimentazione elettrica a tutti gli altri
-      componenti di un computer?
+    - "Velocit\xE0"
+    - "Capacit\xE0"
+    - Prezzo
+    - Durata
+    correctAnswerIndex: 0
+  - questionText: "Cosa determina la velocit\xE0 di una CPU?"
     answers:
-    - CPU
-    - PSU
-    - Scheda Madre
-    - GPU
-    correctAnswerIndex: 1
-  - questionText: Quale componente fornisce alimentazione elettrica a tutti gli altri
-      componenti di un computer?
+    - SSD
+    - RAM
+    - Core e frequenza
+    - Alimentatore
+    correctAnswerIndex: 2
+  - questionText: "Quale tipo di slot \xE8 usato dalle schede video moderne per connettersi
+      alla scheda madre?"
     answers:
-    - CPU
-    - PSU
-    - Scheda Madre
-    - GPU
+    - AGP
+    - PCI Express
+    - SATA
+    - IDE
     correctAnswerIndex: 1
-  - questionText: Quale componente fornisce alimentazione elettrica a tutti gli altri
-      componenti di un computer?
+  - questionText: Quale componente si collega al socket della scheda madre?
     answers:
-    - CPU
-    - PSU
-    - Scheda Madre
+    - RAM
     - GPU
-    correctAnswerIndex: 1
+    - CPU
+    - SSD
+    correctAnswerIndex: 2
   questionText: {fileID: 284793994}
   answerButtons:
   - {fileID: 1834272827}

@@ -1,23 +1,21 @@
 using UnityEngine;
-using UnityEngine.UI; // Per il componente Text
+using UnityEngine.UI;
 
 public class ComponentHover : MonoBehaviour
 {
-    public GameObject canvasBubble; // Il Canvas Bubble
-    public GameObject hoverBubble; // La nuvoletta
-    public string componentName; // Nome del componente da mostrare
-    private Text bubbleText; // Il testo all'interno della nuvoletta
+    public GameObject canvasBubble;
+    public GameObject hoverBubble;
+    public string componentName;
+    private Text bubbleText;
 
     void Start()
     {
-        // Trova il componente Text all'interno della nuvoletta
         bubbleText = hoverBubble.GetComponentInChildren<Text>();
         if (bubbleText != null)
         {
-            bubbleText.text = componentName; // Imposta il testo del componente
+            bubbleText.text = componentName;
         }
 
-        // Nascondi la nuvoletta e il Canvas all'inizio
         canvasBubble.SetActive(false);
         hoverBubble.SetActive(false);
     }
@@ -26,7 +24,6 @@ public class ComponentHover : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            // Attiva il Canvas e la nuvoletta
             canvasBubble.SetActive(true);
             hoverBubble.SetActive(true);
         }
@@ -36,7 +33,6 @@ public class ComponentHover : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            // Nasconde la nuvoletta e il Canvas quando il player esce dal trigger
             hoverBubble.SetActive(false);
             canvasBubble.SetActive(false);
         }

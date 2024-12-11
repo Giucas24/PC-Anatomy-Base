@@ -6,11 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MapExterior.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/GameMenu.unity
+    guid: 470a686b454a79b4bb6c15d362202c69
   - enabled: 1
     path: Assets/Scenes/HouseInterior.unity
     guid: f2e95c1a0c137644194d2c7e1be60a68
+  - enabled: 1
+    path: Assets/Scenes/MapExterior.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/SchoolInterior.unity
     guid: 01ad57704b2b51142ac3ae5aea7aac9b

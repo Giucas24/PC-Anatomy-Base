@@ -14,7 +14,7 @@ public class SceneTrigger : MonoBehaviour
 
     private bool hasTriggered = false;  // Flag per verificare se il trigger è stato attivato
 
-    // Dizionario statico per tracciare i trigger attivati durante il runtime
+    // Dizionario per salvare chi ha attivato il trigger
     private static Dictionary<string, bool> triggeredInstances = new Dictionary<string, bool>();
 
     void Start()
@@ -23,11 +23,10 @@ public class SceneTrigger : MonoBehaviour
         {
             playerMovement = PlayerMovement.Instance;
         }
-        else
+        /* else
         {
             Debug.LogError("PlayerMovement non trovato. Assicurati che esista un'istanza del Player nella scena.");
-        }
-
+        } */
         dialogCanvas.SetActive(false);
 
         if (triggeredInstances.TryGetValue(gameObject.name, out bool alreadyTriggered) && alreadyTriggered)
@@ -37,49 +36,41 @@ public class SceneTrigger : MonoBehaviour
     }
 
 
-    // Quando il player entra nel trigger
+
     void OnTriggerEnter2D(Collider2D other)
     {
-        // Verifica se è il player che entra nel trigger
         if (other.CompareTag("Player") && !hasTriggered)
         {
-            // Ferma il movimento del giocatore
-            playerMovement.isQuizActive = true;
+            playerMovement.isQuizActive = true; // Per bloccare il movimento del player
 
-            // Attiva il dialogo
             ShowDialog();
 
-            // Imposta il flag per non attivarlo di nuovo
-            hasTriggered = true;
+            hasTriggered = true;    // Flag per evitare che si attivi di nuovo
 
-            // Registra che il trigger è stato attivato
-            if (!triggeredInstances.ContainsKey(gameObject.name))
+            if (!triggeredInstances.ContainsKey(gameObject.name))   // Verifica se il player è già nel dizionario
             {
-                triggeredInstances.Add(gameObject.name, true);
+                triggeredInstances.Add(gameObject.name, true);  // Aggiunge il player nel dizionario
             }
         }
     }
 
-    // Mostra il dialogo
     void ShowDialog()
     {
-        dialogCanvas.SetActive(true);  // Attiva il Canvas
-        sceneTriggerText.text = dialogMessage;  // Imposta il testo del dialogo
+        dialogCanvas.SetActive(true);
+        sceneTriggerText.text = dialogMessage;
     }
 
     void Update()
     {
-        // Se il dialogo è attivo e il giocatore preme il tasto "spazio"
         if (dialogCanvas.activeSelf && Input.GetKeyDown(KeyCode.Space))
         {
-            CloseDialog();  // Chiudi il dialogo
+            CloseDialog();
         }
     }
 
-    // Funzione per chiudere il dialogo
     public void CloseDialog()
     {
-        dialogCanvas.SetActive(false);  // Disabilita il Canvas del dialogo
-        playerMovement.isQuizActive = false;  // Rende di nuovo possibile il movimento del giocatore
+        dialogCanvas.SetActive(false);
+        playerMovement.isQuizActive = false;
     }
 }
