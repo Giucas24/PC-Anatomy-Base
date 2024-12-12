@@ -21,33 +21,27 @@ public class DragAndDropManager : MonoBehaviour
 
     public bool cpuLocked, expansionLocked, videoLocked, chipsetLocked, ramLocked, batteriaCMOSLocked, biosLocked, porteIoLocked;
 
-    // Durata della dissolvenza in secondi
     public float fadeDuration = 1.5f;
 
-    public Canvas gameCanvas; // Riferimento al GameCanvas
+    public Canvas gameCanvas;
     public Text taskText;
     private string initialMessage = "TRASCINA LE COMPONENTI HARDWARE DELLA SCHEDA MADRE NELLE POSIZIONI CORRETTE, SIMULANDO L'ASSEMBLAGGIO DI UN PC.";
     private string victoryMessage = "COMPLIMENTI! HAI SBLOCCATO UN NUOVO ASPETTO! <size=24><color=black>PREMI <b>INVIO</b> PER RITORNARE IN CLASSE!</color></size>";
 
-
-    // Aggiungiamo una variabile per tracciare lo stato di completamento
     private bool gameCompleted = false;
 
     public VectorValue startingPositionDynamic;
 
     public VectorValue startingPositionPreviousScene;
     private PlayerMovement playerMovementScript;
-
-
+    private bool victoryMessageShown = false;
 
     public AudioSource source;
     public AudioClip correct;
     public AudioClip incorrect;
 
-    // Start is called before the first frame update
     void Start()
     {
-        // Salva le posizioni iniziali degli oggetti
         cpuInitialPos = cpu.transform.position;
         expansionInitialPos = expansion.transform.position;
         videoInitialPos = video.transform.position;
@@ -57,7 +51,6 @@ public class DragAndDropManager : MonoBehaviour
         biosInitialPos = bios.transform.position;
         porteIoInitialPos = porteIo.transform.position;
 
-        // Blocchi iniziali disabilitati
         cpuLocked = false;
         expansionLocked = false;
         videoLocked = false;
@@ -67,22 +60,19 @@ public class DragAndDropManager : MonoBehaviour
         biosLocked = false;
         porteIoLocked = false;
 
-        // Nasconde il messaggio di vittoria
         vinto.SetActive(false);
 
-        // Configura il CanvasGroup del finalImage
         finalImageCanvasGroup = finalImage.GetComponent<CanvasGroup>();
         if (finalImageCanvasGroup != null)
         {
-            finalImageCanvasGroup.alpha = 0; // Inizialmente invisibile
-            finalImage.SetActive(false);    // Nasconde finalImage
+            finalImageCanvasGroup.alpha = 0;
+            finalImage.SetActive(false);
         }
         else
         {
-            Debug.LogError("CanvasGroup non trovato su finalImage. Aggiungilo nell'Inspector.");
+            Debug.LogError("finalImageCanvasGroup is null");
         }
 
-        // Mostra il messaggio iniziale con l'effetto di digitazione
         StartCoroutine(TypeText(initialMessage, 0.04f));
     }
 
@@ -212,7 +202,7 @@ public class DragAndDropManager : MonoBehaviour
     {
         if (gameCanvas == null)
         {
-            Debug.LogError("GameCanvas non assegnato. Assegna il riferimento al canvas nel pannello Inspector.");
+            Debug.LogError("gameCanvas not assigned");
             return;
         }
 
@@ -220,25 +210,24 @@ public class DragAndDropManager : MonoBehaviour
 
         if (canvasRectTransform == null)
         {
-            Debug.LogError("RectTransform non trovato nel GameCanvas.");
+            Debug.LogError("canvasRectTransform not found");
             return;
         }
 
-        // Converte la posizione del mouse nello spazio locale del canvas
+        // Converts mouse pointer position into the canvasRectTransform space
         Vector2 localPoint;
         RectTransformUtility.ScreenPointToLocalPointInRectangle(
             canvasRectTransform,
             Input.mousePosition,
-            null, // Per Screen Space Overlay, la camera è null
+            null,
             out localPoint
         );
 
-        // Applica la posizione locale al RectTransform dell'oggetto
         RectTransform elementRectTransform = element.GetComponent<RectTransform>();
 
         if (elementRectTransform == null)
         {
-            Debug.LogError($"RectTransform non trovato nell'elemento: {element.name}");
+            Debug.LogError($"RectTransform not found in: {element.name}");
             return;
         }
 
@@ -264,7 +253,7 @@ public class DragAndDropManager : MonoBehaviour
             }
             else
             {
-                Debug.LogError($"RectTransform non trovato su {element.name} o {targetElement.name}.");
+                Debug.LogError($"RectTransform not found in {element.name} or {targetElement.name}.");
             }
 
             elementText.color = Color.green;
@@ -283,108 +272,43 @@ public class DragAndDropManager : MonoBehaviour
         }
     }
 
-
-    // Update is called once per frame
-    private bool victoryMessageShown = false;
-
     void Update()
     {
         if (!victoryMessageShown && cpuLocked && expansionLocked && videoLocked && chipsetLocked && ramLocked && batteriaCMOSLocked && biosLocked && porteIoLocked && finalImageCanvasGroup != null && finalImageCanvasGroup.alpha == 0)
         {
-            victoryMessageShown = true; // Segna che il messaggio è stato mostrato
+            victoryMessageShown = true;
 
-            // Avvia la visualizzazione del messaggio di vittoria con effetto digitazione
             StartCoroutine(TypeText(victoryMessage, 0.04f));
 
-            // Cambia il colore del testo in verde
             taskText.color = Color.green;
             taskText.fontSize = 36;
 
-            // Assicurati che il TaskText sia visibile
             taskText.gameObject.SetActive(true);
 
-            // Riproduci il suono di vittoria
             source.clip = correct;
             source.Play();
 
-            // Sblocca una nuova skin tramite SkinManager
+            // Unlock a new skin
             if (!gameCompleted)
             {
-                gameCompleted = true; // Imposta il gioco come completato
+                gameCompleted = true;
 
                 if (SkinManager.Instance != null)
                 {
                     SkinManager.Instance.UnlockSkin(6);
-                    Debug.Log("Nuova skin sbloccata!");
+                    Debug.Log($"New skin unlocked: {SkinManager.Instance.skinNames[6]}");
                 }
 
-                // Mostra un messaggio di congratulazioni per la skin sbloccata
                 StartCoroutine(TypeText(victoryMessage, 0.04f));
             }
         }
 
-        // Gestione del ritorno alla scena precedente con il tasto Invio
+        // Return to class
         if (gameCompleted && Input.GetKeyDown(KeyCode.Return))
         {
             startingPositionDynamic.initialValue = startingPositionPreviousScene.initialValue;
-
-            // Ottieni lo script PlayerMovement per disabilitare temporaneamente il movimento
-            GameObject player = GameObject.FindWithTag("Player");
-            if (player != null)
-            {
-                playerMovementScript = player.GetComponent<PlayerMovement>();
-
-                // Disabilita temporaneamente il movimento del player
-                if (playerMovementScript != null)
-                {
-                    playerMovementScript.PreventPositionUpdate(); // Disabilita la gestione della posizione
-                }
-
-                // Ripristina la posizione del giocatore dalla variabile startingPositionPreviousScene
-                player.transform.position = startingPositionPreviousScene.initialValue;
-                Debug.Log("Posizione del giocatore ripristinata: " + startingPositionPreviousScene.initialValue);
-            }
-
-            // Carica la scena della classe
             SceneManager.LoadScene("LeftClassInterior");
         }
-    }
-
-
-
-
-    // Metodo per chiudere la scena corrente
-    private void CloseCurrentScene()
-    {
-        Debug.Log("Tornando alla scena precedente...");
-
-        // Se stai eseguendo l'app come standalone:
-        Application.Quit();
-
-        // Nota: Application.Quit() non funziona nell'editor di Unity.
-        // Durante i test, puoi simulare il ritorno alla scena precedente:
-#if UNITY_EDITOR
-        UnityEditor.EditorApplication.isPlaying = false; // Termina il play mode
-#endif
-    }
-
-
-
-
-    // Coroutine per la dissolvenza
-    private IEnumerator FadeIn(CanvasGroup canvasGroup, float duration)
-    {
-        float startAlpha = canvasGroup.alpha;
-        float time = 0;
-
-        while (time < duration)
-        {
-            time += Time.deltaTime;
-            canvasGroup.alpha = Mathf.Lerp(startAlpha, 1, time / duration);
-            yield return null;
-        }
-
-        canvasGroup.alpha = 1; // Assicura che l'alpha sia esattamente 1 alla fine
     }
 
     string RemoveRichTextTags(string message)
@@ -403,16 +327,14 @@ public class DragAndDropManager : MonoBehaviour
         {
             char currentChar = richMessage[richIndex];
 
-            if (currentChar == '<') // Identifica un tag
+            if (currentChar == '<')
             {
-                // Aggiunge il tag completo
                 int tagEnd = richMessage.IndexOf('>', richIndex);
                 result += richMessage.Substring(richIndex, tagEnd - richIndex + 1);
                 richIndex = tagEnd + 1;
             }
             else if (plainIndex < partialPlainText.Length && currentChar == partialPlainText[plainIndex])
             {
-                // Aggiunge il carattere visibile
                 result += currentChar;
                 plainIndex++;
                 richIndex++;
@@ -426,30 +348,22 @@ public class DragAndDropManager : MonoBehaviour
         return result;
     }
 
-
-
-    // Coroutine per l'effetto di digitazione
+    // Digit text Coroutine
     IEnumerator TypeText(string message, float typingSpeed)
     {
-        taskText.text = ""; // Pulisce il testo inizialmente
-        string richMessage = message; // Copia il messaggio originale con i tag Rich Text
-        string plainMessage = RemoveRichTextTags(message); // Rimuove i tag per il conteggio
+        taskText.text = "";
+        string richMessage = message;
+        string plainMessage = RemoveRichTextTags(message);
 
         for (int i = 0; i < plainMessage.Length; i++)
         {
-            // Ricostruisce il testo parziale aggiungendo progressivamente caratteri senza i tag
             string displayedText = InsertRichTags(plainMessage.Substring(0, i + 1), richMessage);
             taskText.text = displayedText;
-            yield return new WaitForSeconds(typingSpeed); // Ritardo tra le lettere
+            yield return new WaitForSeconds(typingSpeed);
         }
 
-        taskText.text = richMessage; // Mostra il messaggio completo con i tag
+        taskText.text = richMessage;
     }
-
-
-
-
-
 }
 
 

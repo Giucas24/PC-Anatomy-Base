@@ -1,5 +1,5 @@
 using UnityEngine;
-using UnityEngine.SceneManagement; // Importa per gestire gli eventi di cambio scena
+using UnityEngine.SceneManagement;
 
 public class CameraMovement : MonoBehaviour
 {
@@ -12,7 +12,7 @@ public class CameraMovement : MonoBehaviour
     {
         if (target == null)
         {
-            FindPlayer(); // Trova il player se non è stato assegnato
+            FindPlayer();
         }
 
         transform.position = new Vector3(target.position.x, target.position.y, transform.position.z);
@@ -33,34 +33,30 @@ public class CameraMovement : MonoBehaviour
 
     void OnEnable()
     {
-        // Registra l'evento per il cambio di scena
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
 
     void OnDisable()
     {
-        // Deli­ga la registrazione quando l'oggetto viene distrutto
         SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        FindPlayer();  // Riassegna il target quando la scena è cambiata
+        FindPlayer();
     }
 
     private void FindPlayer()
     {
-        // Cerca un oggetto con il tag "Player"
         GameObject player = GameObject.FindWithTag("Player");
 
         if (player != null)
         {
             target = player.transform;
-            Debug.Log("Player assegnato come target della camera.");
         }
         else
         {
-            Debug.LogError("Player non trovato! Assicurati che il Player abbia il tag 'Player'.");
+            Debug.LogError("Player not found");
         }
     }
 

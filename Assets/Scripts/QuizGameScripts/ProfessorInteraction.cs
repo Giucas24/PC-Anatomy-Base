@@ -2,15 +2,15 @@ using UnityEngine;
 
 public class ProfessorInteraction : MonoBehaviour
 {
-    public QuizUI quizUI; // Reference to the QuizUI script
-    private bool playerInRange = false; // Boolean to track if player is in range
+    public QuizUI quizUI;
+    private bool playerInRange = false;
 
     void Update()
     {
-        // Check if the player is in range and presses the Space key
+
         if (playerInRange && Input.GetKeyDown(KeyCode.Space))
         {
-            quizUI.ShowQuiz(); // Show the quiz UI when Space is pressed
+            quizUI.ShowQuiz();
         }
     }
 
@@ -18,7 +18,7 @@ public class ProfessorInteraction : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            playerInRange = true; // Set player in range to true when player enters the area
+            playerInRange = true;
         }
     }
 
@@ -26,8 +26,8 @@ public class ProfessorInteraction : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            playerInRange = false; // Set player in range to false when player exits the area
-            quizUI.HideQuiz(); // Hide the quiz UI when player moves away
+            playerInRange = false;
+            quizUI.HideQuiz();
         }
     }
 }

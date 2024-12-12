@@ -9,7 +9,7 @@ public class LessonManager : MonoBehaviour
     public GameObject[] books;
 
 
-    private LessonCollection lessonCollection;  // dal JSON
+    private LessonCollection lessonCollection;  // from JSON file
 
     public GameObject scrollViewContent;
 
@@ -20,7 +20,7 @@ public class LessonManager : MonoBehaviour
         lessonTitle.gameObject.SetActive(false);
 
 
-        LoadLessons();  // dal JSON
+        LoadLessons();  // from JSON file
     }
 
     private void LoadLessons()
@@ -31,10 +31,10 @@ public class LessonManager : MonoBehaviour
         {
             lessonCollection = JsonUtility.FromJson<LessonCollection>(jsonFile.text);
         }
-        /* else
+        else
         {
-            Debug.LogError("Impossibile caricare il file JSON.");
-        } */
+            Debug.LogError("Cannot load JSON file");
+        }
     }
 
     public void OpenLesson(int bookIndex)
@@ -52,10 +52,10 @@ public class LessonManager : MonoBehaviour
 
             StartCoroutine(ResetScrollPosition());
         }
-        /*  else
-         {
-             Debug.LogError("Indice del libro non valido.");
-         } */
+        else
+        {
+            Debug.LogError("Book index not valid");
+        }
     }
 
     private IEnumerator ResetScrollPosition()

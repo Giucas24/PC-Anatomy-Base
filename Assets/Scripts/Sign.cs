@@ -12,14 +12,6 @@ public class Sign : MonoBehaviour
 
     public GameObject signUI;
 
-
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space) && playerInRange)
@@ -42,13 +34,12 @@ public class Sign : MonoBehaviour
     {
         if (signUI != null)
         {
-            // Attiva o disattiva il Canvas
             bool isActive = signUI.activeSelf;
             signUI.SetActive(!isActive);
         }
         else
         {
-            Debug.LogError("Il riferimento al Canvas del sign non è impostato!");
+            Debug.LogError("Canvas is not correctly linked");
         }
     }
 

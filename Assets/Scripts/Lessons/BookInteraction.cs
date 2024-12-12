@@ -40,7 +40,7 @@ public class BookInteraction : MonoBehaviour
 
         lessonManager.OpenLesson(bookIndex);
 
-        Invoke("ShowCanvasLessonComponent", 1.0f);  // Apre il canvas del libro dopo il tempo dell'animazione
+        Invoke("ShowCanvasLessonComponent", 1.0f);  // open book canvas after animation time
     }
 
     void CloseBook()
@@ -53,7 +53,7 @@ public class BookInteraction : MonoBehaviour
 
         bookAnimator.SetTrigger("CloseBook");
 
-        Invoke("ReturnToClosedFrontal", 1.0f);  // Stesso ritardo di prima ma per la chiusura
+        Invoke("ReturnToClosedFrontal", 1.0f);  // same delay of before but for closing the book
     }
 
     void ReturnToClosedFrontal()

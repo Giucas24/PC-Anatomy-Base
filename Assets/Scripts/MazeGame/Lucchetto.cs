@@ -15,27 +15,26 @@ public class Lucchetto : MonoBehaviour
     public TextMeshProUGUI answer1Text;
     public TextMeshProUGUI answer2Text;
 
-    public Button button1;            // Primo bottone
-    public Button button2;            // Secondo bottone
-    public string question;           // La domanda
-    public string[] answers;          // Array delle risposte
-    public int correctAnswerIndex;    // Indice della risposta corretta
+    public Button button1;
+    public Button button2;
+    public string question;
+    public string[] answers;
+    public int correctAnswerIndex;
 
     private Animator animator;
 
     // Nuove variabili
-    public static int totalLocks = 4;  // Numero totale di lucchetti nel labirinto (modifica questo valore se il numero cambia)
-    public static int unlockedLocks = 0;  // Conta i lucchetti sbloccati
+    public static int totalLocks = 4;
+    public static int unlockedLocks = 0;
 
     void Start()
     {
         dialogBox.SetActive(false);
 
-        // Aggiungi listener ai bottoni per verificare le risposte
         button1.onClick.AddListener(() => CheckAnswer(0));
         button2.onClick.AddListener(() => CheckAnswer(1));
 
-        animator = GetComponent<Animator>(); // Ottieni il componente Animator
+        animator = GetComponent<Animator>();
     }
 
     void Update()
@@ -48,7 +47,6 @@ public class Lucchetto : MonoBehaviour
             }
             else
             {
-                // Mostra la domanda
                 ShowQuestion();
             }
         }
@@ -73,10 +71,9 @@ public class Lucchetto : MonoBehaviour
 
     void ShowQuestion()
     {
-        dialogBox.SetActive(true); // Mostra il dialog box
-        questionText.text = question; // Imposta il testo della domanda
+        dialogBox.SetActive(true);
+        questionText.text = question;
 
-        // Imposta il testo dei bottoni
         answer1Text.text = answers[0];
         answer2Text.text = answers[1];
     }
@@ -85,49 +82,40 @@ public class Lucchetto : MonoBehaviour
     {
         if (index == correctAnswerIndex)
         {
-            Debug.Log("Risposta corretta!");
+            Debug.Log("Correct answer");
             dialogBox.SetActive(false);
             RemoveLock();
 
-            // Incrementa il numero di lucchetti sbloccati
             unlockedLocks++;
 
-            // Se questo è l'ultimo lucchetto, sblocca la skin
             if (unlockedLocks == totalLocks)
             {
-                Debug.Log("Questo è l'ultimo lucchetto!");
-
+                // Unlock a new skin
                 if (SkinManager.Instance != null)
                 {
-                    Debug.Log("Chiamata a SkinManager.Instance.UnlockSkin()");
-                    SkinManager.Instance.UnlockSkin(5); // Indice 7 per sbloccare una skin
-                }
-                else
-                {
-                    Debug.LogWarning("SkinManager.Instance è null!");
+                    SkinManager.Instance.UnlockSkin(5);
+                    Debug.Log($"New skin unlocked: {SkinManager.Instance.skinNames[5]}");
                 }
             }
         }
         else
         {
-            Debug.Log("Risposta sbagliata.");
-            dialogBox.SetActive(false); // Nasconde il dialog box
+            Debug.Log("Wrong Answer");
+            dialogBox.SetActive(false);
         }
     }
 
 
     void RemoveLock()
     {
-        Debug.Log("Lucchetto rimosso!");
-        animator.SetTrigger("Open"); // Attiva il trigger per l'animazione
+        animator.SetTrigger("Open");
 
-        // Aspetta la fine dell'animazione prima di distruggere il lucchetto
         StartCoroutine(WaitAndDestroy());
     }
 
     IEnumerator WaitAndDestroy()
     {
-        yield return new WaitForSeconds(3f); // Cambia il tempo con la durata dell'animazione
-        Destroy(gameObject); // Rimuove il lucchetto dalla scena
+        yield return new WaitForSeconds(3f);
+        Destroy(gameObject);
     }
 }

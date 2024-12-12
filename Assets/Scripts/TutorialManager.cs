@@ -1,25 +1,25 @@
 using UnityEngine;
-using TMPro; // Aggiungi la libreria TextMeshPro
+using TMPro;
 using UnityEngine.SceneManagement;
 
 public class TutorialManager : MonoBehaviour
 {
-    public GameObject tutorialBox; // Riferimento al TutorialBox
-    public TextMeshProUGUI tutorialText; // Modificato da Text a TextMeshProUGUI
-    private bool isVisible = false; // Stato iniziale del TutorialBox
-    public PlayerMovement playerMovement; // Riferimento allo script PlayerMovement
-    private static TutorialManager instance; // Singleton
+    public GameObject tutorialBox;
+    public TextMeshProUGUI tutorialText;
+    private bool isVisible = false;
+    public PlayerMovement playerMovement;
+    private static TutorialManager instance;
 
     void Awake()
     {
         if (instance == null)
         {
             instance = this;
-            DontDestroyOnLoad(gameObject); // Rendi persistente il Canvas e i suoi figli
+            DontDestroyOnLoad(gameObject);
         }
         else
         {
-            Destroy(gameObject); // Elimina i duplicati
+            Destroy(gameObject);
         }
     }
 
@@ -31,7 +31,7 @@ public class TutorialManager : MonoBehaviour
         }
         else
         {
-            Debug.LogWarning("TutorialBox non assegnato nel pannello Inspector!");
+            Debug.LogWarning("TutorialBox not assigned in Inspector");
         }
 
         ShowInitialTutorial();
@@ -73,7 +73,7 @@ public class TutorialManager : MonoBehaviour
             }
             else
             {
-                Debug.LogWarning("Non è stata trovata la Camera principale!");
+                Debug.LogWarning("MainCamera not found");
             }
         }
     }
@@ -105,7 +105,7 @@ public class TutorialManager : MonoBehaviour
         }
         else
         {
-            Debug.LogWarning("Camera principale non trovata durante il centraggio del TutorialBox");
+            Debug.LogWarning("MainCamera not found during the centering");
         }
     }
 
@@ -113,7 +113,7 @@ public class TutorialManager : MonoBehaviour
     {
         if (tutorialText != null)
         {
-            tutorialText.text = message; // Il comportamento rimane lo stesso
+            tutorialText.text = message;
         }
     }
 

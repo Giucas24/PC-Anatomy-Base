@@ -12,9 +12,9 @@ public class SceneTrigger : MonoBehaviour
 
     public string dialogMessage;
 
-    private bool hasTriggered = false;  // Flag per verificare se il trigger è stato attivato
+    private bool hasTriggered = false;
 
-    // Dizionario per salvare chi ha attivato il trigger
+    // Dictionary for saving who activated the trigger
     private static Dictionary<string, bool> triggeredInstances = new Dictionary<string, bool>();
 
     void Start()
@@ -23,10 +23,10 @@ public class SceneTrigger : MonoBehaviour
         {
             playerMovement = PlayerMovement.Instance;
         }
-        /* else
+        else
         {
-            Debug.LogError("PlayerMovement non trovato. Assicurati che esista un'istanza del Player nella scena.");
-        } */
+            Debug.LogError("PlayerMovement not found");
+        }
         dialogCanvas.SetActive(false);
 
         if (triggeredInstances.TryGetValue(gameObject.name, out bool alreadyTriggered) && alreadyTriggered)
@@ -41,15 +41,15 @@ public class SceneTrigger : MonoBehaviour
     {
         if (other.CompareTag("Player") && !hasTriggered)
         {
-            playerMovement.isQuizActive = true; // Per bloccare il movimento del player
+            playerMovement.isQuizActive = true; // To block player's movement
 
             ShowDialog();
 
-            hasTriggered = true;    // Flag per evitare che si attivi di nuovo
+            hasTriggered = true;
 
-            if (!triggeredInstances.ContainsKey(gameObject.name))   // Verifica se il player è già nel dizionario
+            if (!triggeredInstances.ContainsKey(gameObject.name))   // Check if player is already in the dictionary
             {
-                triggeredInstances.Add(gameObject.name, true);  // Aggiunge il player nel dizionario
+                triggeredInstances.Add(gameObject.name, true);  // Add player to the dictionary
             }
         }
     }

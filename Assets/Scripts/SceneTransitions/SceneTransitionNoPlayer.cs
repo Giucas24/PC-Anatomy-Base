@@ -1,10 +1,10 @@
 using UnityEngine;
-using UnityEngine.SceneManagement; // Necessario per caricare scene
+using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
 
-    public string sceneToLoad; // Nome della scena da caricare
+    public string sceneToLoad;
 
 
     private bool playerInside = false;
@@ -13,7 +13,6 @@ public class SceneLoader : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        // Controlla se il player è entrato nel Box Collider
         if (other.CompareTag("Player"))
         {
             playerInside = true;
@@ -22,7 +21,6 @@ public class SceneLoader : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        // Controlla se il player è uscito dal Box Collider
         if (other.CompareTag("Player"))
         {
             playerInside = false;
@@ -31,32 +29,19 @@ public class SceneLoader : MonoBehaviour
 
     private void Update()
     {
-        // Se il player è all'interno del Box Collider e preme spazio, carica la scena
         if (playerInside && Input.GetKeyDown(KeyCode.Space))
         {
             GameObject player = GameObject.FindWithTag("Player");
             if (player != null)
             {
                 startingPositionPreviousScene.initialValue = player.transform.position;
-                Debug.Log("Posizione salvata per la scena precedente: " + startingPositionPreviousScene.initialValue);
 
-                // Carica la nuova scena
                 SceneManager.LoadScene(sceneToLoad);
             }
             else
             {
-                Debug.LogWarning("Player non trovato!");
+                Debug.LogWarning("Player not found");
             }
         }
     }
-
-    /* private void LoadScene()
-    {
-        // Salva la scena corrente nei PlayerPrefs prima di caricare la nuova
-        string currentScene = SceneManager.GetActiveScene().name;
-        PlayerPrefs.SetString("PreviousScene", currentScene);
-
-        // Carica la scena specificata
-        SceneManager.LoadScene(sceneToLoad);
-    } */
 }
