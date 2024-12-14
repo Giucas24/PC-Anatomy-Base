@@ -285,13 +285,13 @@ MonoBehaviour:
   - Benvenuto in GuessTheComponent! Qui metterai alla prova le tue conoscenze sui
     componenti del PC. Guarda attentamente le immagini che appariranno sullo schermo
     e digita il nome corretto di ogni componente nell'apposito spazio.
-  - Sai riconoscere un processore da una scheda madre? Una scheda video da un alimentatore?
-    Scopri quante ne sai giocando a GuessTheComponent! Osserva le immagini e scrivi
+  - Sai distinguere un processore da una scheda madre? Una scheda video da un alimentatore?
+    Scopri quante ne conosci giocando a GuessTheComponent! Guarda le immagini e scrivi
     il nome della componente!
-  - "Nel corso del gioco, ti verranno mostrate immagini di vari componenti del PC.
-    Il tuo compito \xE8 semplice: identifica il componente e inserisci il suo nome
-    esatto! Se hai bisogno di aiuto, ogni tanto riceverai un indizio!"
-  - "Perfetto, \xE8 arrivato il momento: preparati, si comincia con il gioco!"
+  - 'Durante il gioco ti saranno mostrate immagini di vari componenti del PC. Il
+    tuo compito e'' semplice: riconosci il componente e scrivi il suo nome esatto!
+    Se ti serve aiuto, a volte riceverai un suggerimento!'
+  - 'Perfetto, e'' arrivato il momento: preparati, si inizia con il gioco!'
   gameManager: {fileID: 286471881}
 --- !u!1 &576062050
 GameObject:

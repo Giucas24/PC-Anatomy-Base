@@ -295,8 +295,8 @@ public class DragAndDropManager : MonoBehaviour
 
                 if (SkinManager.Instance != null)
                 {
-                    SkinManager.Instance.UnlockSkin(6);
-                    Debug.Log($"New skin unlocked: {SkinManager.Instance.skinNames[6]}");
+                    SkinManager.Instance.UnlockSkin(4);
+                    Debug.Log($"New skin unlocked: {SkinManager.Instance.skinNames[4]}");
                 }
 
                 StartCoroutine(TypeText(victoryMessage, 0.04f));

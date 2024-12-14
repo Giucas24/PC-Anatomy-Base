@@ -1,6 +1,7 @@
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
+using System.Collections.Generic;
 
 public class TutorialManager : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class TutorialManager : MonoBehaviour
     private bool isVisible = false;
     public PlayerMovement playerMovement;
     private static TutorialManager instance;
+
+    public List<string> scenesWithoutTutorial;
 
     void Awake()
     {
@@ -40,7 +43,7 @@ public class TutorialManager : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.T))
+        if (!scenesWithoutTutorial.Contains(SceneManager.GetActiveScene().name) && Input.GetKeyDown(KeyCode.T))
         {
             ToggleTutorialBox();
         }

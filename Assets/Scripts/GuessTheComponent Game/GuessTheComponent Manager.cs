@@ -212,21 +212,28 @@ public class GuessTheComponentManager : MonoBehaviour
 
         foreach (char letter in word)
         {
-            GameObject dash = new GameObject("Dash");
-            dash.transform.SetParent(wordContainer.transform);
-
-            TextMeshProUGUI dashText = dash.AddComponent<TextMeshProUGUI>();
-            dashText.text = "-";
-            dashText.fontSize = 32;
-            dashText.font = orangeKidFont;
-            dashText.color = Color.black;
-
-            RectTransform dashRectTransform = dash.GetComponent<RectTransform>();
-            dashRectTransform.sizeDelta = new Vector2(40, 40);
+            CreateCharacter(letter == ' ' ? " " : "-");
         }
 
         wordContainer.SetActive(true);
     }
+
+    void CreateCharacter(string character)
+    {
+        GameObject characterObject = new GameObject(character == " " ? "Space" : "Dash");
+        characterObject.transform.SetParent(wordContainer.transform);
+
+        TextMeshProUGUI characterText = characterObject.AddComponent<TextMeshProUGUI>();
+        characterText.text = character;
+        characterText.fontSize = 32;
+        characterText.font = orangeKidFont;
+        characterText.color = Color.black;
+        characterText.characterSpacing = -5;
+
+        RectTransform characterRectTransform = characterObject.GetComponent<RectTransform>();
+        characterRectTransform.sizeDelta = new Vector2(40, 40);
+    }
+
 
     void RevealNextLetter()
     {
@@ -267,8 +274,8 @@ public class GuessTheComponentManager : MonoBehaviour
         {
             if (SkinManager.Instance != null)
             {
-                SkinManager.Instance.UnlockSkin(4);
-                Debug.Log($"New skin unlocked: {SkinManager.Instance.skinNames[4]}");
+                SkinManager.Instance.UnlockSkin(5);
+                Debug.Log($"New skin unlocked: {SkinManager.Instance.skinNames[5]}");
                 isSkinUnlocked = true;
             }
         }

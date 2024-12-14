@@ -195,6 +195,10 @@ MonoBehaviour:
   tutorialBox: {fileID: 2138842773957857917}
   tutorialText: {fileID: 5764306309212299660}
   playerMovement: {fileID: 0}
+  scenesWithoutTutorial:
+  - DragAndDrop
+  - GuessTheComponentGame
+  - BrokenPCGame
 --- !u!1 &5908307469634170738
 GameObject:
   m_ObjectHideFlags: 0

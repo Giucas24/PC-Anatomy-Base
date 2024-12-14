@@ -93,8 +93,8 @@ public class Lucchetto : MonoBehaviour
                 // Unlock a new skin
                 if (SkinManager.Instance != null)
                 {
-                    SkinManager.Instance.UnlockSkin(5);
-                    Debug.Log($"New skin unlocked: {SkinManager.Instance.skinNames[5]}");
+                    SkinManager.Instance.UnlockSkin(7);
+                    Debug.Log($"New skin unlocked: {SkinManager.Instance.skinNames[7]}");
                 }
             }
         }

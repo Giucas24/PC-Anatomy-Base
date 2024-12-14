@@ -125,12 +125,10 @@ public class QuestionManager : MonoBehaviour
             // Sblocca una nuova skin
             if (SkinManager.Instance != null)
             {
-                SkinManager.Instance.UnlockSkin(4);
+                SkinManager.Instance.UnlockSkin(6);
+                Debug.Log($"New skin unlocked: {SkinManager.Instance.skinNames[6]}");
             }
-            /*   else
-              {
-                  Debug.LogWarning("SkinManager.Instance è null!");
-              } */
+
         }
         else if (correctAnswersCount >= questions.Length / 2)
         {
@@ -146,26 +144,8 @@ public class QuestionManager : MonoBehaviour
 
     void LoadNextScene()
     {
-        // Salva la posizione che il giocatore aveva quando ha avviato il gioco in startingPositionDynamic in modo tale che poi PlayerMovement posizioni correttamente il player
+        // Set player's position to the saved one so that PlayerMovements correctly position the player in the class scene
         startingPositionDynamic.initialValue = startingPositionPreviousScene.initialValue;
-
-        /*     // Ottieni lo script PlayerMovement per disabilitare temporaneamente il movimento
-            GameObject player = GameObject.FindWithTag("Player");
-            if (player != null)
-            {
-                playerMovementScript = player.GetComponent<PlayerMovement>();
-
-                // Disabilita temporaneamente il movimento del player
-                if (playerMovementScript != null)
-                {
-                    playerMovementScript.PreventPositionUpdate(); // Disabilita la gestione della posizione
-                }
-
-                // Ripristina la posizione del giocatore dalla variabile startingPositionPreviousScene
-                player.transform.position = startingPositionPreviousScene.initialValue;
-
-            } */
-
         SceneManager.LoadScene("LeftClassInterior");
     }
 

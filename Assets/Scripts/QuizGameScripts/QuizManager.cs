@@ -144,8 +144,8 @@ public class QuizManager : MonoBehaviour
             // Unlock a new skin
             if (SkinManager.Instance != null)
             {
-                SkinManager.Instance.UnlockSkin(7);
-                Debug.Log($"New skin unlocked: {SkinManager.Instance.skinNames[7]}");
+                SkinManager.Instance.UnlockSkin(3);
+                Debug.Log($"New skin unlocked: {SkinManager.Instance.skinNames[3]}");
                 resultMessage += "<color=Green><b>Congratulazioni! Hai sbloccato un nuovo aspetto!</b></color>\n\n";
             }
 
