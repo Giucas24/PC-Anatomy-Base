@@ -19,13 +19,6 @@ public class PlayerMovement : MonoBehaviour
 
     public static PlayerMovement Instance { get; private set; }
 
-    /* private bool preventPositionUpdate = false; */
-
-    /* public void PreventPositionUpdate()
-    {
-        preventPositionUpdate = true;
-    } */
-
     void Start()
     {
         if (Instance != null)

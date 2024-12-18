@@ -51,7 +51,7 @@ public class IntroSequence : MonoBehaviour
         }
     }
 
-    // Frasi prima della carrellata delle componenti
+    // Text before the components' show
     public void ShowNextText()
     {
         if (currentIndex < introductionTexts.Length)
@@ -67,7 +67,7 @@ public class IntroSequence : MonoBehaviour
         }
     }
 
-    // Frasi durante la carellata delle componenti
+    // Text during the components' show
     public void ShowNextComponent()
     {
         if (currentIndex < componentDescriptions.Length)
@@ -82,7 +82,7 @@ public class IntroSequence : MonoBehaviour
         }
     }
 
-    // Ultima frase introduttiva prima dell'inizio del gioco
+    // Last text before the game starts
     void ShowFinalIntro()
     {
         showingComponents = false;
@@ -92,7 +92,6 @@ public class IntroSequence : MonoBehaviour
 
     void StartQuiz()
     {
-        /* dialogText.text = "Pronto per iniziare il quiz!"; */
         questionManager.StartGame();
     }
 

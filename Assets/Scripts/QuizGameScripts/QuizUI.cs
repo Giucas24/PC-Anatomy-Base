@@ -17,15 +17,11 @@ public class QuizUI : MonoBehaviour
             {
                 Debug.LogError("PlayerMovement not found in the scene");
             }
-            /*             else
-                        {
-                            Debug.Log("PlayerMovement not found in the scene");
-                        } */
         }
-        /*   else
-          {
-              Debug.Log("PlayerMovement already assigned");
-          } */
+        else
+        {
+            Debug.Log("PlayerMovement already assigned");
+        }
     }
 
     public void ShowQuiz()

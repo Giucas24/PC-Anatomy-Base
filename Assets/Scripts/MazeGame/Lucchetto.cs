@@ -10,7 +10,6 @@ public class Lucchetto : MonoBehaviour
     public TextMeshProUGUI dialogText;
     public bool playerInRange;
 
-    // ................. 
     public TextMeshProUGUI questionText;
     public TextMeshProUGUI answer1Text;
     public TextMeshProUGUI answer2Text;
@@ -23,7 +22,6 @@ public class Lucchetto : MonoBehaviour
 
     private Animator animator;
 
-    // Nuove variabili
     public static int totalLocks = 4;
     public static int unlockedLocks = 0;
 

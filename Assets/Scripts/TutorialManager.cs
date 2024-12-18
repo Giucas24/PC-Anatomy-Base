@@ -12,6 +12,7 @@ public class TutorialManager : MonoBehaviour
     private static TutorialManager instance;
 
     public List<string> scenesWithoutTutorial;
+    private bool tutorialShown = false;
 
     void Awake()
     {
@@ -37,7 +38,6 @@ public class TutorialManager : MonoBehaviour
             Debug.LogWarning("TutorialBox not assigned in Inspector");
         }
 
-        ShowInitialTutorial();
         SetCanvasCamera();
     }
 
@@ -62,6 +62,20 @@ public class TutorialManager : MonoBehaviour
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         SetCanvasCamera();
+
+        // Show tutorial at the start of the game
+        if (scene.name == "HouseInterior" && !tutorialShown)
+        {
+            isVisible = true;
+            if (tutorialBox != null)
+            {
+                tutorialBox.SetActive(true);
+            }
+            ShowInitialTutorial();
+            playerMovement.isTutorialActive = true;
+
+            tutorialShown = true;
+        }
     }
 
     void SetCanvasCamera()
@@ -124,7 +138,7 @@ public class TutorialManager : MonoBehaviour
     {
         string tutorialMessage = "Benvenuto nel gioco! Ecco come puoi interagire:\n\n" +
             "1. Premi <b>Spazio</b> per interagire con l'ambiente.\n" +
-            "2. Premi <b>Invio</b> per chiudere il pannello del quiz a risposta multipla.\n" +
+            "2. Premi <b>Invio</b> per chiudere i pannelli dei risultati\n" +
             "3. Premi <b>T</b> per aprire e chiudere questo tutorial.\n\n" +
             "Buon divertimento!";
 

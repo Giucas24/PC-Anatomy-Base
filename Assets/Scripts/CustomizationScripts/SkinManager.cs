@@ -51,10 +51,10 @@ public class SkinManager : MonoBehaviour
             unlockedSkins[skinIndex] = true;
             Debug.Log("Skin sbloccata: " + skinIndex);
         }
-        /* else
+        else
         {
             Debug.LogWarning("Indice skin non valido: " + skinIndex);
-        } */
+        }
     }
 
 

@@ -45,7 +45,7 @@ public class QuestionManager : MonoBehaviour
 
             for (int i = 0; i < answerButtons.Length; i++)
             {
-                int index = i; // Faccio una copia di i per evitare closure
+                int index = i; // Copy of i to avaid closure
                 answerButtons[i].onClick.RemoveAllListeners();
                 answerButtons[i].onClick.AddListener(() => CheckAnswer(index));
             }
@@ -122,7 +122,7 @@ public class QuestionManager : MonoBehaviour
         {
             message = $"Complimenti! Hai totalizzato {correctAnswersCount}/{questions.Length} domande corrette! Hai sbloccato un nuovo aspetto! Premi Spazio per ritornare in classe!";
 
-            // Sblocca una nuova skin
+            // Unlock a new skin
             if (SkinManager.Instance != null)
             {
                 SkinManager.Instance.UnlockSkin(6);

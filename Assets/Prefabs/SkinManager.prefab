@@ -62,7 +62,7 @@ MonoBehaviour:
   - {fileID: 9100000, guid: 34710764857e822488211f47f13fdc98, type: 2}
   - {fileID: 9100000, guid: e41fc5764f3bb6247896b8f339d8c337, type: 2}
   - {fileID: 9100000, guid: 59f091895534a9b419baa92eda4c7fd8, type: 2}
-  skinOffsets:
+  boxColliderOffsets:
   - {x: -0.001586676, y: -0.4822091}
   - {x: -0.02331376, y: -1.00249}
   - {x: -0.02331376, y: -1.00249}
@@ -71,7 +71,7 @@ MonoBehaviour:
   - {x: -0.02331376, y: -1.00249}
   - {x: -0.02331376, y: -1.00249}
   - {x: -0.02331376, y: -1.00249}
-  skinSizes:
+  boxColliderSizes:
   - {x: 0.5065651, y: 0.2860013}
   - {x: 1.051908, y: 0.5287452}
   - {x: 1.051908, y: 0.5287452}
